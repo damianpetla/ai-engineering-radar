@@ -4,7 +4,7 @@
 
 A public, evidence-based observatory of AI engineering practices. One analytical dashboard, real source evidence, transparent historical coverage, no adoption recommendations.
 
-Product authority: [specification 1.1](docs/spec-v1.1.txt). [Architecture](docs/architecture.md) · [Methodology](docs/methodology.md) · [Evidence policy](docs/editorial-policy.md) · [Operations](docs/operations.md).
+[Product requirements](docs/product.md). [Architecture](docs/architecture.md) · [Methodology](docs/methodology.md) · [Evidence policy](docs/editorial-policy.md) · [Operations](docs/operations.md).
 
 ## Local development
 

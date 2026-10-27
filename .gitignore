@@ -10,3 +10,7 @@ data/evidence/*.html
 .pnpm-store/
 .sites-checkout/
 .sites-runtime/
+
+# Local implementation brief and its working text copy
+/spec.rtf
+/docs/spec-v1.1.txt

@@ -1,6 +1,6 @@
 # AI Engineering Radar
 
-Product authority: `docs/spec-v1.1.txt` (complete text of `spec.rtf`).
+Product requirements and dashboard behavior: `docs/product.md`.
 
 Keep one dashboard with inline topic details and URL state. Trend direction describes observed activity; it never recommends adoption.
 

@@ -1,6 +1,6 @@
 # Product
 
-Authority: specification 1.1 in `spec-v1.1.txt`.
+This document records the product requirements and dashboard behavior.
 
 A single public dashboard of observed AI engineering activity. A compact header leads to a multi-series weekly chart and a searchable, sortable topic list. Each row expands into its chart, counts, and primary evidence. Stable topic slugs live in the `topic` query parameter; browser history restores selection.
 
