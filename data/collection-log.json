@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-10-27T18:45:34.865Z",
+  "observedAt": "2026-10-27T18:54:49.050Z",
   "mode": "incremental",
   "extractionVersion": "article-body-v3",
   "logs": [
@@ -10,11 +10,12 @@
         "publisher-feed"
       ],
       "discovered": 1327,
-      "examined": 150,
+      "examined": 2,
       "added": 0,
       "unmatched": 0,
       "outsideWindow": 984,
-      "rejected": 150,
+      "rejected": 2,
+      "accessRestricted": true,
       "truncated": true
     },
     {
@@ -29,6 +30,7 @@
       "unmatched": 7,
       "outsideWindow": 0,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -39,11 +41,12 @@
         "publisher-monthly-authored-archive"
       ],
       "discovered": 41,
-      "examined": 24,
+      "examined": 25,
       "added": 0,
       "unmatched": 11,
       "outsideWindow": 0,
-      "rejected": 13,
+      "rejected": 14,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -58,6 +61,7 @@
       "unmatched": 0,
       "outsideWindow": 22,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -72,6 +76,7 @@
       "unmatched": 0,
       "outsideWindow": 50,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -86,6 +91,7 @@
       "unmatched": 9,
       "outsideWindow": 0,
       "rejected": 8,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -100,6 +106,7 @@
       "unmatched": 12,
       "outsideWindow": 0,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -114,6 +121,7 @@
       "unmatched": 4,
       "outsideWindow": 39,
       "rejected": 5,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -128,6 +136,7 @@
       "unmatched": 12,
       "outsideWindow": 696,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -142,6 +151,7 @@
       "unmatched": 4,
       "outsideWindow": 546,
       "rejected": 8,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -156,6 +166,7 @@
       "unmatched": 5,
       "outsideWindow": 1,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -170,6 +181,7 @@
       "unmatched": 12,
       "outsideWindow": 0,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     },
     {
@@ -184,6 +196,7 @@
       "unmatched": 0,
       "outsideWindow": 20,
       "rejected": 0,
+      "accessRestricted": false,
       "truncated": false
     }
   ]
