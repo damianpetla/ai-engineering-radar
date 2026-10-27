@@ -49,7 +49,7 @@ it("collection is idempotent and a failed feed cannot replace the last valid dat
     const mock = join(dir, "mock.mjs");
     writeFileSync(
       mock,
-      `globalThis.fetch=async(url)=>{if(process.env.RADAR_TEST_FAIL)throw new Error('Synthetic feed failure');const excerpt='MCP tools are the subject of this synthetic test-only publication. This is a deterministic fixture for pipeline integrity testing, never a production observation.';return new Response(String(url).endsWith('feed.xml')?'<rss><channel><item><title>Fixture MCP tools</title><link>https://example.com/article</link><pubDate>'+new Date(Date.now()-86400000).toUTCString()+'</pubDate><description>'+excerpt+'</description></item></channel></rss>':'<html><p>'+excerpt+'</p></html>',{status:200});};`,
+      `globalThis.fetch=async(url)=>{if(process.env.RADAR_TEST_FAIL)throw new Error('Synthetic feed failure');const excerpt='MCP tools are the subject of this synthetic test-only publication. This is a deterministic fixture for pipeline integrity testing, never a production observation.';return new Response(String(url).endsWith('feed.xml')?'<rss><channel><item><title>Fixture MCP tools</title><link>https://example.com/article</link><pubDate>'+new Date(Date.now()-86400000).toUTCString()+'</pubDate><description>'+excerpt+'</description></item></channel></rss>':'<html><article><p>'+excerpt+'</p></article></html>',{status:200});};`,
     );
     const args = [
       "--import",

@@ -17,7 +17,8 @@
     "independentGroup": "armin-ronacher",
     "enabled": true,
     "discoveredAt": "2026-10-27T17:49:00.000Z",
-    "feedUrl": "https://lucumr.pocoo.org/feed.atom"
+    "feedUrl": "https://lucumr.pocoo.org/feed.atom",
+    "articleSelector": ".body"
   },
   {
     "id": "simon",
@@ -28,7 +29,8 @@
     "enabled": true,
     "discoveredAt": "2026-10-27T17:49:00.000Z",
     "feedUrl": "https://simonwillison.net/atom/everything/",
-    "archiveBase": "https://simonwillison.net/"
+    "archiveBase": "https://simonwillison.net/",
+    "articleSelector": ".entry.entryPage"
   },
   {
     "id": "anthropic",
@@ -38,7 +40,11 @@
     "independentGroup": "anthropic",
     "enabled": true,
     "discoveredAt": "2026-10-27T17:49:00.000Z",
-    "discoveryUrl": "https://www.anthropic.com/engineering"
+    "discoveryUrl": "https://www.anthropic.com/engineering",
+    "articleSelector": "article",
+    "sitemapUrl": "https://www.anthropic.com/sitemap.xml",
+    "sitemapPathPrefix": "/research/",
+    "backfillLimit": 150
   },
   {
     "id": "mitchell",
@@ -59,7 +65,11 @@
     "independentGroup": "microsoft",
     "enabled": true,
     "discoveredAt": "2026-10-27T17:49:00.000Z",
-    "feedUrl": "https://github.blog/engineering/feed/"
+    "feedUrl": "https://github.blog/engineering/feed/",
+    "additionalFeedUrls": [
+      "https://github.blog/ai-and-ml/feed/"
+    ],
+    "feedPageLimit": 8
   },
   {
     "id": "aws",
@@ -70,6 +80,93 @@
     "independentGroup": "amazon",
     "enabled": true,
     "discoveredAt": "2026-10-27T17:49:00.000Z",
-    "feedUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+    "feedUrl": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "articleSelector": "section.blog-post-content"
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "url": "https://www.langchain.com",
+    "type": "engineering-blog",
+    "organization": "langchain",
+    "independentGroup": "langchain",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T18:33:27.289Z",
+    "feedUrl": "https://www.langchain.com/blog/rss.xml",
+    "sitemapUrl": "https://www.langchain.com/sitemap.xml",
+    "sitemapPathPrefix": "/blog/",
+    "backfillLimit": 350,
+    "articleSelector": ".text-rich-text-v2-blog-post",
+    "publicationHeaderSelector": ".blog-post-hero-section"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "type": "engineering-blog",
+    "organization": "hugging-face",
+    "independentGroup": "hugging-face",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T18:33:27.289Z",
+    "feedUrl": "https://huggingface.co/blog/feed.xml",
+    "articleSelector": ".blog-content",
+    "backfillLimit": 300
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel Engineering",
+    "url": "https://vercel.com",
+    "type": "engineering-blog",
+    "organization": "vercel",
+    "independentGroup": "vercel",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T18:33:27.289Z",
+    "feedUrl": "https://vercel.com/atom",
+    "articleSelector": "article",
+    "backfillLimit": 300
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "type": "engineering-blog",
+    "organization": "anysphere",
+    "independentGroup": "anysphere",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T18:33:27.289Z",
+    "discoveryUrl": "https://cursor.com/blog",
+    "discoveryLinkPattern": "^/blog/[^/]+/?$",
+    "sitemapUrl": "https://cursor.com/sitemap.xml",
+    "sitemapPathPrefix": "/blog/",
+    "backfillLimit": 200,
+    "articleSelector": ".prose--blog"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare Engineering",
+    "url": "https://blog.cloudflare.com",
+    "type": "engineering-blog",
+    "organization": "cloudflare",
+    "independentGroup": "cloudflare",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T18:33:27.289Z",
+    "feedUrl": "https://blog.cloudflare.com/rss/",
+    "sitemapUrl": "https://blog.cloudflare.com/sitemap.xml",
+    "sitemapPathPrefix": "/",
+    "backfillLimit": 300,
+    "articleSelector": ".post-content"
+  },
+  {
+    "id": "mcp",
+    "name": "Model Context Protocol project",
+    "url": "https://blog.modelcontextprotocol.io",
+    "type": "engineering-blog",
+    "organization": "model-context-protocol-project",
+    "independentGroup": "model-context-protocol-project",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T18:33:27.289Z",
+    "feedUrl": "https://blog.modelcontextprotocol.io/index.xml",
+    "articleSelector": ".post-content",
+    "backfillLimit": 150
   }
 ]

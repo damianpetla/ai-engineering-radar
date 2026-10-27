@@ -52,4 +52,28 @@ test("all public evidence links use HTTPS and page has no runtime errors", async
   expect(links.length).toBeGreaterThan(0);
   expect(links.every((u) => u.startsWith("https://"))).toBe(true);
   expect(errors).toEqual([]);
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test("expanded historical coverage stays explicitly partial", async ({
+  page,
+}) => {
+  await page.goto("./");
+  await expect(
+    page.getByText("Partial historical coverage.", { exact: false }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", { name: "View coverage", exact: false })
+    .click();
+  await expect(page.getByRole("dialog")).toContainText("marked partial");
+  await expect(page.getByRole("dialog")).toContainText("LangChain");
+  await expect(page.getByRole("dialog")).toContainText("Cursor");
+  await page.keyboard.press("Escape");
+  const labels = await page.locator(".trend-label small").allTextContents();
+  expect(labels.length).toBeGreaterThan(0);
+  expect(labels.every((label) => label === "Insufficient coverage")).toBe(true);
 });

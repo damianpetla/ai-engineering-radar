@@ -12,23 +12,26 @@
     "test:e2e": "playwright test",
     "collect": "tsx packages/pipeline/src/collect.ts",
     "validate": "tsx packages/pipeline/src/validate.ts",
-    "verify": "npm run typecheck && npm test && npm run build"
+    "verify": "npm run typecheck && npm test && npm run build",
+    "collect:backfill": "tsx packages/pipeline/src/collect.ts --backfill",
+    "audit:coverage": "node scripts/coverage-report.mjs"
   },
   "dependencies": {
+    "cheerio": "1.1.2",
+    "fast-xml-parser": "^5.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "zod": "^3.24.0",
-    "fast-xml-parser": "^5.3.0"
+    "zod": "^3.24.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.52.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.4.0",
+    "tsx": "^4.19.0",
     "typescript": "^5.8.0",
     "vite": "^6.3.0",
-    "vitest": "^3.1.0",
-    "tsx": "^4.19.0",
-    "@playwright/test": "^1.52.0"
+    "vitest": "^3.1.0"
   }
 }

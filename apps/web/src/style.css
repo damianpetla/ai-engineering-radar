@@ -1099,4 +1099,33 @@ dialog a {
     transition: none !important;
   }
 }
-@media(max-width:650px){.topic-row{position:relative}.topic-row .trend-label{display:block;position:absolute;right:28px;bottom:12px;font-size:8px;padding:0;min-width:34px;text-align:center}.topic-row .trend-label small{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.topic-row .signal-count{transform:translateY(-5px)}}
+@media (max-width: 650px) {
+  .topic-row {
+    position: relative;
+  }
+  .topic-row .trend-label {
+    display: block;
+    position: absolute;
+    right: 28px;
+    bottom: 12px;
+    font-size: 8px;
+    padding: 0;
+    min-width: 34px;
+    text-align: center;
+  }
+  .topic-row .trend-label small {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  .topic-row .signal-count {
+    transform: translateY(-5px);
+  }
+}
+.evidence h5 a,
+.evidence blockquote,
+.evidence details p {
+  overflow-wrap: anywhere;
+}

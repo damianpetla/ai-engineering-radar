@@ -24,6 +24,14 @@ export const SourceSchema = z
     feedUrl: url.optional(),
     discoveryUrl: url.optional(),
     archiveBase: url.optional(),
+    additionalFeedUrls: z.array(url).optional(),
+    feedPageLimit: z.number().int().min(1).max(12).optional(),
+    sitemapUrl: url.optional(),
+    sitemapPathPrefix: z.string().startsWith("/").optional(),
+    backfillLimit: z.number().int().min(1).max(600).optional(),
+    articleSelector: z.string().optional(),
+    publicationHeaderSelector: z.string().optional(),
+    discoveryLinkPattern: z.string().optional(),
   })
   .strict();
 export const TopicSchema = z
@@ -61,6 +69,18 @@ export const SignalSchema = z
     evidenceNotes: z.string(),
     contentHash: z.string(),
     excerpt: z.string().min(1),
+    extractionVersion: z.string().optional(),
+    publicationDateEvidence: z
+      .object({
+        value: instant,
+        basis: z.enum(["article-metadata", "visible-date", "publisher-feed"]),
+        precision: z.enum(["day", "second"]),
+        raw: z.string(),
+        feedValue: z.string().optional(),
+        corroboratingDate: z.string().optional(),
+      })
+      .strict()
+      .optional(),
   })
   .strict();
 export const CoverageSchema = z
@@ -109,6 +129,14 @@ export const DatasetSchema = z
     for (const s of d.signals) {
       if (!sources.has(s.sourceId) || s.topicIds.some((t) => !topics.has(t)))
         ctx.addIssue({ code: "custom", message: `Broken reference: ${s.id}` });
+      if (
+        s.publicationDateEvidence &&
+        s.publicationDateEvidence.value !== s.publishedAt
+      )
+        ctx.addIssue({
+          code: "custom",
+          message: `Publication provenance mismatch: ${s.id}`,
+        });
       if (Date.parse(s.publishedAt) > Date.parse(s.observedAt))
         ctx.addIssue({
           code: "custom",
@@ -185,6 +213,21 @@ export function observations(
     ),
   );
 }
+export function hasCompleteCoverage(d: Dataset, start: number, end: number) {
+  const monitored = d.sources.filter((s) => s.enabled);
+  return (
+    monitored.length > 0 &&
+    monitored.every((source) =>
+      d.coverage.some(
+        (c) =>
+          c.sourceId === source.id &&
+          c.status === "complete" &&
+          Date.parse(c.start) <= start &&
+          Date.parse(c.end) >= end,
+      ),
+    )
+  );
+}
 export function snapshot(
   d: Dataset,
   topicId: string,
@@ -192,12 +235,7 @@ export function snapshot(
   end: number,
 ): Snapshot {
   const signals = observations(d, topicId, start, end);
-  const covered = d.coverage.some(
-    (c) =>
-      c.status === "complete" &&
-      Date.parse(c.start) <= start &&
-      Date.parse(c.end) >= end,
-  );
+  const covered = hasCompleteCoverage(d, start, end);
   const count = signals.length || covered ? signals.length : null;
   return {
     topicId,
@@ -240,12 +278,7 @@ export function change(d: Dataset, topicId: string, days: number) {
     prior = snapshot(d, topicId, end - 2 * half, end - half);
   const a = current.signalCount,
     b = prior.signalCount;
-  const comparable = d.coverage.some(
-    (c) =>
-      c.status === "complete" &&
-      Date.parse(c.start) <= end - 2 * half &&
-      Date.parse(c.end) >= end,
-  );
+  const comparable = hasCompleteCoverage(d, end - 2 * half, end);
   if (!comparable || a === null || b === null)
     return {
       label: "Insufficient coverage",

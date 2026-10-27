@@ -61,6 +61,13 @@ function fixture(): Dataset {
         status: "complete",
         basis: "test fixture only",
       },
+      {
+        sourceId: "b",
+        start: new Date(end - 180 * DAY).toISOString(),
+        end: now,
+        status: "complete",
+        basis: "test fixture only",
+      },
     ],
   };
 }
@@ -194,4 +201,15 @@ describe("evidence integrity", () => {
     expect(plain("<script>bad()</script><p>Hello &amp; evidence</p>")).toBe(
       "Hello & evidence",
     ));
+});
+
+it("one complete publisher cannot turn missing coverage from the rest of the roster into zeros or comparable trends", () => {
+  const d = fixture();
+  d.coverage = d.coverage.filter((c) => c.sourceId === "a");
+  expect(snapshot(d, "mcp", end - 7 * DAY, end).signalCount).toBeNull();
+  d.signals = [signal(1)];
+  expect(change(d, "mcp", 30)).toMatchObject({
+    label: "Insufficient coverage",
+    delta: null,
+  });
 });

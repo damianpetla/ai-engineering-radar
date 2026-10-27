@@ -56,3 +56,15 @@ Browser installation uses Playwright’s headless-shell-only mode because tests 
 Main-branch validation runs type/schema/domain/integration checks. Deployment owns the main-branch browser gate; PR validation additionally runs browsers before merge. This avoids duplicating browser downloads on every main-branch commit while retaining browser checks before production publication.
 
 All historical coverage remains partial. Initial trend percentages are intentionally unavailable. One independent practitioner contributes most of the corpus; the source dialog exposes concentration. OpenAI original pages currently deny the collector, so their feed candidates remain review-only. AWS’s available candidate excerpt did not match its primary page and was excluded. Automatic collection never asserts production usage.
+
+## Expanded historical collection
+
+Run `pnpm collect:backfill` for bounded historical traversal, or scope a diagnostic pass with `pnpm collect:backfill -- --sources=langchain,cursor`. Source IDs must exist and be enabled. `pnpm collect` remains the incremental scheduled path. Manual cloud backfill: `gh workflow run collect.yml -f backfill=true`. Collection has a 45-minute workflow limit; each source also has candidate/page bounds, two concurrent original-page fetches, 20-second request timeouts, and an eight-megabyte streaming response cap for long feeds.
+
+Inspect `data/backfill-log.json` for the most recent per-source backfill audits, `data/collection-log.json` for the latest run, and `data/review.json` for date/attribution/content failures. Partial scoped runs retain pending review cases for other publishers. A same-host redirect is permitted; a redirect to a different publisher is excluded. Source selectors, URI bounds, and publication-header selectors are versioned in the registry. On extractor changes, run the extraction/discovery/integration tests before collecting or publishing.
+
+Current roster, historical counts, and limitations are documented in `source-coverage.md`. The original delivery's 26-record statistics above are a historical baseline, not the expanded dataset size.
+
+Expanded collection stops a publisher's remaining original-page requests after encountering access denial (401/403), while retaining its partial-coverage warning. Complete-coverage measurements require the entire enabled publisher roster, not a single successful source.
+
+The expansion's cross-publisher audit excluded a secondary Simon Willison report about Anthropic source control in favor of the original Anthropic publication. Its shared event identity and review adjustment are retained. A full incremental run added zero duplicate records after backfill. See the dated source-coverage audit for final counts; the earlier 26-publication delivery statistics remain historical context.

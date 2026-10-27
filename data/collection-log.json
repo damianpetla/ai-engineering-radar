@@ -1,45 +1,190 @@
 {
-  "observedAt": "2026-10-27T18:17:14.486Z",
+  "observedAt": "2026-10-27T18:45:34.865Z",
+  "mode": "incremental",
+  "extractionVersion": "article-body-v3",
   "logs": [
     {
       "source": "openai",
-      "entries": 1327,
-      "added": 0
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 1327,
+      "examined": 150,
+      "added": 0,
+      "unmatched": 0,
+      "outsideWindow": 984,
+      "rejected": 150,
+      "truncated": true
     },
     {
       "source": "armin",
-      "entries": 10,
-      "added": 0
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 10,
+      "examined": 7,
+      "added": 0,
+      "unmatched": 7,
+      "outsideWindow": 0,
+      "rejected": 0,
+      "truncated": false
     },
     {
       "source": "simon",
-      "entries": 30,
-      "added": 0
-    },
-    {
-      "source": "mitchell",
-      "entries": 54,
-      "added": 0
-    },
-    {
-      "source": "github",
-      "entries": 10,
-      "added": 0
-    },
-    {
-      "source": "aws",
-      "entries": 20,
-      "added": 0
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed",
+        "publisher-monthly-authored-archive"
+      ],
+      "discovered": 41,
+      "examined": 24,
+      "added": 0,
+      "unmatched": 11,
+      "outsideWindow": 0,
+      "rejected": 13,
+      "truncated": false
     },
     {
       "source": "anthropic",
-      "entries": 24,
-      "added": 0
+      "mode": "incremental",
+      "methods": [
+        "publisher-index"
+      ],
+      "discovered": 24,
+      "examined": 22,
+      "added": 0,
+      "unmatched": 0,
+      "outsideWindow": 22,
+      "rejected": 0,
+      "truncated": false
     },
     {
-      "source": "simon-authored-archive",
-      "entries": 47,
-      "added": 0
+      "source": "mitchell",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 54,
+      "examined": 0,
+      "added": 0,
+      "unmatched": 0,
+      "outsideWindow": 50,
+      "rejected": 0,
+      "truncated": false
+    },
+    {
+      "source": "github",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 20,
+      "examined": 17,
+      "added": 0,
+      "unmatched": 9,
+      "outsideWindow": 0,
+      "rejected": 8,
+      "truncated": false
+    },
+    {
+      "source": "aws",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 20,
+      "examined": 12,
+      "added": 0,
+      "unmatched": 12,
+      "outsideWindow": 0,
+      "rejected": 0,
+      "truncated": false
+    },
+    {
+      "source": "langchain",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 100,
+      "examined": 48,
+      "added": 0,
+      "unmatched": 4,
+      "outsideWindow": 39,
+      "rejected": 5,
+      "truncated": false
+    },
+    {
+      "source": "huggingface",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 760,
+      "examined": 12,
+      "added": 0,
+      "unmatched": 12,
+      "outsideWindow": 696,
+      "rejected": 0,
+      "truncated": false
+    },
+    {
+      "source": "vercel",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 624,
+      "examined": 12,
+      "added": 0,
+      "unmatched": 4,
+      "outsideWindow": 546,
+      "rejected": 8,
+      "truncated": false
+    },
+    {
+      "source": "cursor",
+      "mode": "incremental",
+      "methods": [
+        "publisher-index"
+      ],
+      "discovered": 16,
+      "examined": 6,
+      "added": 0,
+      "unmatched": 5,
+      "outsideWindow": 1,
+      "rejected": 0,
+      "truncated": false
+    },
+    {
+      "source": "cloudflare",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 20,
+      "examined": 12,
+      "added": 0,
+      "unmatched": 12,
+      "outsideWindow": 0,
+      "rejected": 0,
+      "truncated": false
+    },
+    {
+      "source": "mcp",
+      "mode": "incremental",
+      "methods": [
+        "publisher-feed"
+      ],
+      "discovered": 26,
+      "examined": 0,
+      "added": 0,
+      "unmatched": 0,
+      "outsideWindow": 20,
+      "rejected": 0,
+      "truncated": false
     }
   ]
 }

@@ -21,7 +21,10 @@
     "aliases": [
       "agent harness",
       "agentic harness",
-      "harness engineering"
+      "harness engineering",
+      "agent harnesses",
+      "agentic harnesses",
+      "coding harness"
     ],
     "createdAt": "2026-10-27T17:49:00.000Z",
     "status": "active"
@@ -52,7 +55,13 @@
       "agent evals",
       "evaluating agents",
       "evaluation harness",
-      "coding-agent eval"
+      "coding-agent eval",
+      "agent evaluations",
+      "evaluating ai agents",
+      "evaluating coding agents",
+      "evaluations for agents",
+      "agent benchmarks",
+      "evaluating tool using agents"
     ],
     "createdAt": "2026-10-27T17:49:00.000Z",
     "status": "active"
@@ -110,7 +119,9 @@
       "agent memory",
       "persistent memory",
       "memory for agents",
-      "agent memories"
+      "agent memories",
+      "memory for ai agents",
+      "agentic memory"
     ],
     "createdAt": "2026-10-27T17:49:00.000Z",
     "status": "active"
@@ -138,7 +149,9 @@
       "test generation",
       "generating tests",
       "AI testing",
-      "AI-generated tests"
+      "AI-generated tests",
+      "AI generated test",
+      "AI test generation"
     ],
     "createdAt": "2026-10-27T17:49:00.000Z",
     "status": "active"

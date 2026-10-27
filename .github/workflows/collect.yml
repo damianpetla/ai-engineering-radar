@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "17 6 */3 * *"
   workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Traverse bounded historical publisher archives (up to 180 days)"
+        type: boolean
+        default: false
 permissions:
   contents: write
   pages: write
@@ -13,7 +18,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -22,7 +27,15 @@ jobs:
           node-version: "22"
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm collect
+      - name: Collect verified originals
+        env:
+          RADAR_BACKFILL: ${{ inputs.backfill }}
+        run: |
+          if [ "$RADAR_BACKFILL" = "true" ]; then
+            pnpm collect:backfill
+          else
+            pnpm collect
+          fi
       - run: pnpm verify
       - name: Commit validated data
         run: |
@@ -40,6 +53,7 @@ jobs:
           path: |
             data/review.json
             data/collection-log.json
+            data/backfill-log.json
             test-results/
   deploy:
     needs: collect

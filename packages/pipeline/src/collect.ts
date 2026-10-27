@@ -1,105 +1,33 @@
 import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
-import { XMLParser } from "fast-xml-parser";
 import {
   DatasetSchema,
   SourceSchema,
   TopicSchema,
   canonicalUrl,
-  matchTopics,
   deduplicate,
   type Dataset,
-  type Source,
-  type Topic,
   type Signal,
 } from "../../domain/src/index";
-const parser = new XMLParser({
-  ignoreAttributes: false,
-  attributeNamePrefix: "@_",
-  processEntities: true,
-});
+import { fetchText } from "./fetch";
+import { possibleDuplicate } from "./verification";
+import { discover } from "./discover";
+import {
+  extractArticle,
+  engineeringTopics,
+  isCandidate,
+  type Candidate,
+} from "./extract";
+export { parseFeed, plain } from "./extract";
+const EXTRACTION_VERSION = "article-body-v3";
 const hash = (s: string) => createHash("sha256").update(s).digest("hex");
-export function plain(html: string) {
-  return html
-    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(
-      /&(?:nbsp|amp|lt|gt|quot|apos|#39|#x27);/g,
-      (s) =>
-        ({
-          "&nbsp;": " ",
-          "&amp;": "&",
-          "&lt;": "<",
-          "&gt;": ">",
-          "&quot;": '"',
-          "&apos;": "'",
-          "&#39;": "'",
-          "&#x27;": "'",
-        })[s] ?? s,
-    )
-    .replace(/\s+/g, " ")
-    .trim();
-}
-const list = (x: any) => (!x ? [] : Array.isArray(x) ? x : [x]);
-export function parseFeed(xml: string) {
-  const parsed = parser.parse(xml);
-  const entries = parsed.feed?.entry ?? parsed.rss?.channel?.item;
-  if (!entries) throw Error("Not an RSS/Atom feed");
-  return list(entries).map((e: any) => ({
-    title: plain(String(e.title?.["#text"] ?? e.title ?? "")),
-    url:
-      typeof e.link === "string"
-        ? e.link
-        : list(e.link).find(
-            (l: any) => !l["@_rel"] || l["@_rel"] === "alternate",
-          )?.["@_href"],
-    date: e.published ?? e.pubDate ?? e.updated,
-    text: plain(
-      String(
-        e.content?.["#text"] ??
-          e.content ??
-          e.description ??
-          e.summary?.["#text"] ??
-          e.summary ??
-          "",
-      ),
-    ),
-  }));
-}
-class PermanentSourceError extends Error {}
-async function fetchText(url: string, source: Source) {
-  const target = new URL(url);
-  if (target.hostname !== new URL(source.url).hostname)
-    throw Error(`Unapproved host ${target.hostname}`);
-  for (let attempt = 0; attempt < 3; attempt++) {
-    try {
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent":
-            "AIEngineeringRadar/1.0 (public engineering observatory; bounded collection)",
-        },
-        signal: AbortSignal.timeout(20000),
-        redirect: "error",
-      });
-      if (res.status >= 400 && res.status < 500 && res.status !== 429)
-        throw new PermanentSourceError(`HTTP ${res.status}: ${url}`);
-      if (!res.ok) throw Error(`HTTP ${res.status}: ${url}`);
-      const length = Number(res.headers.get("content-length") ?? 0);
-      if (length > 3_000_000) throw Error("Response too large");
-      const body = await res.text();
-      if (body.length > 3_000_000) throw Error("Response too large");
-      return body;
-    } catch (e) {
-      if (attempt === 2 || e instanceof PermanentSourceError) throw e;
-      await new Promise((r) => setTimeout(r, 500 * (attempt + 1)));
-    }
-  }
-  throw Error("Fetch failed");
-}
 async function run() {
-  const sources = SourceSchema.array().parse(JSON.parse(await readFile("data/sources.json", "utf8")));
-  const topics = TopicSchema.array().parse(JSON.parse(await readFile("data/topics.json", "utf8")));
+  const sources = SourceSchema.array().parse(
+    JSON.parse(await readFile("data/sources.json", "utf8")),
+  );
+  const topics = TopicSchema.array().parse(
+    JSON.parse(await readFile("data/topics.json", "utf8")),
+  );
   let previous: Dataset | undefined;
   try {
     previous = DatasetSchema.parse(
@@ -108,357 +36,207 @@ async function run() {
   } catch (e) {
     if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
   }
+  const backfill = process.argv.includes("--backfill"),
+    selected = process.argv
+      .find((v) => v.startsWith("--sources="))
+      ?.split("=")[1]
+      .split(",");
+  if (selected?.some((id) => !sources.some((s) => s.id === id && s.enabled)))
+    throw new Error("Unknown or disabled source selection");
   const observedAt = new Date().toISOString(),
     cutoff = Date.parse(observedAt) - 180 * 86400000;
-  const signals: Signal[] = [...(previous?.signals ?? [])];
-  const review: any[] = [];
+  const signals: Signal[] = [...(previous?.signals ?? [])],
+    known = new Set(signals.map((s) => canonicalUrl(s.canonicalUrl)));
+  const activeSources = new Set(
+    sources
+      .filter((s) => s.enabled && (!selected || selected.includes(s.id)))
+      .map((s) => s.id),
+  );
+  let pendingReview: { sourceId: string; url?: string; reason: string }[] = [];
+  try {
+    pendingReview = JSON.parse(await readFile("data/review.json", "utf8"));
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
+  }
+  const review = pendingReview.filter(
+    (r) =>
+      !activeSources.has(r.sourceId) &&
+      (!r.url || !known.has(canonicalUrl(r.url))),
+  );
+  const logs: Record<string, unknown>[] = [];
   const coverage = [...(previous?.coverage ?? [])];
-  const logs: any[] = [];
-  for (const source of sources.filter((s) => s.enabled && s.feedUrl)) {
-    const xml = await fetchText(source.feedUrl!, source);
-    const entries = parseFeed(xml);
-    let added = 0;
-    let oldest = observedAt;
-    for (const item of entries.slice(0, 1500)) {
-      if (!item.url || !item.date || !Number.isFinite(Date.parse(item.date))) {
-        review.push({
-          sourceId: source.id,
-          title: item.title,
-          reason: "Missing grounded URL/date",
-        });
-        continue;
+  for (const source of sources.filter(
+    (s) => s.enabled && (!selected || selected.includes(s.id)),
+  )) {
+    console.log(
+      `Discovering ${source.name} (${backfill ? "historical backfill" : "incremental"})…`,
+    );
+    const discovery = await discover(source, backfill, cutoff);
+    let added = 0,
+      examined = 0,
+      outsideWindow = 0,
+      unmatched = 0,
+      accessRestricted = false;
+    const candidates = discovery.candidates.filter((c) => {
+      if (known.has(canonicalUrl(c.url))) return false;
+      const date = c.publishedAt ?? c.modifiedAt;
+      if (
+        date &&
+        Number.isFinite(Date.parse(date)) &&
+        Date.parse(date) < cutoff
+      ) {
+        outsideWindow++;
+        return false;
       }
-      const publishedAt = new Date(item.date).toISOString();
-      if (Date.parse(publishedAt) < cutoff || publishedAt > observedAt)
-        continue;
-      if (publishedAt < oldest) oldest = publishedAt;
-      const topicIds = matchTopics(item.title + " " + item.text, topics);
-      if (!topicIds.length) continue;
-      let url: string;
-      try {
-        url = canonicalUrl(item.url);
-        if (new URL(url).hostname !== new URL(source.url).hostname)
-          throw Error("External attribution");
-      } catch {
-        review.push({
-          sourceId: source.id,
-          title: item.title,
-          reason: "External attribution",
-        });
-        continue;
-      }
-      if (signals.some((s) => s.canonicalUrl === url)) continue;
-      // Linkblog entries and quotations describe someone else's event; route to review.
+      if (
+        c.discoveredVia.includes("sitemap") &&
+        !/agent|context|harness|mcp|llm|copilot|claude|codex|coding|eval|memory|sandbox|tool|test|prompt|generative|ai-/i.test(
+          new URL(c.url).pathname,
+        ) &&
+        source.id !== "cursor"
+      )
+        return false;
+      // Full article indexes/sitemaps often lack excerpts. Fetch those originals rather than treating missing snippets as irrelevance.
+      return (
+        (!c.text && !c.title) ||
+        isCandidate(c) ||
+        /sitemap|\/engineering$|\/blog$|\/\d{4}\/$/.test(c.discoveredVia)
+      );
+    });
+    const limit = backfill ? (source.backfillLimit ?? 400) : 150,
+      bounded = candidates.slice(0, limit);
+    const collect = async (candidate: Candidate) => {
+      const url = canonicalUrl(candidate.url);
+      examined++;
       if (
         source.id === "simon" &&
-        (/^(Quoting |Introducing )/.test(item.title) ||
-          item.text.startsWith(item.title))
+        /^(Quoting |Introducing )|live blog|Notes on .*deal/i.test(
+          candidate.title ?? "",
+        )
       ) {
-        review.push({ url, reason: "Possible secondary attribution" });
-        continue;
-      }
-      if (!item.text || item.text.length < 80) {
-        review.push({ url, reason: "Insufficient primary text" });
-        continue;
-      }
-      let html: string;
-      try {
-        html = await fetchText(item.url, source);
-      } catch (e) {
         review.push({
+          sourceId: source.id,
           url,
-          reason: "Primary page unavailable; excluded from public metrics",
-          error: String(e),
+          reason: "Secondary attribution requires review",
         });
-        continue;
+        return;
       }
-      const body = plain(html);
-      const excerpt = item.text.slice(0, 400).trim();
-      if (!body.includes(excerpt.slice(0, 100))) {
-        review.push({ url, reason: "Feed excerpt not found on primary page" });
-        continue;
-      }
-      signals.push({
-        id: hash(url).slice(0, 20),
-        sourceId: source.id,
-        canonicalUrl: url,
-        title: item.title,
-        publishedAt,
-        observedAt,
-        topicIds,
-        type: "technical-explanation",
-        summary: excerpt + (item.text.length > 400 ? "…" : ""),
-        excerpt,
-        verificationStatus: "verified",
-        evidenceNotes:
-          "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
-        contentHash: hash(html),
-      });
-      added++;
-      await new Promise((r) => setTimeout(r, 180));
-    }
-    const old = coverage.find((c) => c.sourceId === source.id);
-    if (old) {
-      old.start = old.start < oldest ? old.start : oldest;
-      old.end = observedAt;
-      old.status = "partial";
-    } else
-      coverage.push({
-        sourceId: source.id,
-        start: oldest,
-        end: observedAt,
-        status: "partial",
-        basis:
-          "Bounded publisher feed archive; retrieval verified, historical completeness not established.",
-      });
-    logs.push({ source: source.id, entries: entries.length, added });
-  }
-  for (const source of sources.filter((s) => s.enabled && s.discoveryUrl)) {
-    const index = await fetchText(source.discoveryUrl!, source);
-    const urls = [
-      ...new Set(
-        [
-          ...index.matchAll(/href="(\/(?:research|engineering)\/[^"?#]+)"/g),
-        ].map((m) => new URL(m[1], source.url).href),
-      ),
-    ]
-      .filter((u) => !u.includes("/team/"))
-      .slice(0, 60);
-    let added = 0,
-      oldest = observedAt;
-    for (const pageUrl of urls) {
-      const url = canonicalUrl(pageUrl);
-      if (signals.some((s) => s.canonicalUrl === url)) continue;
-      let html: string;
       try {
-        html = await fetchText(pageUrl, source);
-      } catch (e) {
-        review.push({
-          url,
-          reason: "Archive page unavailable",
-          error: String(e),
-        });
-        continue;
-      }
-      const rawDate = html.match(
-        /property="article:published_time" content="([^"]+)"/,
-      )?.[1];
-      if (!rawDate || !Number.isFinite(Date.parse(rawDate))) {
-        review.push({ url, reason: "Missing publication metadata" });
-        continue;
-      }
-      const publishedAt = new Date(rawDate).toISOString();
-      if (Date.parse(publishedAt) < cutoff || publishedAt > observedAt)
-        continue;
-      if (publishedAt < oldest) oldest = publishedAt;
-      const title = plain(
-        html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ??
-          html.match(/<title>(.*?)<\/title>/)?.[1] ??
-          "",
-      );
-      const article =
-        html.match(/<article[^>]*>([\s\S]*?)<\/article>/)?.[1] ??
-        html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ??
-        "";
-      const text = plain(article);
-      const topicIds = matchTopics(title + " " + text, topics);
-      if (!topicIds.length) continue;
-      const description = html.match(
-        /<meta name="description" content="([^"]+)"/,
-      )?.[1];
-      const excerpt = plain(description ?? text.slice(0, 400));
-      if (!title || excerpt.length < 60) {
-        review.push({ url, reason: "Insufficient publication text" });
-        continue;
-      }
-      signals.push({
-        id: hash(url).slice(0, 20),
-        sourceId: source.id,
-        canonicalUrl: url,
-        title,
-        publishedAt,
-        observedAt,
-        topicIds,
-        type: "technical-explanation",
-        summary: excerpt,
-        excerpt,
-        verificationStatus: "verified",
-        contentHash: hash(html),
-        evidenceNotes:
-          "Discovered on the publisher engineering index. Publication date comes from article:published_time metadata; excerpt comes verbatim from the original page description. Topic phrases matched in the article. No inference of production use.",
-      });
-      added++;
-      await new Promise((r) => setTimeout(r, 180));
-    }
-    const old = coverage.find((c) => c.sourceId === source.id);
-    if (old) {
-      old.start = old.start < oldest ? old.start : oldest;
-      old.end = observedAt;
-    } else if (oldest < observedAt)
-      coverage.push({
-        sourceId: source.id,
-        start: oldest,
-        end: observedAt,
-        status: "partial",
-        basis:
-          "Bounded discovery from the publisher engineering index; historical completeness not established.",
-      });
-    logs.push({ source: source.id, entries: urls.length, added });
-  }
-  for (const source of sources.filter((s) => s.enabled && s.archiveBase)) {
-    let added = 0,
-      entries = 0,
-      oldest = observedAt;
-    const current = new Date(observedAt);
-    const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ];
-    for (let offset = 0; offset < 6; offset++) {
-      const month = new Date(
-        Date.UTC(current.getUTCFullYear(), current.getUTCMonth() - offset, 1),
-      );
-      const archiveUrl = new URL(
-        `${month.getUTCFullYear()}/${months[month.getUTCMonth()]}/`,
-        source.archiveBase,
-      ).href;
-      let index = await fetchText(archiveUrl, source);
-      const lastPage = Math.min(
-        8,
-        Math.max(
-          1,
-          ...[...index.matchAll(/href="\?page=(\d+)"/g)].map((m) =>
-            Number(m[1]),
-          ),
-        ),
-      );
-      for (let page = 2; page <= lastPage; page++)
-        index += "\n" + (await fetchText(`${archiveUrl}?page=${page}`, source));
-      const blocks = [
-        ...index.matchAll(
-          /<div class="entry segment"[^>]*>([\s\S]*?)<!-- end div.entry -->/g,
-        ),
-      ].slice(0, 240);
-      entries += blocks.length;
-      for (const block of blocks) {
-        const relative = block[1].match(/<h3><a href="([^"]+)"/)?.[1];
-        if (!relative) continue;
-        const pageUrl = new URL(relative, source.url).href,
-          url = canonicalUrl(pageUrl);
-        if (signals.some((s) => s.canonicalUrl === url)) continue;
-        // Avoid fetching unrelated publications and secondary event liveblogs.
-        if (!matchTopics(plain(block[1]), topics).length) continue;
-        const parts = new URL(url).pathname.match(
-          /^\/(\d{4})\/([A-Z][a-z]{2})\/(\d{1,2})\//,
-        );
-        if (!parts) continue;
-        const publishedAt = new Date(
-          Date.UTC(
-            Number(parts[1]),
-            months.indexOf(parts[2]),
-            Number(parts[3]),
-          ),
-        ).toISOString();
-        if (Date.parse(publishedAt) < cutoff || publishedAt > observedAt)
-          continue;
-        let html: string;
-        try {
-          html = await fetchText(pageUrl, source);
-        } catch (e) {
-          review.push({
-            url,
-            reason: "Authored archive page unavailable",
-            error: String(e),
-          });
-          continue;
-        }
-        const article = html.match(
-          /<div class="entry entryPage">([\s\S]*?)<div class="entryFooter">/,
-        )?.[1];
-        if (!article) {
-          review.push({ url, reason: "Not a primary authored article" });
-          continue;
-        }
-        const title = plain(
-          article.match(/<h2[^>]*>([\s\S]*?)<\/h2>/)?.[1] ?? "",
-        );
-        if (/(live blog|Notes on .*deal)/i.test(title)) {
-          review.push({
-            url,
-            reason: "Secondary event attribution requires review",
-          });
-          continue;
-        }
-        const visibleDate = plain(
-          article.match(/<p class="mobile-date">([^<]+)<\/p>/)?.[1] ?? "",
-        );
-        const expectedMonth = new Date(publishedAt).toLocaleDateString(
-          "en-GB",
-          { month: "long", timeZone: "UTC" },
+        const html = await fetchText(candidate.url, source);
+        const article = extractArticle(
+          html,
+          candidate,
+          source.articleSelector,
+          source.publicationHeaderSelector,
         );
         if (
-          !visibleDate.includes(expectedMonth) ||
-          !visibleDate.includes(parts[1]) ||
-          parseInt(visibleDate) !== Number(parts[3])
+          Date.parse(article.publication.value) < cutoff ||
+          article.publication.value > observedAt
         ) {
-          review.push({
-            url,
-            reason: "Archive URL date does not match visible publication date",
-          });
-          continue;
+          outsideWindow++;
+          return;
         }
-        const text = plain(article),
-          topicIds = matchTopics(title + " " + text, topics);
-        if (!topicIds.length) continue;
-        const paragraphs = [...article.matchAll(/<p>([\s\S]*?)<\/p>/g)]
-          .map((m) => plain(m[1]))
-          .filter((t) => t.length > 30)
-          .join(" ");
-        const excerpt = paragraphs.slice(0, 400).trim();
-        if (excerpt.length < 80) continue;
+        const topicIds = engineeringTopics(article.title, article.text, topics);
+        if (!topicIds.length) {
+          unmatched++;
+          return;
+        }
+        if (known.has(url)) return;
+        const duplicate = possibleDuplicate(
+          {
+            title: article.title,
+            excerpt: article.excerpt,
+            canonicalUrl: url,
+            publishedAt: article.publication.value,
+          },
+          signals,
+        );
+        if (duplicate) {
+          review.push({
+            sourceId: source.id,
+            url,
+            reason: `Possible shared event/syndication with ${duplicate.canonicalUrl}; attribution review required`,
+          });
+          return;
+        }
+        const matched = topics
+          .filter((t) => topicIds.includes(t.id))
+          .map((t) => t.name)
+          .join(", ");
+        const publication = article.publication;
         signals.push({
           id: hash(url).slice(0, 20),
           sourceId: source.id,
           canonicalUrl: url,
-          title,
-          publishedAt,
+          title: article.title,
+          publishedAt: publication.value,
           observedAt,
           topicIds,
           type: "technical-explanation",
-          summary: excerpt + (paragraphs.length > 400 ? "…" : ""),
-          excerpt,
+          summary:
+            article.excerpt +
+            (article.text.length > article.excerpt.length ? "…" : ""),
+          excerpt: article.excerpt,
           verificationStatus: "verified",
           contentHash: hash(html),
-          evidenceNotes:
-            "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
+          extractionVersion: EXTRACTION_VERSION,
+          publicationDateEvidence: publication,
+          evidenceNotes: `Original article retrieved from ${new URL(source.url).hostname}; navigation, related stories, and footer content excluded. Publication date: ${publication.basis} (${publication.raw}, ${publication.precision} precision). ${publication.corroboratingDate ? `Feed publication day differs; original date corroborated in the publication header (${publication.corroboratingDate}). ` : ""}Discovery: ${candidate.discoveredVia}. Literal topic phrases matched in article body: ${matched}. Excerpt is verbatim original text. No inference of production use.`,
         });
+        known.add(url);
         added++;
-        if (publishedAt < oldest) oldest = publishedAt;
-        await new Promise((r) => setTimeout(r, 180));
+        if (added % 20 === 0)
+          console.log(`${source.id}: ${added} verified additions`);
+      } catch (e) {
+        const reason = String(e instanceof Error ? e.message : e);
+        if (/^HTTP (401|403):/.test(reason)) accessRestricted = true;
+        review.push({ sourceId: source.id, url, reason });
+      } finally {
+        await new Promise((r) => setTimeout(r, 200));
       }
-    }
+    };
+    // Two concurrent originals per publisher; a failure never mutates the persisted public dataset.
+    for (let i = 0; i < bounded.length && !accessRestricted; i += 2)
+      await Promise.all(bounded.slice(i, i + 2).map(collect));
+    const sourceSignals = signals.filter(
+      (s) => s.sourceId === source.id && s.verificationStatus === "verified",
+    );
+    const dates = sourceSignals.map((s) => s.publishedAt).sort();
     const old = coverage.find((c) => c.sourceId === source.id);
+    const basis = `${backfill ? "Historical backfill" : "Incremental collection"} via ${discovery.methods.join(", ")}. ${discovery.candidates.length} discovered URLs; ${examined} new originals examined, ${added} admitted. ${discovery.truncated || candidates.length > limit ? "A collection bound was reached. " : ""}${accessRestricted ? "An access-restricted original was encountered; remaining originals were not requested this run. " : ""}Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.`;
     if (old) {
-      old.start = old.start < oldest ? old.start : oldest;
+      old.start = dates.length && dates[0] < old.start ? dates[0] : old.start;
       old.end = observedAt;
-      old.basis =
-        "Publisher feed and six bounded monthly authored-entry archives; collection completeness not established.";
-    }
-    logs.push({ source: source.id + "-authored-archive", entries, added });
+      old.status = "partial";
+      old.basis = basis;
+    } else if (dates.length)
+      coverage.push({
+        sourceId: source.id,
+        start: dates[0],
+        end: observedAt,
+        status: "partial",
+        basis,
+      });
+    const log = {
+      source: source.id,
+      mode: backfill ? "historical-backfill" : "incremental",
+      methods: discovery.methods,
+      discovered: discovery.candidates.length,
+      examined,
+      added,
+      unmatched,
+      outsideWindow,
+      rejected: review.filter((r) => r.sourceId === source.id).length,
+      accessRestricted,
+      truncated:
+        accessRestricted || discovery.truncated || candidates.length > limit,
+    };
+    logs.push(log);
+    console.log(JSON.stringify(log));
   }
   const output = DatasetSchema.parse({
     version: 1,
-    coverageVersion: "curated-feeds-v2",
+    coverageVersion: "curated-archives-v3",
     updatedAt: observedAt,
     sources,
     topics,
@@ -466,12 +244,51 @@ async function run() {
     coverage,
   });
   if (!output.signals.length)
-    throw Error("No verified evidence; preserving public dataset");
+    throw new Error("No verified evidence; preserving public dataset");
   await mkdir("data", { recursive: true });
+  review.sort((a, b) =>
+    (a.sourceId + (a.url ?? "") + a.reason).localeCompare(
+      b.sourceId + (b.url ?? "") + b.reason,
+    ),
+  );
   await writeFile("data/review.json", JSON.stringify(review, null, 2) + "\n");
+  if (backfill) {
+    let prior: Record<string, unknown>[] = [];
+    try {
+      prior =
+        JSON.parse(await readFile("data/backfill-log.json", "utf8")).sources ??
+        [];
+    } catch (e) {
+      if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
+    }
+    const merged = new Map(prior.map((log) => [log.source, log]));
+    for (const log of logs) merged.set(log.source, { ...log, observedAt });
+    await writeFile(
+      "data/backfill-log.json",
+      JSON.stringify(
+        {
+          coverageVersion: "curated-archives-v3",
+          sources: [...merged.values()].sort((a, b) =>
+            String(a.source).localeCompare(String(b.source)),
+          ),
+        },
+        null,
+        2,
+      ) + "\n",
+    );
+  }
   await writeFile(
     "data/collection-log.json",
-    JSON.stringify({ observedAt, logs }, null, 2) + "\n",
+    JSON.stringify(
+      {
+        observedAt,
+        mode: backfill ? "historical-backfill" : "incremental",
+        extractionVersion: EXTRACTION_VERSION,
+        logs,
+      },
+      null,
+      2,
+    ) + "\n",
   );
   await writeFile(
     "data/dataset.next.json",
@@ -479,11 +296,11 @@ async function run() {
   );
   await rename("data/dataset.next.json", "data/dataset.json");
   console.log(
-    JSON.stringify(
-      { verified: output.signals.length, review: review.length, logs },
-      null,
-      2,
-    ),
+    JSON.stringify({
+      verified: output.signals.length,
+      review: review.length,
+      coverageVersion: output.coverageVersion,
+    }),
   );
 }
 if (process.argv[1]?.endsWith("collect.ts"))

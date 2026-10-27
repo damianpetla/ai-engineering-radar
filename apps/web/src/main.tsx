@@ -233,7 +233,8 @@ function Dashboard({ d }: { d: Dataset }) {
             </div>
             <p className="coverage-note">
               <span>◌</span> Partial historical coverage. Counts are observed
-              lower bounds; gaps mean uncollected data, never zero.{" "}
+              lower bounds; archives and publisher coverage vary. Gaps are
+              uncollected data, never zero.{" "}
               <button onClick={() => setModal("coverage")}>
                 View coverage ↗
               </button>
@@ -279,7 +280,11 @@ function Dashboard({ d }: { d: Dataset }) {
               <span />
             </div>
             {!topics.length && (
-              <p className="empty">{verified.length ? "No topics match your search." : "No verified observations have been collected yet."}</p>
+              <p className="empty">
+                {verified.length
+                  ? "No topics match your search."
+                  : "No verified observations have been collected yet."}
+              </p>
             )}
             {topics.map((t, i) => {
               const open = expanded === t.id,
@@ -495,8 +500,9 @@ function Dashboard({ d }: { d: Dataset }) {
                   be shorter than seven days.
                 </p>
                 <p>
-                  Each publication is retrieved and its excerpt checked against
-                  the original page. Canonical URLs and explicit event
+                  Each original publication is retrieved. Topic phrases are
+                  checked in the isolated article body, and excerpts come
+                  directly from that body. Canonical URLs and explicit event
                   identifiers remove duplicates. Channels from the same
                   organization share an independent publisher group.
                 </p>
@@ -510,7 +516,9 @@ function Dashboard({ d }: { d: Dataset }) {
                   Counts show observed publishing activity. They cannot
                   establish developer adoption, engineering effectiveness,
                   consensus, or return on investment. Source concentration and
-                  incomplete archives limit comparisons.
+                  incomplete archives limit comparisons. Adding publishers or
+                  backfilling their archives changes observed totals; these are
+                  not like-for-like measures of industry growth.
                 </p>
                 <p>
                   Trend labels compare the two equal halves of your selected
@@ -559,10 +567,10 @@ function Dashboard({ d }: { d: Dataset }) {
             ) : modal === "coverage" ? (
               <>
                 <p>
-                  Archives and feeds have different retention limits. All
-                  initial backfill is marked partial. Positive counts are
-                  verified lower bounds; a missing observation does not
-                  establish that no publication existed.
+                  Archives and feeds have different retention limits. The
+                  expanded historical backfill is still marked partial. Positive
+                  counts are verified lower bounds; a missing observation does
+                  not establish that no publication existed.
                 </p>
                 {d.coverage.map((c) => (
                   <p key={c.sourceId}>
@@ -586,9 +594,9 @@ function Dashboard({ d }: { d: Dataset }) {
                   {date(d.updatedAt)}. All timestamps use UTC.
                 </p>
                 <p>
-                  * Collection is designed to run every three days through
-                  GitHub Actions. Check the operational handover for activation
-                  status. When collection fails, the last validated dataset
+                  Collection runs approximately every three days through GitHub
+                  Actions. A separate manual backfill traverses the historical
+                  archives. When collection fails, the last validated dataset
                   remains available. Data older than seven days is marked
                   overdue.
                 </p>

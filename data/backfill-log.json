@@ -1,0 +1,109 @@
+{
+  "coverageVersion": "curated-archives-v3",
+  "sources": [
+    {
+      "source": "anthropic",
+      "mode": "historical-backfill",
+      "methods": [
+        "publisher-index",
+        "publisher-sitemap"
+      ],
+      "discovered": 80,
+      "examined": 78,
+      "added": 11,
+      "unmatched": 7,
+      "outsideWindow": 59,
+      "rejected": 1,
+      "truncated": false,
+      "observedAt": "2026-10-27T18:42:26.757Z",
+      "verifiedSignalsTotal": 13
+    },
+    {
+      "source": "armin",
+      "observedAt": "2026-10-27T18:37:56.295Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed, publisher-year-archive. 33 discovered URLs; 30 new originals examined, 6 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 9
+    },
+    {
+      "source": "aws",
+      "observedAt": "2026-10-27T18:37:56.295Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed. 20 discovered URLs; 20 new originals examined, 8 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 8
+    },
+    {
+      "source": "cloudflare",
+      "observedAt": "2026-10-27T18:37:56.295Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed, publisher-sitemap. 255 discovered URLs; 247 new originals examined, 22 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 28
+    },
+    {
+      "source": "cursor",
+      "observedAt": "2026-10-27T18:34:00.510Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-index, publisher-sitemap. 130 discovered URLs; 130 new originals examined, 26 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 26
+    },
+    {
+      "source": "github",
+      "observedAt": "2026-10-27T18:37:56.295Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed. 93 discovered URLs; 65 new originals examined, 5 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 6
+    },
+    {
+      "source": "huggingface",
+      "observedAt": "2026-10-27T18:34:00.510Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed. 760 discovered URLs; 22 new originals examined, 10 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 10
+    },
+    {
+      "source": "langchain",
+      "mode": "historical-backfill",
+      "methods": [
+        "publisher-feed",
+        "publisher-sitemap"
+      ],
+      "discovered": 336,
+      "examined": 117,
+      "added": 27,
+      "unmatched": 10,
+      "outsideWindow": 211,
+      "rejected": 7,
+      "truncated": false,
+      "observedAt": "2026-10-27T18:42:26.757Z",
+      "verifiedSignalsTotal": 100
+    },
+    {
+      "source": "mcp",
+      "observedAt": "2026-10-27T18:34:00.510Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed. 26 discovered URLs; 6 new originals examined, 6 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 6
+    },
+    {
+      "source": "simon",
+      "observedAt": "2026-10-27T18:37:56.295Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed, publisher-monthly-authored-archive. 90 discovered URLs; 63 new originals examined, 8 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 27,
+      "reviewAdjustments": [
+        {
+          "excludedUrl": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+          "originalEventId": "anthropic-source-control-2026-10-13",
+          "reason": "Secondary reporting of an already counted original event."
+        }
+      ]
+    },
+    {
+      "source": "vercel",
+      "observedAt": "2026-10-27T18:34:00.510Z",
+      "mode": "historical-backfill",
+      "basis": "Historical backfill via publisher-feed. 624 discovered URLs; 31 new originals examined, 19 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds.",
+      "verifiedSignalsTotal": 19
+    }
+  ]
+}

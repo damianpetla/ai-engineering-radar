@@ -25,10 +25,11 @@ pnpm build
 pnpm exec playwright install chromium
 pnpm test:e2e
 pnpm collect
+pnpm collect:backfill
 pnpm validate
 ```
 
-Collection requires public network access and no API keys. The pipeline fetches bounded, permitted public sources, retains only grounded excerpts, and routes ambiguous material to review. Feed discovery failure stops the run before replacing the last valid public dataset. All initial archives are marked partial; empty historical intervals are not fabricated zero counts. Automatic classification never claims production usage.
+Collection requires public network access and no API keys. The pipeline fetches bounded, permitted public sources, retains only grounded excerpts, and routes ambiguous material to review. Historical backfill follows approved sitemaps, feed pagination, and authored archives; original publication metadata is kept separate from modification timestamps. See [source coverage](docs/source-coverage.md). Feed discovery failure stops the run before replacing the last valid public dataset. All initial archives are marked partial; empty historical intervals are not fabricated zero counts. Automatic classification never claims production usage.
 
 ## Layout
 
