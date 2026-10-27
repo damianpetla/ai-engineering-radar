@@ -1,1 +1,6 @@
-{"project_id":"appgprj_6ae0e418fdb481918c4370e4329c2573","static":{"directory":"site-redirect"}}
+{
+  "project_id": "appgprj_6ae0e418fdb481918c4370e4329c2573",
+  "static": {
+    "directory": "out"
+  }
+}
