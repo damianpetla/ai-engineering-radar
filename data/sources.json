@@ -1,0 +1,53 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "type": "engineering-blog",
+    "independentGroup": "openai",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "feedUrl": "https://openai.com/news/rss.xml"
+  },
+  {
+    "id": "armin",
+    "name": "Armin Ronacher",
+    "url": "https://lucumr.pocoo.org",
+    "type": "engineering-blog",
+    "independentGroup": "armin-ronacher",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "feedUrl": "https://lucumr.pocoo.org/feed.atom"
+  },
+  {
+    "id": "simon",
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net",
+    "type": "engineering-blog",
+    "independentGroup": "simon-willison",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "feedUrl": "https://simonwillison.net/atom/everything/",
+    "archiveBase": "https://simonwillison.net/"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "type": "engineering-blog",
+    "independentGroup": "anthropic",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "discoveryUrl": "https://www.anthropic.com/engineering"
+  },
+  {
+    "id": "mitchell",
+    "name": "Mitchell Hashimoto",
+    "url": "https://mitchellh.com",
+    "type": "engineering-blog",
+    "independentGroup": "mitchell-hashimoto",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "feedUrl": "https://mitchellh.com/feed.xml"
+  }
+]

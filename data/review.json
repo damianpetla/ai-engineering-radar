@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://openai.com/index/greptile-code-review-codex-astra",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/greptile-code-review-codex-astra"
+  },
+  {
+    "url": "https://openai.com/index/benefit-street-partners",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/benefit-street-partners"
+  },
+  {
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/introducing-the-agents-api"
+  },
+  {
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://openai.com/index/scientific-computing-agentic-ai",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/scientific-computing-agentic-ai"
+  },
+  {
+    "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/unlocking-self-improvement-gpt-red"
+  },
+  {
+    "url": "https://openai.com/index/warp",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/warp"
+  },
+  {
+    "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/gartner-2026-agentic-coding-leader"
+  },
+  {
+    "url": "https://openai.com/index/ramp",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/ramp"
+  },
+  {
+    "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/dell-codex-enterprise-partnership"
+  },
+  {
+    "url": "https://openai.com/index/building-codex-windows-sandbox",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/building-codex-windows-sandbox"
+  },
+  {
+    "url": "https://openai.com/index/what-parameter-golf-taught-us",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/what-parameter-golf-taught-us"
+  },
+  {
+    "url": "https://openai.com/index/running-codex-safely",
+    "reason": "Primary page unavailable; excluded from public metrics",
+    "error": "Error: HTTP 403: https://openai.com/index/running-codex-safely"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+    "reason": "Feed excerpt not found on primary page"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+    "reason": "Possible secondary attribution"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
+    "reason": "Possible secondary attribution"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/16/code-review",
+    "reason": "Possible secondary attribution"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust",
+    "reason": "Feed excerpt not found on primary page"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/15/latex",
+    "reason": "Feed excerpt not found on primary page"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator",
+    "reason": "Feed excerpt not found on primary page"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+    "reason": "Possible secondary attribution"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+    "reason": "Possible secondary attribution"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+    "reason": "Feed excerpt not found on primary page"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+    "reason": "Possible secondary attribution"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-27T18:00:11.498Z",
+  "logs": [
+    {
+      "source": "openai",
+      "entries": 1327,
+      "added": 0
+    },
+    {
+      "source": "armin",
+      "entries": 10,
+      "added": 0
+    },
+    {
+      "source": "simon",
+      "entries": 30,
+      "added": 0
+    },
+    {
+      "source": "mitchell",
+      "entries": 54,
+      "added": 0
+    },
+    {
+      "source": "anthropic",
+      "entries": 24,
+      "added": 0
+    },
+    {
+      "source": "simon-authored-archive",
+      "entries": 16,
+      "added": 5
+    }
+  ]
+}

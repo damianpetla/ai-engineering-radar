@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env*
+!.env.example
+playwright-report/
+test-results/
+.openai/*.tar.gz
+.openai/local*
+data/evidence/*.html
+.pnpm-store/
+.sites-checkout/
+.sites-runtime/

@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "coverageVersion": "curated-feeds-v1",
+  "updatedAt": "2026-10-27T18:00:11.498Z",
+  "sources": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "url": "https://openai.com",
+      "type": "engineering-blog",
+      "independentGroup": "openai",
+      "enabled": true,
+      "discoveredAt": "2026-10-27T17:49:00.000Z",
+      "feedUrl": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "armin",
+      "name": "Armin Ronacher",
+      "url": "https://lucumr.pocoo.org",
+      "type": "engineering-blog",
+      "independentGroup": "armin-ronacher",
+      "enabled": true,
+      "discoveredAt": "2026-10-27T17:49:00.000Z",
+      "feedUrl": "https://lucumr.pocoo.org/feed.atom"
+    },
+    {
+      "id": "simon",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net",
+      "type": "engineering-blog",
+      "independentGroup": "simon-willison",
+      "enabled": true,
+      "discoveredAt": "2026-10-27T17:49:00.000Z",
+      "feedUrl": "https://simonwillison.net/atom/everything/",
+      "archiveBase": "https://simonwillison.net/"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com",
+      "type": "engineering-blog",
+      "independentGroup": "anthropic",
+      "enabled": true,
+      "discoveredAt": "2026-10-27T17:49:00.000Z",
+      "discoveryUrl": "https://www.anthropic.com/engineering"
+    },
+    {
+      "id": "mitchell",
+      "name": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com",
+      "type": "engineering-blog",
+      "independentGroup": "mitchell-hashimoto",
+      "enabled": true,
+      "discoveredAt": "2026-10-27T17:49:00.000Z",
+      "feedUrl": "https://mitchellh.com/feed.xml"
+    }
+  ],
+  "topics": [
+    {
+      "id": "context-engineering",
+      "slug": "context-engineering",
+      "name": "Context engineering",
+      "description": "Designing and managing the information available to an AI agent.",
+      "category": "Agent foundations",
+      "aliases": [
+        "context window",
+        "context management",
+        "context engineering"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "harness-engineering",
+      "slug": "harness-engineering",
+      "name": "Harness engineering",
+      "description": "The software scaffolding that runs, constrains, and observes coding agents.",
+      "category": "Agent foundations",
+      "aliases": [
+        "agent harness",
+        "agentic harness",
+        "harness engineering"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "agentic-coding",
+      "slug": "agentic-coding",
+      "name": "Agentic coding",
+      "description": "AI agents that plan and execute software development tasks using tools.",
+      "category": "Development workflows",
+      "aliases": [
+        "coding agent",
+        "coding agents",
+        "agentic coding",
+        "agentic coding tools"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "agent-evaluation",
+      "slug": "agent-evaluation",
+      "name": "Agent evaluation",
+      "description": "Measuring agent behavior and task outcomes with explicit evaluations.",
+      "category": "Measurement",
+      "aliases": [
+        "agent evaluation",
+        "agent evals",
+        "evaluating agents",
+        "evals",
+        "evaluation harness"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "multi-agent-orchestration",
+      "slug": "multi-agent-orchestration",
+      "name": "Multi-agent orchestration",
+      "description": "Coordinating multiple AI agents and their work.",
+      "category": "Agent systems",
+      "aliases": [
+        "multi-agent",
+        "multi agent",
+        "subagents",
+        "sub-agents"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "agent-sandboxing",
+      "slug": "agent-sandboxing",
+      "name": "Agent sandboxing",
+      "description": "Isolating agent execution and restricting access to system resources.",
+      "category": "Security & control",
+      "aliases": [
+        "sandbox",
+        "sandboxing",
+        "sandboxes"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ai-code-review",
+      "slug": "ai-code-review",
+      "name": "AI-assisted code review",
+      "description": "Using AI systems to examine code changes and surface findings.",
+      "category": "Development workflows",
+      "aliases": [
+        "code review",
+        "code reviews",
+        "reviewing code"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "agent-memory",
+      "slug": "agent-memory",
+      "name": "Agent memory",
+      "description": "Persisting and retrieving information across agent tasks or sessions.",
+      "category": "Agent foundations",
+      "aliases": [
+        "agent memory",
+        "persistent memory",
+        "memory for agents",
+        "agent memories"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "mcp-tool-integration",
+      "slug": "mcp-tool-integration",
+      "name": "MCP tool integration",
+      "description": "Connecting AI applications to tools and context through the Model Context Protocol.",
+      "category": "Agent systems",
+      "aliases": [
+        "MCP",
+        "model context protocol"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ai-testing",
+      "slug": "ai-testing",
+      "name": "AI-native testing",
+      "description": "Using AI to generate, execute, or interpret software tests.",
+      "category": "Development workflows",
+      "aliases": [
+        "test generation",
+        "generating tests",
+        "AI testing",
+        "AI-generated tests"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "agent-tools",
+      "slug": "agent-tools",
+      "name": "Agent tool design",
+      "description": "Designing interfaces through which agents interact with external systems.",
+      "category": "Agent systems",
+      "aliases": [
+        "tool calling",
+        "tool use",
+        "tool design",
+        "codemode",
+        "code mode"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "agent-security",
+      "slug": "agent-security",
+      "name": "Agent security",
+      "description": "Managing security boundaries and adversarial inputs in agent systems.",
+      "category": "Security & control",
+      "aliases": [
+        "prompt injection",
+        "agent security",
+        "prompt injections"
+      ],
+      "createdAt": "2026-10-27T17:49:00.000Z",
+      "status": "active"
+    }
+  ],
+  "signals": [
+    {
+      "id": "a811ab37e6b791d697ea",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+      "title": "Vibe coding and agentic engineering are getting closer than I’d like",
+      "publishedAt": "2026-05-06T00:00:00.000Z",
+      "observedAt": "2026-10-27T18:00:11.498Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit’s High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
+      "contentHash": "a7b6c70a8c5f5a66bedb169d645ad4da014b45a3fb6614290355629ec54a8e81",
+      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit’s High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a"
+    },
+    {
+      "id": "e4bdeb479512926e1731",
+      "sourceId": "anthropic",
+      "canonicalUrl": "https://www.anthropic.com/research/how-we-contain-claude",
+      "title": "How we contain Claude across products",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "observedAt": "2026-10-27T17:56:43.461Z",
+      "topicIds": [
+        "agentic-coding",
+        "multi-agent-orchestration",
+        "agent-sandboxing",
+        "agent-memory",
+        "mcp-tool-integration",
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "As agents grow more capable, so does their potential blast radius. Here's what we learned building containment for claude.ai, Claude Code, and Cowork.",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered on the publisher engineering index. Publication date comes from article:published_time metadata; excerpt comes verbatim from the original page description. Topic phrases matched in the article. No inference of production use.",
+      "contentHash": "15ade2ca4a28c215146aaa08f9eb0d6cb70cbd13f077094407f141d597f98b59",
+      "excerpt": "As agents grow more capable, so does their potential blast radius. Here's what we learned building containment for claude.ai, Claude Code, and Cowork."
+    },
+    {
+      "id": "3865c72a7d66bda21618",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox",
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "publishedAt": "2026-06-06T00:00:00.000Z",
+      "observedAt": "2026-10-27T18:00:11.498Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "I’ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I’ve been looking for. I’ve released it as an alpha package called micropython-wasm , and I’m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . My key open source p…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
+      "contentHash": "a80c1620fafacd756c2993c7f112c37f02ed2ba91669780b60591c76af3985ea",
+      "excerpt": "I’ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I’ve been looking for. I’ve released it as an alpha package called micropython-wasm , and I’m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . My key open source p"
+    },
+    {
+      "id": "e673d7b59c92d521c0dc",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable",
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "observedAt": "2026-10-27T18:00:11.498Z",
+      "topicIds": [
+        "agentic-coding",
+        "multi-agent-orchestration"
+      ],
+      "type": "technical-explanation",
+      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
+      "contentHash": "2f0c3b5fd7c82d1715bc3bc7e51cc058c4855e35aaf6575349717ba70b0d6a05",
+      "excerpt": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on"
+    },
+    {
+      "id": "98a2deac3e2f97253c4a",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "observedAt": "2026-10-27T18:00:11.498Z",
+      "topicIds": [
+        "agentic-coding",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates o…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
+      "contentHash": "4a4749b67e80cd02d0c2310415bf61313b46ba54508ecfab9f476ed62a0b22fc",
+      "excerpt": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates o"
+    },
+    {
+      "id": "75660dea522eb2c932ea",
+      "sourceId": "armin",
+      "canonicalUrl": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code",
+      "title": "Fast and Hard Code",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "observedAt": "2026-10-27T17:54:32.328Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "One of the memes on Twitter is that &#8220;programming is solved now.&#8221; I&#8217;m not sure to what degree it is, but one thing is pretty clear: the act of familiarizing yourself with a language no longer matters and some of the friction that mattered for humans does not matter for agents. As a result, LLMs make language choice much less consequential than it used to be. If you don&#8217;t lik…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
+      "contentHash": "cd30210d7abaeafa5a654589463715e274ade29f091d4d497c9791b37aa0d438",
+      "excerpt": "One of the memes on Twitter is that &#8220;programming is solved now.&#8221; I&#8217;m not sure to what degree it is, but one thing is pretty clear: the act of familiarizing yourself with a language no longer matters and some of the friction that mattered for humans does not matter for agents. As a result, LLMs make language choice much less consequential than it used to be. If you don&#8217;t lik"
+    },
+    {
+      "id": "0646645b92c32b577fed",
+      "sourceId": "armin",
+      "canonicalUrl": "https://lucumr.pocoo.org/2026/9/7/astra-why",
+      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "observedAt": "2026-10-27T17:54:32.328Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "agent-sandboxing",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "I&#8217;m more and more convinced that all of AI engineering is Neijuan (内卷, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output. The way in which it sometimes shows up in the West is the 996 nonsense . The English term for Neijuan is &#8220;Involution&#8221; from the book Agricultural Involution . Agricultural involution des…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
+      "contentHash": "3507986706dc2e7228661218021461061c2b5e0f766f9bdaa53fb4dc5e31f19c",
+      "excerpt": "I&#8217;m more and more convinced that all of AI engineering is Neijuan (内卷, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output. The way in which it sometimes shows up in the West is the 996 nonsense . The English term for Neijuan is &#8220;Involution&#8221; from the book Agricultural Involution . Agricultural involution des"
+    },
+    {
+      "id": "8e44957209feef8dd719",
+      "sourceId": "armin",
+      "canonicalUrl": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram",
+      "title": "Interpreting Pangram",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "observedAt": "2026-10-27T17:54:32.328Z",
+      "topicIds": [
+        "agent-evaluation"
+      ],
+      "type": "technical-explanation",
+      "summary": "Yesterday David Sacks wrote a tweet and within a few minutes people did, what they usually do, and they asked Pangram if it was AI. And Pangram said it&#8217;s entirely AI generated . To which David replied that these AI detectors are bogus . Now Pangram has a pretty low false positive rate, but if you have ever used an LLM as a writing assitant, you will have probably noticed that it claims your…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
+      "contentHash": "9f825c7bdf7dfe3b0114a147e2d04a8eebb752b8b25e53326762529f26655be9",
+      "excerpt": "Yesterday David Sacks wrote a tweet and within a few minutes people did, what they usually do, and they asked Pangram if it was AI. And Pangram said it&#8217;s entirely AI generated . To which David replied that these AI detectors are bogus . Now Pangram has a pretty low false positive rate, but if you have ever used an LLM as a writing assitant, you will have probably noticed that it claims your"
+    },
+    {
+      "id": "47be91cd52d348ebb727",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+      "title": "We’re going to need default hard budget caps on pretty much everything",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-27T18:00:11.498Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I’m talking about the feature of pay-by-usage services and APIs that lets you say “after $X/month, cut this thing off and return errors”. These need to be hard limits. Soft caps, “after $X/month, send me a warning email”, will not cut it. Coding agents, and per…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
+      "contentHash": "95d34978ee726eb48654a3647e1eb91c6ccb749229304eff455509d3d3ce8b67",
+      "excerpt": "Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I’m talking about the feature of pay-by-usage services and APIs that lets you say “after $X/month, cut this thing off and return errors”. These need to be hard limits. Soft caps, “after $X/month, send me a warning email”, will not cut it. Coding agents, and per"
+    },
+    {
+      "id": "80c7d2c462e2d70adbf2",
+      "sourceId": "armin",
+      "canonicalUrl": "https://lucumr.pocoo.org/2026/10/6/codemode",
+      "title": "What is Codemode",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-27T17:54:32.328Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "agent-sandboxing",
+        "mcp-tool-integration",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "More than a year ago I wrote a few posts here that recommended people not to load custom tools into their context (or MCP servers) but to just use more scripts. Most importantly I wrote that Code Is All You Need and I wrote about that MCP needs code . With Pi 1.0 we now added MCP support via Codemode which in some ways is a long time coming, but then also maybe somewhat surprising to some. So I wa…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
+      "contentHash": "1b6b68ea91f776077661ab4289e2ea0d71d2a968138a21771ad6a983858a24d3",
+      "excerpt": "More than a year ago I wrote a few posts here that recommended people not to load custom tools into their context (or MCP servers) but to just use more scripts. Most importantly I wrote that Code Is All You Need and I wrote about that MCP needs code . With Pi 1.0 we now added MCP support via Codemode which in some ways is a long time coming, but then also maybe somewhat surprising to some. So I wa"
+    },
+    {
+      "id": "ff44501d216cdf266561",
+      "sourceId": "anthropic",
+      "canonicalUrl": "https://www.anthropic.com/research/redesigning-source-control",
+      "title": "Redesigning source control at Anthropic",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-27T17:56:43.461Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-sandboxing",
+        "ai-code-review"
+      ],
+      "type": "technical-explanation",
+      "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Discovered on the publisher engineering index. Publication date comes from article:published_time metadata; excerpt comes verbatim from the original page description. Topic phrases matched in the article. No inference of production use.",
+      "contentHash": "de61a6a05f0014d7b25b798eda6a8f6258465d051f52e4b5fc89f194678eec68",
+      "excerpt": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months."
+    },
+    {
+      "id": "d0f0045fb40f11c22501",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/20/battledrones",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "publishedAt": "2026-10-20T19:34:19.000Z",
+      "observedAt": "2026-10-27T17:54:32.328Z",
+      "topicIds": [
+        "agentic-coding",
+        "multi-agent-orchestration"
+      ],
+      "type": "technical-explanation",
+      "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's w…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
+      "contentHash": "1dcce1bc81cd4db3c7c9507d3fd3380a04595f259e03cb6ed9bb53fc4b146afa",
+      "excerpt": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's w"
+    }
+  ],
+  "coverage": [
+    {
+      "sourceId": "openai",
+      "start": "2026-05-04T00:00:00.000Z",
+      "end": "2026-10-27T18:00:11.498Z",
+      "status": "partial",
+      "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
+    },
+    {
+      "sourceId": "armin",
+      "start": "2026-07-24T00:00:00.000Z",
+      "end": "2026-10-27T18:00:11.498Z",
+      "status": "partial",
+      "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
+    },
+    {
+      "sourceId": "simon",
+      "start": "2026-05-06T00:00:00.000Z",
+      "end": "2026-10-27T18:00:11.498Z",
+      "status": "partial",
+      "basis": "Publisher feed and six bounded monthly authored-entry archives; collection completeness not established."
+    },
+    {
+      "sourceId": "mitchell",
+      "start": "2026-06-21T00:00:00.000Z",
+      "end": "2026-10-27T18:00:11.498Z",
+      "status": "partial",
+      "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
+    },
+    {
+      "sourceId": "anthropic",
+      "start": "2026-05-25T00:00:00.000Z",
+      "end": "2026-10-27T18:00:11.498Z",
+      "status": "partial",
+      "basis": "Bounded discovery from the publisher engineering index; historical completeness not established."
+    }
+  ]
+}

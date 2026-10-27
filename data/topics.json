@@ -1,0 +1,177 @@
+[
+  {
+    "id": "context-engineering",
+    "slug": "context-engineering",
+    "name": "Context engineering",
+    "description": "Designing and managing the information available to an AI agent.",
+    "category": "Agent foundations",
+    "aliases": [
+      "context window",
+      "context management",
+      "context engineering"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "harness-engineering",
+    "slug": "harness-engineering",
+    "name": "Harness engineering",
+    "description": "The software scaffolding that runs, constrains, and observes coding agents.",
+    "category": "Agent foundations",
+    "aliases": [
+      "agent harness",
+      "agentic harness",
+      "harness engineering"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "agentic-coding",
+    "slug": "agentic-coding",
+    "name": "Agentic coding",
+    "description": "AI agents that plan and execute software development tasks using tools.",
+    "category": "Development workflows",
+    "aliases": [
+      "coding agent",
+      "coding agents",
+      "agentic coding",
+      "agentic coding tools"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "agent-evaluation",
+    "slug": "agent-evaluation",
+    "name": "Agent evaluation",
+    "description": "Measuring agent behavior and task outcomes with explicit evaluations.",
+    "category": "Measurement",
+    "aliases": [
+      "agent evaluation",
+      "agent evals",
+      "evaluating agents",
+      "evals",
+      "evaluation harness"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "multi-agent-orchestration",
+    "slug": "multi-agent-orchestration",
+    "name": "Multi-agent orchestration",
+    "description": "Coordinating multiple AI agents and their work.",
+    "category": "Agent systems",
+    "aliases": [
+      "multi-agent",
+      "multi agent",
+      "subagents",
+      "sub-agents"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "agent-sandboxing",
+    "slug": "agent-sandboxing",
+    "name": "Agent sandboxing",
+    "description": "Isolating agent execution and restricting access to system resources.",
+    "category": "Security & control",
+    "aliases": [
+      "sandbox",
+      "sandboxing",
+      "sandboxes"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "ai-code-review",
+    "slug": "ai-code-review",
+    "name": "AI-assisted code review",
+    "description": "Using AI systems to examine code changes and surface findings.",
+    "category": "Development workflows",
+    "aliases": [
+      "code review",
+      "code reviews",
+      "reviewing code"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "agent-memory",
+    "slug": "agent-memory",
+    "name": "Agent memory",
+    "description": "Persisting and retrieving information across agent tasks or sessions.",
+    "category": "Agent foundations",
+    "aliases": [
+      "agent memory",
+      "persistent memory",
+      "memory for agents",
+      "agent memories"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "mcp-tool-integration",
+    "slug": "mcp-tool-integration",
+    "name": "MCP tool integration",
+    "description": "Connecting AI applications to tools and context through the Model Context Protocol.",
+    "category": "Agent systems",
+    "aliases": [
+      "MCP",
+      "model context protocol"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "ai-testing",
+    "slug": "ai-testing",
+    "name": "AI-native testing",
+    "description": "Using AI to generate, execute, or interpret software tests.",
+    "category": "Development workflows",
+    "aliases": [
+      "test generation",
+      "generating tests",
+      "AI testing",
+      "AI-generated tests"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "agent-tools",
+    "slug": "agent-tools",
+    "name": "Agent tool design",
+    "description": "Designing interfaces through which agents interact with external systems.",
+    "category": "Agent systems",
+    "aliases": [
+      "tool calling",
+      "tool use",
+      "tool design",
+      "codemode",
+      "code mode"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": "agent-security",
+    "slug": "agent-security",
+    "name": "Agent security",
+    "description": "Managing security boundaries and adversarial inputs in agent systems.",
+    "category": "Security & control",
+    "aliases": [
+      "prompt injection",
+      "agent security",
+      "prompt injections"
+    ],
+    "createdAt": "2026-10-27T17:49:00.000Z",
+    "status": "active"
+  }
+]
