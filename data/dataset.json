@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-feeds-v2",
-  "updatedAt": "2026-10-27T18:04:58.485Z",
+  "updatedAt": "2026-10-27T18:17:14.486Z",
   "sources": [
     {
       "id": "openai",
@@ -258,18 +258,18 @@
       "id": "a811ab37e6b791d697ea",
       "sourceId": "simon",
       "canonicalUrl": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
-      "title": "Vibe coding and agentic engineering are getting closer than I\u2019d like",
+      "title": "Vibe coding and agentic engineering are getting closer than I’d like",
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "observedAt": "2026-10-27T18:00:11.498Z",
       "topicIds": [
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit\u2019s High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a\u2026",
+      "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit’s High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "a7b6c70a8c5f5a66bedb169d645ad4da014b45a3fb6614290355629ec54a8e81",
-      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit\u2019s High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a"
+      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit’s High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a"
     },
     {
       "id": "fb063c007bd9bea52041",
@@ -282,11 +282,11 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. Six months is a pretty convenient time period to cover, because it captures what I\u2019ve been calling the November\u2026",
+      "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. Six months is a pretty convenient time period to cover, because it captures what I’ve been calling the November…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "a5e6b4cd5046c00ca34c3835663b13e48d3757b992c124b398d17cfc21795031",
-      "excerpt": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. Six months is a pretty convenient time period to cover, because it captures what I\u2019ve been calling the November"
+      "excerpt": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. Six months is a pretty convenient time period to cover, because it captures what I’ve been calling the November"
     },
     {
       "id": "e4bdeb479512926e1731",
@@ -321,7 +321,7 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit. I currently subscribe to the $100/month Max plan from Anthropic and the $100/month Pro plan from OpenAI. If you are\u2026",
+      "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit. I currently subscribe to the $100/month Max plan from Anthropic and the $100/month Pro plan from OpenAI. If you are…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "3d846e182ec4255b22c0a5eb82566b48016f3178c41af4e888b2d7b0a82c3728",
@@ -339,11 +339,11 @@
         "agent-sandboxing"
       ],
       "type": "technical-explanation",
-      "summary": "I\u2019ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I\u2019ve been looking for. I\u2019ve released it as an alpha package called micropython-wasm , and I\u2019m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . My key open source p\u2026",
+      "summary": "I’ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I’ve been looking for. I’ve released it as an alpha package called micropython-wasm , and I’m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . My key open source p…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "a80c1620fafacd756c2993c7f112c37f02ed2ba91669780b60591c76af3985ea",
-      "excerpt": "I\u2019ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I\u2019ve been looking for. I\u2019ve released it as an alpha package called micropython-wasm , and I\u2019m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . My key open source p"
+      "excerpt": "I’ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I’ve been looking for. I’ve released it as an alpha package called micropython-wasm , and I’m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . My key open source p"
     },
     {
       "id": "7e0cfe182468c7e8156a",
@@ -358,11 +358,11 @@
         "agent-security"
       ],
       "type": "technical-explanation",
-      "summary": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I\u2019ll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn\u2019t be there in the jump menu chat prompt. I snapped this\u2026",
+      "summary": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I’ll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn’t be there in the jump menu chat prompt. I snapped this…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "0d1c7bcc436457d99f2d0df3607f91f3cdf28a4ca6d749da882a5a3b17e1dbe9",
-      "excerpt": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I\u2019ll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn\u2019t be there in the jump menu chat prompt. I snapped this"
+      "excerpt": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I’ll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn’t be there in the jump menu chat prompt. I snapped this"
     },
     {
       "id": "f83f293ef0659a98e861",
@@ -375,11 +375,11 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster\u2014with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model\u2014Z.ai have a separate vision family most recentl\u2026",
+      "summary": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster—with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model—Z.ai have a separate vision family most recentl…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "2e928cd98f9face313bc354b590e4954b5c2ff043405514f75a14ba7ca65f1a1",
-      "excerpt": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster\u2014with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model\u2014Z.ai have a separate vision family most recentl"
+      "excerpt": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster—with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model—Z.ai have a separate vision family most recentl"
     },
     {
       "id": "5de808e16934fe2bafd2",
@@ -392,11 +392,11 @@
         "agent-sandboxing"
       ],
       "type": "technical-explanation",
-      "summary": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I\u2019m going to expand on that a little bit here to provide the why . Datasette Apps are self-contained HTML+JavaScript applications that run in a tightly constrained <iframe> sandbox hosted on your Datasette application. They can use JavaScript\u2026",
+      "summary": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I’m going to expand on that a little bit here to provide the why . Datasette Apps are self-contained HTML+JavaScript applications that run in a tightly constrained <iframe> sandbox hosted on your Datasette application. They can use JavaScript…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "a77b7e3a20352193a7f8bb76054db085a032075ae716c4ff7c60e6bcacdb4148",
-      "excerpt": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I\u2019m going to expand on that a little bit here to provide the why . Datasette Apps are self-contained HTML+JavaScript applications that run in a tightly constrained <iframe> sandbox hosted on your Datasette application. They can use JavaScript"
+      "excerpt": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I’m going to expand on that a little bit here to provide the why . Datasette Apps are self-contained HTML+JavaScript applications that run in a tightly constrained <iframe> sandbox hosted on your Datasette application. They can use JavaScript"
     },
     {
       "id": "562cd43a3e0cd7256ae0",
@@ -409,11 +409,11 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model\u2014a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and NVIDIA CUDA , but since it described itself as 0.2B I decided to try and get it runnin\u2026",
+      "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model—a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and NVIDIA CUDA , but since it described itself as 0.2B I decided to try and get it runnin…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "b067f510059a459017a5ba865a3063862370dcb1cb2624113f9039151a9a8745",
-      "excerpt": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model\u2014a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and NVIDIA CUDA , but since it described itself as 0.2B I decided to try and get it runnin"
+      "excerpt": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model—a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and NVIDIA CUDA , but since it described itself as 0.2B I decided to try and get it runnin"
     },
     {
       "id": "02b27ece15a28751746c",
@@ -426,11 +426,11 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "shot-scraper video is a new command introduced in today\u2019s shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I\u2019ve written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here\u2019s an example video\u2026",
+      "summary": "shot-scraper video is a new command introduced in today’s shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I’ve written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here’s an example video…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "a41e5b4c04e02376f89e5bb9f6e127fc3326cfacb1b8619ac796c47cf7a75313",
-      "excerpt": "shot-scraper video is a new command introduced in today\u2019s shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I\u2019ve written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here\u2019s an example video"
+      "excerpt": "shot-scraper video is a new command introduced in today’s shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I’ve written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here’s an example video"
     },
     {
       "id": "e673d7b59c92d521c0dc",
@@ -444,7 +444,7 @@
         "multi-agent-orchestration"
       ],
       "type": "technical-explanation",
-      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on\u2026",
+      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "2f0c3b5fd7c82d1715bc3bc7e51cc058c4855e35aaf6575349717ba70b0d6a05",
@@ -462,11 +462,11 @@
         "agent-tools"
       ],
       "type": "technical-explanation",
-      "summary": "OpenAI\u2019s latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn\u2019t tell us much now that the number of\u2026",
+      "summary": "OpenAI’s latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn’t tell us much now that the number of…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "a82c79f784766fc557fdc25d211db674fea0d926b6acee7a3194a2802a952420",
-      "excerpt": "OpenAI\u2019s latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn\u2019t tell us much now that the number of"
+      "excerpt": "OpenAI’s latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn’t tell us much now that the number of"
     },
     {
       "id": "a03361ebd72675244ef8",
@@ -485,17 +485,17 @@
         "agent-security"
       ],
       "type": "technical-explanation",
-      "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World\u2019s Fair with Cat Wu and Thariq Shihipar from Anthropic\u2019s Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube . Below is an edited copy of the transcript, with extr\u2026",
+      "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World’s Fair with Cat Wu and Thariq Shihipar from Anthropic’s Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube . Below is an edited copy of the transcript, with extr…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use. Topic audit: the original interview explicitly discusses Claude Code team evaluations and coding-agent evaluation runs.",
       "contentHash": "264b5f7d8296870aae52f96f28b2fdaa07864291b41e14cbfcf46a9e2d17fa2a",
-      "excerpt": "Earlier this month I hosted a fireside chat session at the AI Engineer World\u2019s Fair with Cat Wu and Thariq Shihipar from Anthropic\u2019s Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube . Below is an edited copy of the transcript, with extr"
+      "excerpt": "Earlier this month I hosted a fireside chat session at the AI Engineer World’s Fair with Cat Wu and Thariq Shihipar from Anthropic’s Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube . Below is an edited copy of the transcript, with extr"
     },
     {
       "id": "cb0acfe200913bdbcee5",
       "sourceId": "simon",
       "canonicalUrl": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-      "title": "OpenAI\u2019s accidental cyberattack against Hugging Face is science fiction that happened",
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "observedAt": "2026-10-27T18:01:45.866Z",
       "topicIds": [
@@ -503,11 +503,11 @@
         "agent-sandboxing"
       ],
       "type": "technical-explanation",
-      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model\u2019s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI\u2019s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for ho\u2026",
+      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model’s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI’s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for ho…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "635313b207eef100906e88ddf209660c0bd1bbae6993115dac91c1ac39eab2ec",
-      "excerpt": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model\u2019s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI\u2019s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for ho"
+      "excerpt": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model’s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI’s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for ho"
     },
     {
       "id": "c91e9c9718a58754cc3c",
@@ -524,11 +524,11 @@
         "agent-security"
       ],
       "type": "technical-explanation",
-      "summary": "Tuesday was Stateless MCP day \u2014the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol, which describes a standard way to expose new\u2026",
+      "summary": "Tuesday was Stateless MCP day —the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol, which describes a standard way to expose new…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "0c86f245ae24ff51c3059358894ec3c1d4472686fd5cdf6351395ba628a5ad34",
-      "excerpt": "Tuesday was Stateless MCP day \u2014the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol, which describes a standard way to expose new"
+      "excerpt": "Tuesday was Stateless MCP day —the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol, which describes a standard way to expose new"
     },
     {
       "id": "98a2deac3e2f97253c4a",
@@ -542,7 +542,7 @@
         "mcp-tool-integration"
       ],
       "type": "technical-explanation",
-      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates o\u2026",
+      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates o…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "4a4749b67e80cd02d0c2310415bf61313b46ba54508ecfab9f476ed62a0b22fc",
@@ -577,11 +577,11 @@
         "agent-tools"
       ],
       "type": "technical-explanation",
-      "summary": "Friday\u2019s big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba\u2019s Qwen research lab. I\u2019ve been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen\u2019s self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B an\u2026",
+      "summary": "Friday’s big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba’s Qwen research lab. I’ve been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen’s self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B an…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "c57cb405ab51b9a701db6ade5623a384e3a79c59baa464b86fa5fb86b948e9f4",
-      "excerpt": "Friday\u2019s big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba\u2019s Qwen research lab. I\u2019ve been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen\u2019s self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B an"
+      "excerpt": "Friday’s big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba’s Qwen research lab. I’ve been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen’s self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B an"
     },
     {
       "id": "7a66fcf62cc50c40e038",
@@ -594,11 +594,11 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \u201cHow AI is changing software development\u201d. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \u201cvery minor edits to remove disfluencies\u201d). This is the latest version of an argument I\u2019ve been trying to build about why sometimes\u2026",
+      "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of “How AI is changing software development”. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: “very minor edits to remove disfluencies”). This is the latest version of an argument I’ve been trying to build about why sometimes…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "36421612e968dd0701782d2775c7917e079b31f1c3624a4af032f40d8f29d235",
-      "excerpt": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \u201cHow AI is changing software development\u201d. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \u201cvery minor edits to remove disfluencies\u201d). This is the latest version of an argument I\u2019ve been trying to build about why sometimes"
+      "excerpt": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of “How AI is changing software development”. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: “very minor edits to remove disfluencies”). This is the latest version of an argument I’ve been trying to build about why sometimes"
     },
     {
       "id": "75660dea522eb2c932ea",
@@ -611,7 +611,7 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "One of the memes on Twitter is that &#8220;programming is solved now.&#8221; I&#8217;m not sure to what degree it is, but one thing is pretty clear: the act of familiarizing yourself with a language no longer matters and some of the friction that mattered for humans does not matter for agents. As a result, LLMs make language choice much less consequential than it used to be. If you don&#8217;t lik\u2026",
+      "summary": "One of the memes on Twitter is that &#8220;programming is solved now.&#8221; I&#8217;m not sure to what degree it is, but one thing is pretty clear: the act of familiarizing yourself with a language no longer matters and some of the friction that mattered for humans does not matter for agents. As a result, LLMs make language choice much less consequential than it used to be. If you don&#8217;t lik…",
       "verificationStatus": "verified",
       "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
       "contentHash": "cd30210d7abaeafa5a654589463715e274ade29f091d4d497c9791b37aa0d438",
@@ -630,28 +630,28 @@
         "agent-tools"
       ],
       "type": "technical-explanation",
-      "summary": "I&#8217;m more and more convinced that all of AI engineering is Neijuan (\u5185\u5377, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output. The way in which it sometimes shows up in the West is the 996 nonsense . The English term for Neijuan is &#8220;Involution&#8221; from the book Agricultural Involution . Agricultural involution des\u2026",
+      "summary": "I&#8217;m more and more convinced that all of AI engineering is Neijuan (内卷, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output. The way in which it sometimes shows up in the West is the 996 nonsense . The English term for Neijuan is &#8220;Involution&#8221; from the book Agricultural Involution . Agricultural involution des…",
       "verificationStatus": "verified",
       "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
       "contentHash": "3507986706dc2e7228661218021461061c2b5e0f766f9bdaa53fb4dc5e31f19c",
-      "excerpt": "I&#8217;m more and more convinced that all of AI engineering is Neijuan (\u5185\u5377, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output. The way in which it sometimes shows up in the West is the 996 nonsense . The English term for Neijuan is &#8220;Involution&#8221; from the book Agricultural Involution . Agricultural involution des"
+      "excerpt": "I&#8217;m more and more convinced that all of AI engineering is Neijuan (内卷, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output. The way in which it sometimes shows up in the West is the 996 nonsense . The English term for Neijuan is &#8220;Involution&#8221; from the book Agricultural Involution . Agricultural involution des"
     },
     {
       "id": "47be91cd52d348ebb727",
       "sourceId": "simon",
       "canonicalUrl": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
-      "title": "We\u2019re going to need default hard budget caps on pretty much everything",
+      "title": "We’re going to need default hard budget caps on pretty much everything",
       "publishedAt": "2026-10-03T00:00:00.000Z",
       "observedAt": "2026-10-27T18:00:11.498Z",
       "topicIds": [
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "Here\u2019s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I\u2019m talking about the feature of pay-by-usage services and APIs that lets you say \u201cafter $X/month, cut this thing off and return errors\u201d. These need to be hard limits. Soft caps, \u201cafter $X/month, send me a warning email\u201d, will not cut it. Coding agents, and per\u2026",
+      "summary": "Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I’m talking about the feature of pay-by-usage services and APIs that lets you say “after $X/month, cut this thing off and return errors”. These need to be hard limits. Soft caps, “after $X/month, send me a warning email”, will not cut it. Coding agents, and per…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "95d34978ee726eb48654a3647e1eb91c6ccb749229304eff455509d3d3ce8b67",
-      "excerpt": "Here\u2019s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I\u2019m talking about the feature of pay-by-usage services and APIs that lets you say \u201cafter $X/month, cut this thing off and return errors\u201d. These need to be hard limits. Soft caps, \u201cafter $X/month, send me a warning email\u201d, will not cut it. Coding agents, and per"
+      "excerpt": "Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I’m talking about the feature of pay-by-usage services and APIs that lets you say “after $X/month, cut this thing off and return errors”. These need to be hard limits. Soft caps, “after $X/month, send me a warning email”, will not cut it. Coding agents, and per"
     },
     {
       "id": "80c7d2c462e2d70adbf2",
@@ -667,7 +667,7 @@
         "agent-tools"
       ],
       "type": "technical-explanation",
-      "summary": "More than a year ago I wrote a few posts here that recommended people not to load custom tools into their context (or MCP servers) but to just use more scripts. Most importantly I wrote that Code Is All You Need and I wrote about that MCP needs code . With Pi 1.0 we now added MCP support via Codemode which in some ways is a long time coming, but then also maybe somewhat surprising to some. So I wa\u2026",
+      "summary": "More than a year ago I wrote a few posts here that recommended people not to load custom tools into their context (or MCP servers) but to just use more scripts. Most importantly I wrote that Code Is All You Need and I wrote about that MCP needs code . With Pi 1.0 we now added MCP support via Codemode which in some ways is a long time coming, but then also maybe somewhat surprising to some. So I wa…",
       "verificationStatus": "verified",
       "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
       "contentHash": "1b6b68ea91f776077661ab4289e2ea0d71d2a968138a21771ad6a983858a24d3",
@@ -684,11 +684,11 @@
         "agentic-coding"
       ],
       "type": "technical-explanation",
-      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I\u2019ve sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running a\u2026",
+      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I’ve sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running a…",
       "verificationStatus": "verified",
       "evidenceNotes": "Discovered in the publisher monthly archive as an authored entry, excluding linkblog items. Visible publication date agrees with the dated canonical URL. Date-only publication precision is represented as UTC midnight. Excerpt is verbatim article text. No inference of production use.",
       "contentHash": "dba26c71dc29e44b0371fd9ab1d2c433d51882af76dd923268dbd4f25ede478e",
-      "excerpt": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I\u2019ve sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running a"
+      "excerpt": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I’ve sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running a"
     },
     {
       "id": "ff44501d216cdf266561",
@@ -721,7 +721,7 @@
         "multi-agent-orchestration"
       ],
       "type": "technical-explanation",
-      "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's w\u2026",
+      "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's w…",
       "verificationStatus": "verified",
       "evidenceNotes": "Publisher feed supplies the publication date. Feed excerpt matched against the retrieved original page. Topic mapping uses versioned literal phrases. Classification describes a publication, not production use.",
       "contentHash": "1dcce1bc81cd4db3c7c9507d3fd3380a04595f259e03cb6ed9bb53fc4b146afa",
@@ -732,49 +732,49 @@
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
     },
     {
       "sourceId": "armin",
       "start": "2026-07-24T00:00:00.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Publisher feed and six bounded monthly authored-entry archives; collection completeness not established."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-25T00:00:00.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Bounded discovery from the publisher engineering index; historical completeness not established."
     },
     {
       "sourceId": "github",
       "start": "2026-08-04T16:47:18.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-10-27T18:04:58.485Z",
+      "end": "2026-10-27T18:17:14.486Z",
       "status": "partial",
       "basis": "Bounded publisher feed archive; retrieval verified, historical completeness not established."
     }
