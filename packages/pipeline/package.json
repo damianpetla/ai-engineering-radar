@@ -1,0 +1,1 @@
+{"name":"@radar/pipeline","version":"1.0.0","private":true,"type":"module","dependencies":{"@radar/domain":"workspace:*","fast-xml-parser":"^5.3.0"}}

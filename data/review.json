@@ -17,7 +17,7 @@
   {
     "url": "https://openai.com/index/research-acceleration-view-inside-openai",
     "reason": "Primary page unavailable; excluded from public metrics",
-    "error": "TypeError: fetch failed"
+    "error": "Error: HTTP 403: https://openai.com/index/research-acceleration-view-inside-openai"
   },
   {
     "url": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -107,5 +107,13 @@
   {
     "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
     "reason": "Possible secondary attribution"
+  },
+  {
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations",
+    "reason": "Feed excerpt not found on primary page"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog",
+    "reason": "Secondary event attribution requires review"
   }
 ]

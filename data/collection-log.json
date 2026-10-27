@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-10-27T18:00:11.498Z",
+  "observedAt": "2026-10-27T18:04:58.485Z",
   "logs": [
     {
       "source": "openai",
@@ -22,14 +22,24 @@
       "added": 0
     },
     {
+      "source": "github",
+      "entries": 10,
+      "added": 1
+    },
+    {
+      "source": "aws",
+      "entries": 20,
+      "added": 0
+    },
+    {
       "source": "anthropic",
       "entries": 24,
       "added": 0
     },
     {
       "source": "simon-authored-archive",
-      "entries": 16,
-      "added": 5
+      "entries": 47,
+      "added": 0
     }
   ]
 }

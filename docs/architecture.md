@@ -1,6 +1,6 @@
 # Architecture
 
-Static-first React + TypeScript application built with Vite. One root package manages the web, domain, and pipeline directories; pnpm workspace discovery leaves room for independently packaged modules without requiring redundant package manifests now. This is simpler than adding Astro around a single fully interactive dashboard. There is no application server, database, account system, CMS, or model API dependency.
+Static-first React + TypeScript application built with Vite. A pnpm workspace contains web, domain, and pipeline packages with explicit package manifests; the root owns shared development tooling and commands. This is simpler than adding Astro around a single fully interactive dashboard. There is no application server, database, account system, CMS, or model API dependency.
 
 - `packages/domain/src/index.ts`: strict Zod records, referential checks, canonical URLs, topic phrase matching, deduplication, UTC intervals, snapshots, trend direction, URL decoding.
 - `packages/pipeline/src/collect.ts`: bounded publisher discovery, primary-page retrieval, grounded excerpts, verification, review queue, and atomic public dataset replacement.

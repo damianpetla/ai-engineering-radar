@@ -49,5 +49,27 @@
     "enabled": true,
     "discoveredAt": "2026-10-27T17:49:00.000Z",
     "feedUrl": "https://mitchellh.com/feed.xml"
+  },
+  {
+    "id": "github",
+    "name": "GitHub Engineering",
+    "url": "https://github.blog",
+    "type": "engineering-blog",
+    "organization": "microsoft",
+    "independentGroup": "microsoft",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "feedUrl": "https://github.blog/engineering/feed/"
+  },
+  {
+    "id": "aws",
+    "name": "AWS Machine Learning",
+    "url": "https://aws.amazon.com",
+    "type": "engineering-blog",
+    "organization": "amazon",
+    "independentGroup": "amazon",
+    "enabled": true,
+    "discoveredAt": "2026-10-27T17:49:00.000Z",
+    "feedUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
   }
 ]

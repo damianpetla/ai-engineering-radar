@@ -1,7 +1,7 @@
 name: Collect verified evidence
 on:
   schedule:
-    - cron: '17 6 */3 * *'
+    - cron: "17 6 */3 * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm collect

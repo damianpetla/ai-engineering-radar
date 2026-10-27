@@ -6,7 +6,6 @@
     "description": "Designing and managing the information available to an AI agent.",
     "category": "Agent foundations",
     "aliases": [
-      "context window",
       "context management",
       "context engineering"
     ],
@@ -52,8 +51,8 @@
       "agent evaluation",
       "agent evals",
       "evaluating agents",
-      "evals",
-      "evaluation harness"
+      "evaluation harness",
+      "coding-agent eval"
     ],
     "createdAt": "2026-10-27T17:49:00.000Z",
     "status": "active"

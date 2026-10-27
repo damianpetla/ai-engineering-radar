@@ -1,4 +1,4 @@
-# Measurement methodology — curated-feeds-v1
+# Measurement methodology — curated-feeds-v2
 
 ## Unit and time
 
@@ -37,3 +37,8 @@ Production-case counts require documented use and explicit reviewed classificati
 ## Reproducibility
 
 `npm run validate` validates data and recomputes all snapshots. Snapshots are derived on demand and not redundantly persisted. `contentHash`, `excerpt`, retrieval timestamp, original URL, coverage version, and verification notes preserve provenance. Original content can later change or disappear; hashes document the retrieved revision without redistributing full articles.
+
+## Coverage revisions
+
+- v1: OpenAI, Armin Ronacher, Simon Willison, Anthropic, Mitchell Hashimoto; initial feed/index/author archives.
+- v2: added GitHub Engineering (Microsoft group) and AWS Machine Learning (Amazon group) after verifying official feed endpoints. Their older history is not inferred from newly collected feed data.

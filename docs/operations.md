@@ -38,3 +38,5 @@ No model key or external credential is needed for collection. GitHub Pages deplo
 ## Delivery verification
 
 Implementation and deployment checks are recorded here after the final production run. A workflow file is configuration, not proof of a successful run.
+
+Initial production build/deployment passed GitHub Actions and returned HTTP 200 over public HTTPS. Initial redundant validation was superseded after a stalled browser download; the final revision is checked independently. Local release checks include 14 domain/integration tests and six desktop/mobile browser tests.
