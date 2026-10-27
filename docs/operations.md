@@ -4,7 +4,7 @@
 
 - Canonical automated hosting: GitHub Pages, `https://damianpetla.github.io/ai-engineering-radar/`.
 - Source: `https://github.com/damianpetla/ai-engineering-radar`.
-- Sites hosting identity is retained in `.openai/hosting.json` for a secondary published snapshot. The Sites source remote is separate from GitHub. GitHub schedules update Pages; they do not automatically update a Sites snapshot.
+- The public Sites address `https://ai-engineering-radar.luckypin258.chatgpt.site` forwards to the canonical Pages deployment and preserves query/hash state. Its identity is retained in `.openai/hosting.json`. This avoids maintaining a second data snapshot that would diverge from scheduled updates.
 
 ## Routine commands
 
@@ -14,7 +14,7 @@ Install with `pnpm install --frozen-lockfile`. Run `pnpm verify` and `pnpm test:
 
 `pnpm collect` discovers publisher feeds/indexes and authored monthly archives over a bounded 180-day interval. Each request has a 20-second timeout, at most three attempts, host restrictions, a three-megabyte response limit, and bounded entry counts. The crawler does not follow redirects to arbitrary hosts, use credentials, or bypass access restrictions. Archive access was checked against publisher robots policies at onboarding. Recheck policies before adding/changing source adapters.
 
-The workflow runs at 06:17 UTC on every third day of the month (calendar approximation to every 72 hours; resets each month). Manual dispatch: `gh workflow run collect.yml`. It validates and browser-tests the result before committing, then explicitly invokes reusable deployment. This explicit call matters: commits made with `GITHUB_TOKEN` do not trigger ordinary push workflows. Workflow concurrency prevents overlapping collection.
+The workflow runs at 06:17 UTC on every third day of the month (calendar approximation to every 72 hours; resets each month). Manual dispatch: `gh workflow run collect.yml`. It validates and integration-tests the result before committing, then explicitly invokes reusable deployment, which runs desktop and mobile browser tests before publishing. This explicit call matters: commits made with `GITHUB_TOKEN` do not trigger ordinary push workflows. Workflow concurrency prevents overlapping collection.
 
 Feed/index failures abort without replacing `data/dataset.json`. Individual inaccessible or ambiguous pages are excluded, recorded in review, and reflected by partial coverage. CI failures stop publication; GitHub Actions failure notifications and trace artifacts provide diagnostics. Enable account/repository Actions failure notifications for maintainers. The public dashboard marks collections older than seven days overdue.
 
@@ -40,3 +40,5 @@ No model key or external credential is needed for collection. GitHub Pages deplo
 Implementation and deployment checks are recorded here after the final production run. A workflow file is configuration, not proof of a successful run.
 
 Initial production build/deployment passed GitHub Actions and returned HTTP 200 over public HTTPS. Initial redundant validation was superseded after a stalled browser download; the final revision is checked independently. Local release checks include 14 domain/integration tests and six desktop/mobile browser tests.
+
+Browser installation uses Playwright’s headless-shell-only mode because tests run headless Chromium. Collection does not install a second browser: reusable deployment owns the browser gate. This removes a redundant large download from every collection run.

@@ -11,6 +11,6 @@ Static-first React + TypeScript application built with Vite. A pnpm workspace co
 
 Rendering uses native SVG to avoid a heavy chart dependency. Chart dots expose source counts through titles, focusable week overlays, a live tooltip, and accessible text data. Null intervals break the line. The final weekly bucket can be shorter than seven days and is documented in the methodology.
 
-The application is portable static output in `dist/`. Sites provides the first public HTTPS deployment. GitHub Pages workflows provide an independent automatic publishing path once a GitHub repository is connected. No GitHub secret is needed for Pages: the workflow uses short-lived repository/OIDC permissions.
+The application is portable static output in `dist/`. GitHub Pages provides canonical public HTTPS hosting and automatic publishing. The Sites address redirects to that canonical deployment, retaining topic query state. No GitHub secret is needed for Pages: the workflow uses short-lived repository/OIDC permissions.
 
 Source metadata, data, and application state are separate. Raw external HTML is never rendered. Excerpts are plain strings escaped by React; outbound evidence links are HTTPS. Model extraction is deliberately omitted: deterministic extracts currently satisfy the evidence requirement with fewer failure modes. Any later model extractor must have versioned prompts and keep its output in review until verified.

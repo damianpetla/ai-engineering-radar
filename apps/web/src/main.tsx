@@ -279,7 +279,7 @@ function Dashboard({ d }: { d: Dataset }) {
               <span />
             </div>
             {!topics.length && (
-              <p className="empty">No topics match your search.</p>
+              <p className="empty">{verified.length ? "No topics match your search." : "No verified observations have been collected yet."}</p>
             )}
             {topics.map((t, i) => {
               const open = expanded === t.id,
@@ -543,6 +543,7 @@ function Dashboard({ d }: { d: Dataset }) {
                   Largest publisher share:{" "}
                   {Math.round(
                     (Math.max(
+                      0,
                       ...d.sources.map(
                         (s) =>
                           verified.filter((x) => x.sourceId === s.id).length,

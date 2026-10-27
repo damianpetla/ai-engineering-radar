@@ -1,5 +1,7 @@
 # AI Engineering Radar
 
+[Open the live dashboard](https://damianpetla.github.io/ai-engineering-radar/) · [Source repository](https://github.com/damianpetla/ai-engineering-radar)
+
 A public, evidence-based observatory of AI engineering practices. One analytical dashboard, real source evidence, transparent historical coverage, no adoption recommendations.
 
 Product authority: [specification 1.1](docs/spec-v1.1.txt). [Architecture](docs/architecture.md) · [Methodology](docs/methodology.md) · [Evidence policy](docs/editorial-policy.md) · [Operations](docs/operations.md).
@@ -34,6 +36,6 @@ Collection requires public network access and no API keys. The pipeline fetches 
 
 ## Hosting and automation
 
-`dist/` is portable static output. The initial Sites deployment is declared in `.openai/hosting.json`. GitHub Actions files configure validation, Pages deployment, and collection approximately every three days, with manual dispatch. Activation and verified status are tracked in [operations](docs/operations.md). Do not assume that workflow files alone establish that automation is running.
+`dist/` is portable static output. The Sites forwarding address is declared in `.openai/hosting.json`. GitHub Actions files configure validation, Pages deployment, and collection approximately every three days, with manual dispatch. Activation and verified status are tracked in [operations](docs/operations.md). Do not assume that workflow files alone establish that automation is running.
 
 Shareable selection: `/?topic=mcp-tool-integration`. With project-path hosting, retain the project path before the query string. No external service credentials are shipped to the browser. Optional infrastructure costs require owner approval.
