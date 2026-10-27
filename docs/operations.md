@@ -42,3 +42,17 @@ Implementation and deployment checks are recorded here after the final productio
 Initial production build/deployment passed GitHub Actions and returned HTTP 200 over public HTTPS. Initial redundant validation was superseded after a stalled browser download; the final revision is checked independently. Local release checks include 14 domain/integration tests and six desktop/mobile browser tests.
 
 Browser installation uses Playwright’s headless-shell-only mode because tests run headless Chromium. Collection does not install a second browser: reusable deployment owns the browser gate. This removes a redundant large download from every collection run.
+
+## Verified delivery — 27 October 2026
+
+- Public HTTPS dashboard: https://damianpetla.github.io/ai-engineering-radar/ (HTTP 200; desktop and mobile interaction suites passed against production).
+- Audited initial corpus: 26 verified original publications across 10 observed topics and four contributing independent publisher groups, dated 6 May–20 October 2026. Seven approved publishers are in the registry; registry membership is not a signal.
+- Successful cloud refresh at `2026-10-27T18:17:14.486Z`: all feed/index/archive adapters ran, zero duplicate/new signals were admitted, and verified record identities remained stable.
+- Full collection, commit, browser-test, and publication cycle passed: https://github.com/damianpetla/ai-engineering-radar/actions/runs/40558436953 . Its data commit is `73e948d`.
+- Release deployment passed: https://github.com/damianpetla/ai-engineering-radar/actions/runs/40558405147 . Earlier audited revision validation passed: https://github.com/damianpetla/ai-engineering-radar/actions/runs/40557450218 .
+- 14 domain/integration tests and six browser tests pass locally. Production browser tests cover both viewport sizes, URL refresh/history, inline expansion, range/search/dialog controls, HTTPS evidence, runtime errors, and page overflow.
+- Independent Python counting audit confirmed 26 unique primary URLs and per-topic publisher/count totals against the domain aggregation.
+
+Main-branch validation runs type/schema/domain/integration checks. Deployment owns the main-branch browser gate; PR validation additionally runs browsers before merge. This avoids duplicating browser downloads on every main-branch commit while retaining browser checks before production publication.
+
+All historical coverage remains partial. Initial trend percentages are intentionally unavailable. One independent practitioner contributes most of the corpus; the source dialog exposes concentration. OpenAI original pages currently deny the collector, so their feed candidates remain review-only. AWS’s available candidate excerpt did not match its primary page and was excluded. Automatic collection never asserts production usage.
