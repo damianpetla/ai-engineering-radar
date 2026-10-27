@@ -18,7 +18,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm verify
-      - run: pnpm exec playwright install --with-deps --only-shell chromium
+      - run: bash scripts/prepare-ci-browser.sh
         if: github.event_name == 'pull_request'
       - run: pnpm test:e2e
         if: github.event_name == 'pull_request'

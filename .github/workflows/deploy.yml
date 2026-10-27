@@ -29,7 +29,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm verify
-      - run: pnpm exec playwright install --with-deps --only-shell chromium
+      - run: bash scripts/prepare-ci-browser.sh
       - run: pnpm test:e2e
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
