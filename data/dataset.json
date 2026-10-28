@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-10-27T18:59:43.612Z",
+  "updatedAt": "2026-10-28T12:50:29.365Z",
   "sources": [
     {
       "id": "openai",
@@ -6641,91 +6641,91 @@
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1327 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1331 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 41 discovered URLs; 25 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 54 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 24 discovered URLs; 22 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 17 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 48 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 760 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 624 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 625 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 16 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-10-27T18:59:43.612Z",
+      "end": "2026-10-28T12:50:29.365Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 26 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }

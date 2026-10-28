@@ -66,18 +66,13 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/greptile-code-review-codex-astra",
-    "reason": "HTTP 403: https://openai.com/index/greptile-code-review-codex-astra"
+    "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+    "reason": "HTTP 403: https://openai.com/index/legora-agentic-operating-system-for-legal-work"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-    "reason": "HTTP 403: https://openai.com/index/oracle-apps-in-chatgpt"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
-    "reason": "Secondary attribution requires review"
+    "url": "https://openai.com/index/retell-ai",
+    "reason": "HTTP 403: https://openai.com/index/retell-ai"
   },
   {
     "sourceId": "simon",
@@ -102,6 +97,11 @@
   {
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Oct/26/jason-koebler",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
     "reason": "Secondary attribution requires review"
   },
   {
