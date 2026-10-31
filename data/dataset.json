@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-10-28T12:50:29.365Z",
+  "updatedAt": "2026-10-31T12:23:09.338Z",
   "sources": [
     {
       "id": "openai",
@@ -5155,6 +5155,31 @@
       }
     },
     {
+      "id": "b6f07f3658f98167693e",
+      "sourceId": "mcp",
+      "canonicalUrl": "https://blog.modelcontextprotocol.io/posts/ruby-sdk-tier-1",
+      "title": "The Official Ruby SDK for MCP Reaches Tier 1",
+      "publishedAt": "2026-09-29T09:00:00.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "The official Ruby SDK for the Model Context Protocol is now a Tier 1 SDK, as recorded in the Tier 1 assessment under the SDK tiering system. Ruby joins TypeScript, Python, C#, Go, and Rust as the sixth Tier 1 SDK, meeting the tier’s requirements for full feature support, a 100% conformance pass rate…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from blog.modelcontextprotocol.io; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-09-29T09:00:00+00:00, second precision). Discovery: https://blog.modelcontextprotocol.io/index.xml. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "852e2fc9d27dc9c38f7eb430b19e0778b7bf8fbfb54fd1085188034dcb246c5d",
+      "excerpt": "The official Ruby SDK for the Model Context Protocol is now a Tier 1 SDK, as recorded in the Tier 1 assessment under the SDK tiering system. Ruby joins TypeScript, Python, C#, Go, and Rust as the sixth Tier 1 SDK, meeting the tier’s requirements for full feature support, a 100% conformance pass rate",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-09-29T09:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-09-29T09:00:00+00:00",
+        "feedValue": "Tue, 29 Sep 2026 09:00:00 +0000"
+      }
+    },
+    {
       "id": "bbc02058f544d672ad52",
       "sourceId": "cloudflare",
       "canonicalUrl": "https://blog.cloudflare.com/ai-driven-cryptography-discovery",
@@ -6635,99 +6660,537 @@
         "raw": "2026-10-27T16:45:00.000Z",
         "feedValue": "Tue, 27 Oct 2026 17:05:05 GMT"
       }
+    },
+    {
+      "id": "d65abdeddeb47aa14247",
+      "sourceId": "vercel",
+      "canonicalUrl": "https://vercel.com/blog/ai-gateway-virtual-models",
+      "title": "Introducing Virtual Models on AI Gateway",
+      "publishedAt": "2026-10-28T07:25:00.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the I…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from vercel.com; navigation, related stories, and footer content excluded. Publication date: visible-date (2026-10-28T07:25+00:00, second precision). Discovery: https://vercel.com/atom. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "bc175145e96cf3ffc1ce6991d24311f336d53467096641e8a4c4c66816747d5b",
+      "excerpt": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the I",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-28T07:25:00.000Z",
+        "basis": "visible-date",
+        "precision": "second",
+        "raw": "2026-10-28T07:25+00:00"
+      }
+    },
+    {
+      "id": "70f2bbbd704a353daaa0",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
+      "title": "The October inflection point for vibe game development",
+      "publishedAt": "2026-10-28T13:55:15.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we’ve reached a new inflection point in October 2…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-10-28T13:55:15+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "3b21d4d20eea5208c1bfed7c2938ebcbbdd46c252810b16bd82feb2f4c8a8607",
+      "excerpt": "I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we’ve reached a new inflection point in October 2",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-28T13:55:15.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-10-28T13:55:15+00:00",
+        "feedValue": "2026-10-28T13:55:15+00:00"
+      }
+    },
+    {
+      "id": "b017db0483658dfcca18",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+      "title": "Building Evidence-Grounded Agent Memory with OpenWiki and Graphs",
+      "publishedAt": "2026-10-28T17:24:00.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-memory"
+      ],
+      "type": "technical-explanation",
+      "summary": "Agents working across an organization’s policies, manuals, wikis, tickets, and code must navigate knowledge scattered across systems and teams. Finding a relevant passage is only the start. They also need to determine which rules apply, what has changed, and how one source affects another.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-28T17:24:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agentic coding, Agent memory. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "49e5f1e4c9792c9d80fe0f325db53f35375b32d1f2c7982cca053aeaacf18292",
+      "excerpt": "Agents working across an organization’s policies, manuals, wikis, tickets, and code must navigate knowledge scattered across systems and teams. Finding a relevant passage is only the start. They also need to determine which rules apply, what has changed, and how one source affects another.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-28T17:24:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-28T17:24:00.000Z",
+        "feedValue": "Wed, 28 Oct 2026 17:28:42 GMT"
+      }
+    },
+    {
+      "id": "a15f6ab37c7893ad7440",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore",
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "publishedAt": "2026-10-28T18:28:26.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agent-sandboxing",
+        "mcp-tool-integration",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "If you’ve tried to get an agent into production, the model and tool use are not the blocker. The main bottleneck is everything around them: how many teams can build within a secure environment, which team owns each model and tool, how AgentOps and error handling stay inside a pre-defined boundary, a…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-28T10:28:26-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent sandboxing, MCP tool integration, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "58b0d943b8d055e1f4a6f1b0a863520be8f1f4d57bb0ecff7293c838084decef",
+      "excerpt": "If you’ve tried to get an agent into production, the model and tool use are not the blocker. The main bottleneck is everything around them: how many teams can build within a secure environment, which team owns each model and tool, how AgentOps and error handling stay inside a pre-defined boundary, a",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-28T18:28:26.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-28T10:28:26-08:00",
+        "feedValue": "Wed, 28 Oct 2026 18:28:26 +0000"
+      }
+    },
+    {
+      "id": "294065a437e0406cd45d",
+      "sourceId": "armin",
+      "canonicalUrl": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices",
+      "title": "Custom Voices With Qwen3-TTS",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "With my kids I’m currently building a little dungeron crawler and we’re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from lucumr.pocoo.org; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T00:00:00, day precision). Discovery: https://lucumr.pocoo.org/feed.atom. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "ea7a507f5b1db7511b0d21c2904522064c775b65da3004056946472acdf3c469",
+      "excerpt": "With my kids I’m currently building a little dungeron crawler and we’re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T00:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "day",
+        "raw": "2026-10-29T00:00:00",
+        "feedValue": "2026-10-29T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "ff8139f06200d45dfb67",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/browser-use-in-managed-deep-agents",
+      "title": "Browser Use in Managed Deep Agents",
+      "publishedAt": "2026-10-29T15:00:00.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-sandboxing",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Agents have gotten good enough to work where we work, and a lot of that work happens in a browser. Booking travel, canceling a subscription, or filing a claim all happen on sites built for people clicking through pages, including ones the agent didn't plan to visit. Often there's no API an agent can…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T15:00:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agentic coding, Agent sandboxing, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c081e79ac9ba1592e884298de540938482ffb04e1725b504b4e736626bb3f26c",
+      "excerpt": "Agents have gotten good enough to work where we work, and a lot of that work happens in a browser. Booking travel, canceling a subscription, or filing a claim all happen on sites built for people clicking through pages, including ones the agent didn't plan to visit. Often there's no API an agent can",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T15:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-29T15:00:00.000Z",
+        "feedValue": "Thu, 29 Oct 2026 16:45:29 GMT"
+      }
+    },
+    {
+      "id": "a9b9a484569ff3374252",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks",
+      "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+      "publishedAt": "2026-10-29T16:11:08.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agent-evaluation",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "NVIDIA Nemotron 3.5 Super VL joins the NVIDIA Nemotron 3 Nano, Nano Omni, Super, Ultra, and Nemotron 3.5 Lightning models already available on AWS. It’s a 120B-parameter mixture-of-experts (MoE) model that activates 12B parameters per token. It combines reasoning and tool use with text, image, docum…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T08:11:08-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent evaluation, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "fcd2b2501cecc079b50383243c571a673d6c5b7f731e85f99c123b4a9e6620bd",
+      "excerpt": "NVIDIA Nemotron 3.5 Super VL joins the NVIDIA Nemotron 3 Nano, Nano Omni, Super, Ultra, and Nemotron 3.5 Lightning models already available on AWS. It’s a 120B-parameter mixture-of-experts (MoE) model that activates 12B parameters per token. It combines reasoning and tool use with text, image, docum",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T16:11:08.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-29T08:11:08-08:00",
+        "feedValue": "Thu, 29 Oct 2026 16:11:08 +0000"
+      }
+    },
+    {
+      "id": "572d42d7bf6d0efe0ab6",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+      "title": "Managed Deep Agents v0.10: Browser use and asynchronous subagents",
+      "publishedAt": "2026-10-29T16:54:00.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding",
+        "multi-agent-orchestration",
+        "agent-sandboxing",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Managed Deep Agents v0.10 is out today. It adds browser use, so your agent can work on websites that have no API, and async subagents, which run long tasks in the background while your agent keeps talking to you.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T16:54:00.000Z, second precision). Feed publication day differs; original date corroborated in the publication header (October 29, 2026). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agentic coding, Multi-agent orchestration, Agent sandboxing, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "da9d6bfb952e84fd6b6077e8ff4cfb6f94532b11b53ab978a47ea49a1ca4dc6e",
+      "excerpt": "Managed Deep Agents v0.10 is out today. It adds browser use, so your agent can work on websites that have no API, and async subagents, which run long tasks in the background while your agent keeps talking to you.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T16:54:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-29T16:54:00.000Z",
+        "feedValue": "Fri, 30 Oct 2026 16:49:51 GMT",
+        "corroboratingDate": "October 29, 2026"
+      }
+    },
+    {
+      "id": "1dda19717c518d488a54",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "publishedAt": "2026-10-29T16:54:52.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "When engineering teams start building AI agents, the capabilities those agents need usually already exist as internal APIs. Campaign creation, segment queries, delivery stats. The challenge isn’t building new functionality. The challenge is making hundreds of private APIs safely reachable by agents…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T08:54:52-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "e0431ba44fef46d2c4ea367269256eb4148eead8c8b2fc55d8e8a4749f30334c",
+      "excerpt": "When engineering teams start building AI agents, the capabilities those agents need usually already exist as internal APIs. Campaign creation, segment queries, delivery stats. The challenge isn’t building new functionality. The challenge is making hundreds of private APIs safely reachable by agents",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T16:54:52.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-29T08:54:52-08:00",
+        "feedValue": "Thu, 29 Oct 2026 16:54:52 +0000"
+      }
+    },
+    {
+      "id": "e65fcafff408f8083fa1",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "publishedAt": "2026-10-29T17:00:26.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "How I Built the Most AI-Pilled Company in the World. Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-10-29T17:00:26+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "dc02b3c230c1f729b5061bc08c366712d7dc5a59547523d1c3a841c76d2bc5f6",
+      "excerpt": "How I Built the Most AI-Pilled Company in the World. Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T17:00:26.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-10-29T17:00:26+00:00",
+        "feedValue": "2026-10-29T17:00:26+00:00"
+      }
+    },
+    {
+      "id": "364e712e0335d807c83b",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "publishedAt": "2026-10-29T18:20:27.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "To scale intent-driven UI testing across its product teams, Epsilon, a data, technology, and marketing-services company and part of Publicis Groupe, turned to Amazon Nova Act. With hundreds of millions of consumer profiles and thousands of brand relationships, Epsilon needed UI testing that could ke…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T10:20:27-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "ef9464191d3d1251969c70ae7ba3171e796a790221c55c09ee7d69b06a8a8d72",
+      "excerpt": "To scale intent-driven UI testing across its product teams, Epsilon, a data, technology, and marketing-services company and part of Publicis Groupe, turned to Amazon Nova Act. With hundreds of millions of consumer profiles and thousands of brand relationships, Epsilon needed UI testing that could ke",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T18:20:27.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-29T10:20:27-08:00",
+        "feedValue": "Thu, 29 Oct 2026 18:20:27 +0000"
+      }
+    },
+    {
+      "id": "dc6fc3af3c8a0ac8cf59",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "publishedAt": "2026-10-29T20:16:40.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "The Amazon Quick User Group – United Kingdom is a community of Amazon Quick users in the United Kingdom who meet quarterly to exchange knowledge, share best practices, learn through hands-on sessions, and discuss their experiences using the service. These user groups function as collaborative forums…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-29T12:16:40-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Multi-agent orchestration, Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c7732137581f461c3fbaa0d7cb56e63bc85fdad91006b66aec088e5aacc71ba3",
+      "excerpt": "The Amazon Quick User Group – United Kingdom is a community of Amazon Quick users in the United Kingdom who meet quarterly to exchange knowledge, share best practices, learn through hands-on sessions, and discuss their experiences using the service. These user groups function as collaborative forums",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-29T20:16:40.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-29T12:16:40-08:00",
+        "feedValue": "Thu, 29 Oct 2026 20:16:40 +0000"
+      }
+    },
+    {
+      "id": "0482324588c177e433a1",
+      "sourceId": "cloudflare",
+      "canonicalUrl": "https://blog.cloudflare.com/private-origins-public-to-private",
+      "title": "Cloudflare services for private origins is now generally available",
+      "publishedAt": "2026-10-30T14:23:43.668Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Today, Cloudflare services for private origins is generally available. Point a proxied DNS record at a private IP, and Cloudflare reaches the origin over your existing Cloudflare One connection. Your origin stays private, while web application firewall (WAF), caching, bot management, and Workers wor…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from blog.cloudflare.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-30T14:23:43.668Z, second precision). Discovery: https://blog.cloudflare.com/rss/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "13b7aeb8d4da8f588d0d62a771d62ab8bc63fc3cb9e308808bc126bd9c6e8d48",
+      "excerpt": "Today, Cloudflare services for private origins is generally available. Point a proxied DNS record at a private IP, and Cloudflare reaches the origin over your existing Cloudflare One connection. Your origin stays private, while web application firewall (WAF), caching, bot management, and Workers wor",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-30T14:23:43.668Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-30T14:23:43.668Z",
+        "feedValue": "Fri, 30 Oct 2026 14:23:43 GMT"
+      }
+    },
+    {
+      "id": "30feb7a6b056dc5f2e38",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us",
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "publishedAt": "2026-10-30T17:27:45.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-sandboxing",
+        "agent-memory",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US), providing access to OpenAI’s frontier models through two components. Work completes complex, multi-step tasks and delivers review-ready results, and Codex is a coding agent for developing, testing, and reviewing softwar…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-30T09:27:45-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding, Agent sandboxing, Agent memory, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "a2da97eefacd3c45ce190b854ef189c230f4f03031862cea68a22d515c979b04",
+      "excerpt": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US), providing access to OpenAI’s frontier models through two components. Work completes complex, multi-step tasks and delivers review-ready results, and Codex is a coding agent for developing, testing, and reviewing softwar",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-30T17:27:45.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-30T09:27:45-08:00",
+        "feedValue": "Fri, 30 Oct 2026 17:27:45 +0000"
+      }
+    },
+    {
+      "id": "7dcc9758baf5cb29b362",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "publishedAt": "2026-10-30T17:32:20.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "multi-agent-orchestration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Worldwide Express (part of ShipStation Global) had built something big: approximately $5 billion in systemwide revenue, over 75 less-than-truckload (LTL) carriers and more than 130,000 customers. But that same scale had a hidden cost. Every month, $15 million in free cash flow sat frozen, locked in…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-30T09:32:20-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Multi-agent orchestration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "e57d2df378b6a908be73a1f5d3e8d705fbc7fed68695dc853840cfbf7e6f1344",
+      "excerpt": "Worldwide Express (part of ShipStation Global) had built something big: approximately $5 billion in systemwide revenue, over 75 less-than-truckload (LTL) carriers and more than 130,000 customers. But that same scale had a hidden cost. Every month, $15 million in free cash flow sat frozen, locked in",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-30T17:32:20.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-30T09:32:20-08:00",
+        "feedValue": "Fri, 30 Oct 2026 17:32:20 +0000"
+      }
+    },
+    {
+      "id": "24c1285ad5edaaad29cb",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "publishedAt": "2026-10-30T21:40:03.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Coding agents now build working web apps: a dashboard, a product page, a prototype that a product team wants to try. The fastest way to review that work is to open the app, use it, ask for a change, and check the result. That loop works well when the app keeps running where the agent edits it, so ea…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-30T13:40:03-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "19a288ddf934e2c2d6cd35110bc83246cd25646bd6ed6e2cf944a8164b161c58",
+      "excerpt": "Coding agents now build working web apps: a dashboard, a product page, a prototype that a product team wants to try. The fastest way to review that work is to open the app, use it, ask for a change, and check the result. That loop works well when the app keeps running where the agent edits it, so ea",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-30T21:40:03.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-30T13:40:03-08:00",
+        "feedValue": "Fri, 30 Oct 2026 21:40:03 +0000"
+      }
+    },
+    {
+      "id": "7f9f135df680a48af008",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams",
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "publishedAt": "2026-10-30T22:42:24.000Z",
+      "observedAt": "2026-10-31T12:23:09.338Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Cost management for generative AI is a shared responsibility between the teams that build applications and the teams accountable for cloud spend. Many teams start by comparing per-model token rates and asking application teams to shorten prompts. Those steps help, but they don’t answer the questions…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-10-30T14:42:24-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "2edeab98ae858ab04ca634550a36e94e3a8016633d5c044efafa086dd073fa69",
+      "excerpt": "Cost management for generative AI is a shared responsibility between the teams that build applications and the teams accountable for cloud spend. Many teams start by comparing per-model token rates and asking application teams to shorten prompts. Those steps help, but they don’t answer the questions",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-30T22:42:24.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-10-30T14:42:24-08:00",
+        "feedValue": "Fri, 30 Oct 2026 22:42:24 +0000"
+      }
     }
   ],
   "coverage": [
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1331 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1340 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 7 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 41 discovered URLs; 25 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 41 discovered URLs; 28 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 54 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 24 discovered URLs; 22 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 17 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 9 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 48 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 50 new originals examined, 3 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 760 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 763 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 625 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 629 discovered URLs; 13 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-index. 16 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-index. 16 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-10-28T12:50:29.365Z",
+      "end": "2026-10-31T12:23:09.338Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 26 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 27 discovered URLs; 1 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }
   ]
 }

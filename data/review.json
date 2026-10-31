@@ -66,18 +66,13 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-    "reason": "HTTP 403: https://openai.com/index/legora-agentic-operating-system-for-legal-work"
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "reason": "HTTP 403: https://openai.com/index/community-safety-report-and-new-protections-for-teens"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/retell-ai",
-    "reason": "HTTP 403: https://openai.com/index/retell-ai"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
-    "reason": "Possible shared event/syndication with https://www.anthropic.com/research/redesigning-source-control; attribution review required"
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "reason": "HTTP 403: https://openai.com/index/helping-websites-express-ai-training-preferences"
   },
   {
     "sourceId": "simon",
@@ -101,7 +96,17 @@
   },
   {
     "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
     "reason": "Secondary attribution requires review"
   },
   {
@@ -147,11 +152,6 @@
   {
     "sourceId": "vercel",
     "url": "https://vercel.com/blog/how-conductor-moved-parallel-coding-agents-from-the-laptop-to-the-cloud-with-vercel-sandbox",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-general-intelligence-used-agents-to-build-an-agent-platform-on-vercel",
     "reason": "Canonical URL differs; attribution/duplicate review required"
   },
   {

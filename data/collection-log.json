@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-10-28T12:50:29.365Z",
+  "observedAt": "2026-10-31T12:23:09.338Z",
   "mode": "incremental",
   "extractionVersion": "article-body-v3",
   "logs": [
@@ -9,11 +9,11 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 1331,
+      "discovered": 1340,
       "examined": 2,
       "added": 0,
       "unmatched": 0,
-      "outsideWindow": 983,
+      "outsideWindow": 984,
       "rejected": 2,
       "accessRestricted": true,
       "truncated": true
@@ -26,8 +26,8 @@
       ],
       "discovered": 10,
       "examined": 7,
-      "added": 0,
-      "unmatched": 7,
+      "added": 1,
+      "unmatched": 6,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -41,11 +41,11 @@
         "publisher-monthly-authored-archive"
       ],
       "discovered": 41,
-      "examined": 25,
-      "added": 0,
+      "examined": 28,
+      "added": 2,
       "unmatched": 11,
       "outsideWindow": 0,
-      "rejected": 14,
+      "rejected": 15,
       "accessRestricted": false,
       "truncated": false
     },
@@ -101,9 +101,9 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 12,
-      "added": 0,
-      "unmatched": 12,
+      "examined": 18,
+      "added": 9,
+      "unmatched": 9,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -116,10 +116,10 @@
         "publisher-feed"
       ],
       "discovered": 100,
-      "examined": 48,
-      "added": 0,
-      "unmatched": 4,
-      "outsideWindow": 39,
+      "examined": 50,
+      "added": 3,
+      "unmatched": 5,
+      "outsideWindow": 37,
       "rejected": 5,
       "accessRestricted": false,
       "truncated": false
@@ -130,10 +130,10 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 760,
-      "examined": 12,
+      "discovered": 763,
+      "examined": 13,
       "added": 0,
-      "unmatched": 12,
+      "unmatched": 13,
       "outsideWindow": 696,
       "rejected": 0,
       "accessRestricted": false,
@@ -145,12 +145,12 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 625,
+      "discovered": 629,
       "examined": 13,
-      "added": 0,
+      "added": 1,
       "unmatched": 5,
-      "outsideWindow": 547,
-      "rejected": 8,
+      "outsideWindow": 548,
+      "rejected": 7,
       "accessRestricted": false,
       "truncated": false
     },
@@ -161,9 +161,9 @@
         "publisher-index"
       ],
       "discovered": 16,
-      "examined": 6,
+      "examined": 7,
       "added": 0,
-      "unmatched": 5,
+      "unmatched": 6,
       "outsideWindow": 1,
       "rejected": 0,
       "accessRestricted": false,
@@ -177,8 +177,8 @@
       ],
       "discovered": 20,
       "examined": 12,
-      "added": 0,
-      "unmatched": 12,
+      "added": 1,
+      "unmatched": 11,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -190,9 +190,9 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 26,
-      "examined": 0,
-      "added": 0,
+      "discovered": 27,
+      "examined": 1,
+      "added": 1,
       "unmatched": 0,
       "outsideWindow": 20,
       "rejected": 0,
