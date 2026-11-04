@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-10-31T12:23:09.338Z",
+  "updatedAt": "2026-11-04T14:28:40.425Z",
   "sources": [
     {
       "id": "openai",
@@ -7098,99 +7098,412 @@
         "raw": "2026-10-30T14:42:24-08:00",
         "feedValue": "Fri, 30 Oct 2026 22:42:24 +0000"
       }
+    },
+    {
+      "id": "f5efa1f91d2ffd55f1d9",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
+      "title": "New context engineering challenges in late 2026",
+      "publishedAt": "2026-11-02T16:51:00.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "context-engineering",
+        "harness-engineering",
+        "agentic-coding",
+        "multi-agent-orchestration",
+        "agent-sandboxing",
+        "agent-memory"
+      ],
+      "type": "technical-explanation",
+      "summary": "It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this - came out over a year and a half ago. Deep Agents, our agent harness, launched over a year ago. Thi…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-02T16:51:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Context engineering, Harness engineering, Agentic coding, Multi-agent orchestration, Agent sandboxing, Agent memory. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "e5620a3a2c54aafe78ce2eeb45bcfce164c181a2f81ebb1ecd7ff938c639abe4",
+      "excerpt": "It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox. Claude Code - perhaps the first high profile manifestation of this - came out over a year and a half ago. Deep Agents, our agent harness, launched over a year ago. Thi",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-02T16:51:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-02T16:51:00.000Z",
+        "feedValue": "Mon, 02 Nov 2026 20:35:55 GMT"
+      }
+    },
+    {
+      "id": "4cb0c7e800cdcdc0ecc7",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
+      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "publishedAt": "2026-11-02T17:00:58.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "This post was co-written with Marek Klatowicz, Cloud DevOps Engineer at Circle K.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-02T09:00:58-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "2e5c9ab32b07c87307f84b30619f756665453020aed0da927043d76933629ea9",
+      "excerpt": "This post was co-written with Marek Klatowicz, Cloud DevOps Engineer at Circle K.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-02T17:00:58.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-02T09:00:58-08:00",
+        "feedValue": "Mon, 02 Nov 2026 17:00:58 +0000"
+      }
+    },
+    {
+      "id": "046f31786bb677e60806",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore",
+      "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-02T17:01:16.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-evaluation",
+        "multi-agent-orchestration",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "When a qualified aerospace component goes obsolete or hits a long lead time, an engineer spends days cross-referencing specifications across vendor datasheets, interface control documents (ICDs), and qualification records before documenting a substitution justification for review. An incorrect subst…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-02T09:01:16-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent evaluation, Multi-agent orchestration, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "cdb0a6d7a74eddadb6d64f370ea1777a2f22503705c7f16ce0f2c3bb187ad0cd",
+      "excerpt": "When a qualified aerospace component goes obsolete or hits a long lead time, an engineer spends days cross-referencing specifications across vendor datasheets, interface control documents (ICDs), and qualification records before documenting a substitution justification for review. An incorrect subst",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-02T17:01:16.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-02T09:01:16-08:00",
+        "feedValue": "Mon, 02 Nov 2026 17:01:16 +0000"
+      }
+    },
+    {
+      "id": "7e203c274434cb6cae50",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "publishedAt": "2026-11-02T17:01:31.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "You built a shopping assistant on a frontier model, and it works. A shopper asks for “a black waist bag under twenty dollars from a shop with at least 4.5 stars,” and the agent searches the catalog, inspects candidates, checks the constraints, and commits to a recommendation. But what does that inte…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-02T09:01:31-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "9a45f55c2a605affffb36469db41ba6a8399105cf86690062497456e9fa91011",
+      "excerpt": "You built a shopping assistant on a frontier model, and it works. A shopper asks for “a black waist bag under twenty dollars from a shop with at least 4.5 stars,” and the agent searches the catalog, inspects candidates, checks the constraints, and commits to a recommendation. But what does that inte",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-02T17:01:31.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-02T09:01:31-08:00",
+        "feedValue": "Mon, 02 Nov 2026 17:01:31 +0000"
+      }
+    },
+    {
+      "id": "cb20cf085ba2cd3e4a92",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "publishedAt": "2026-11-02T17:11:21.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "When you build Retrieval Augmented Generation (RAG) applications, answer quality depends on the data that you ingest. Amazon Bedrock Knowledge Bases is the fully managed RAG capability of Amazon Bedrock. With Amazon Bedrock Managed Knowledge Base, you connect your data sources, and Amazon Bedrock ma…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-02T09:11:21-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "9c3827e94a201befd152a01f3287eeabccf583e462194be738a6ae61ca4567fe",
+      "excerpt": "When you build Retrieval Augmented Generation (RAG) applications, answer quality depends on the data that you ingest. Amazon Bedrock Knowledge Bases is the fully managed RAG capability of Amazon Bedrock. With Amazon Bedrock Managed Knowledge Base, you connect your data sources, and Amazon Bedrock ma",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-02T17:11:21.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-02T09:11:21-08:00",
+        "feedValue": "Mon, 02 Nov 2026 17:11:21 +0000"
+      }
+    },
+    {
+      "id": "449a5ebbef16a4baad1e",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+      "title": "How We Optimized Browser Use for Deep Agents",
+      "publishedAt": "2026-11-03T16:00:00.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "context-engineering",
+        "agentic-coding",
+        "agent-sandboxing",
+        "mcp-tool-integration",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "Browser agents can now take on multi-step work that's painful and time-consuming for people. Personal agents like Instinct and Meta's Muse plan cross-country road trips, cancel unused subscriptions, and list cars for sale, all on sites with no public APIs. DataDome saw agentic browser requests jump…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T16:00:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Context engineering, Agentic coding, Agent sandboxing, MCP tool integration, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "6e97233be079e31003c7274fae9eb49dc42610ade6db468a19ba092d7b90f1b6",
+      "excerpt": "Browser agents can now take on multi-step work that's painful and time-consuming for people. Personal agents like Instinct and Meta's Muse plan cross-country road trips, cancel unused subscriptions, and list cars for sale, all on sites with no public APIs. DataDome saw agentic browser requests jump",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T16:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T16:00:00.000Z",
+        "feedValue": "Tue, 03 Nov 2026 22:30:50 GMT"
+      }
+    },
+    {
+      "id": "0102caec8d7f80a0c4a3",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock",
+      "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
+      "publishedAt": "2026-11-03T16:32:54.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "Kimi K3 is a multi-modal, open-weight foundation model (FM) that provider Moonshot AI reported achieved frontier-level coding and general agentic intelligence at release.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T08:32:54-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "7c327032ca30ac298dec9db72631fa6d06284cc54a6cfdcb9df90b34d755bb35",
+      "excerpt": "Kimi K3 is a multi-modal, open-weight foundation model (FM) that provider Moonshot AI reported achieved frontier-level coding and general agentic intelligence at release.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T16:32:54.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T08:32:54-08:00",
+        "feedValue": "Tue, 03 Nov 2026 16:32:54 +0000"
+      }
+    },
+    {
+      "id": "feb2718171ef69510838",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore",
+      "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-03T16:41:13.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "In this post, we show how to build a semantic layer for agentic AI using EDB Postgres AI. We run a Strands Agents agent on Amazon Bedrock AgentCore that queries the layer to answer customer 360 (C360) questions. Earlier posts in this series built the same C360 pattern with Stardog’s knowledge graph,…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T08:41:13-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "75b6bbab1f9bf2e3a1bb560ae50ff547a82839a3524e375860c1ef90fa22a9a5",
+      "excerpt": "In this post, we show how to build a semantic layer for agentic AI using EDB Postgres AI. We run a Strands Agents agent on Amazon Bedrock AgentCore that queries the layer to answer customer 360 (C360) questions. Earlier posts in this series built the same C360 pattern with Stardog’s knowledge graph,",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T16:41:13.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T08:41:13-08:00",
+        "feedValue": "Tue, 03 Nov 2026 16:41:13 +0000"
+      }
+    },
+    {
+      "id": "b893963b25899acfe9a6",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search",
+      "title": "How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search",
+      "publishedAt": "2026-11-03T16:43:20.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "mcp-tool-integration",
+        "ai-testing"
+      ],
+      "type": "technical-explanation",
+      "summary": "Your professional reputation now lives online first. Recruiters check LinkedIn before returning a call. Clients review your digital presence before booking a first meeting. For ambitious professionals, that shift is an opportunity: a well-crafted online voice can open doors that a résumé alone never…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T08:43:20-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration, AI-native testing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "217400f22ae2a7d13a0e0a65046fe9ef859caf52e8f7aac1472c32262a969b8d",
+      "excerpt": "Your professional reputation now lives online first. Recruiters check LinkedIn before returning a call. Clients review your digital presence before booking a first meeting. For ambitious professionals, that shift is an opportunity: a well-crafted online voice can open doors that a résumé alone never",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T16:43:20.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T08:43:20-08:00",
+        "feedValue": "Tue, 03 Nov 2026 16:43:20 +0000"
+      }
+    },
+    {
+      "id": "ef37b1dfd26f981c9986",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway",
+      "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway",
+      "publishedAt": "2026-11-03T16:47:40.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "AI agents that interact with enterprise APIs on behalf of users need to maintain user identity throughout the request chain. Without identity propagation, API calls arrive at downstream services as the application itself rather than the user who initiated the action. This breaks audit trails, bypass…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T08:47:40-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "d890ba4040bdb3b8f591b587e96c9a77240412d10042bae6a9a56033d52d4bf4",
+      "excerpt": "AI agents that interact with enterprise APIs on behalf of users need to maintain user identity throughout the request chain. Without identity propagation, API calls arrive at downstream services as the application itself rather than the user who initiated the action. This breaks audit trails, bypass",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T16:47:40.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T08:47:40-08:00",
+        "feedValue": "Tue, 03 Nov 2026 16:47:40 +0000"
+      }
+    },
+    {
+      "id": "0d563c3f0bde1f8a8028",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/human-insight-strategic-advantage-agents",
+      "title": "Why human insight is a strategic advantage for building better agents",
+      "publishedAt": "2026-11-03T21:07:00.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-evaluation"
+      ],
+      "type": "technical-explanation",
+      "summary": "As agents take on longer, more complex tasks, evaluating their performance means looking beyond the final AI-generated answer. Human review plays an important role in agent development: it helps teams define what good looks like, evaluate performance in context, and turn expert judgment into data th…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T21:07:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agent evaluation. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "cdf615c50619738b19297bdeec15b86ff322d6e7f1137ad4676cc9d10797a1c4",
+      "excerpt": "As agents take on longer, more complex tasks, evaluating their performance means looking beyond the final AI-generated answer. Human review plays an important role in agent development: it helps teams define what good looks like, evaluate performance in context, and turn expert judgment into data th",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T21:07:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T21:07:00.000Z",
+        "feedValue": "Tue, 03 Nov 2026 21:48:04 GMT"
+      }
+    },
+    {
+      "id": "720b0d0c601883999bf5",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure",
+      "title": "LangSmith BYOC is now available on AWS, Azure, and Google Cloud",
+      "publishedAt": "2026-11-03T22:06:00.000Z",
+      "observedAt": "2026-11-04T14:28:40.425Z",
+      "topicIds": [
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "LangSmith Bring Your Own Cloud (BYOC) now runs on AWS (GA), Azure (Beta), and Google Cloud (Beta). Your traces, evals, datasets, prompts, and agent deployments stay in your own cloud account, on the cloud you choose, and LangChain manages the data plane for you, from orchestration and scaling to pla…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-03T22:06:00.000Z, second precision). Feed publication day differs; original date corroborated in the publication header (November 3, 2026). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c1a77f62ab6fb060dcc374cbe5a79a2dced368b91bea384018a1f8773e604c5b",
+      "excerpt": "LangSmith Bring Your Own Cloud (BYOC) now runs on AWS (GA), Azure (Beta), and Google Cloud (Beta). Your traces, evals, datasets, prompts, and agent deployments stay in your own cloud account, on the cloud you choose, and LangChain manages the data plane for you, from orchestration and scaling to pla",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-03T22:06:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-03T22:06:00.000Z",
+        "feedValue": "Wed, 04 Nov 2026 02:56:29 GMT",
+        "corroboratingDate": "November 3, 2026"
+      }
     }
   ],
   "coverage": [
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1340 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1352 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 7 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 41 discovered URLs; 28 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 34 discovered URLs; 23 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 54 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 24 discovered URLs; 22 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 17 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 9 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 8 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 50 new originals examined, 3 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 46 new originals examined, 4 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 763 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 765 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 629 discovered URLs; 13 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 632 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 16 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-10-31T12:23:09.338Z",
+      "end": "2026-11-04T14:28:40.425Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 27 discovered URLs; 1 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 27 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }
   ]
 }
