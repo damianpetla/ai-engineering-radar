@@ -1,5 +1,15 @@
 [
   {
+    "sourceId": "aws",
+    "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1",
+    "reason": "Possible shared event/syndication with https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2; attribution review required"
+  },
+  {
+    "sourceId": "github",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+    "reason": "No isolated article body"
+  },
+  {
     "sourceId": "github",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
     "reason": "Insufficient original article text"
@@ -26,17 +36,17 @@
   },
   {
     "sourceId": "github",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+    "reason": "No isolated article body"
+  },
+  {
+    "sourceId": "github",
     "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
     "reason": "No isolated article body"
   },
   {
     "sourceId": "github",
     "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
-    "reason": "No isolated article body"
-  },
-  {
-    "sourceId": "github",
-    "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
     "reason": "No isolated article body"
   },
   {
@@ -61,13 +71,13 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-    "reason": "HTTP 403: https://openai.com/index/accelerating-engineering-for-the-physical-world"
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "reason": "HTTP 403: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/cisco-cyber",
-    "reason": "HTTP 403: https://openai.com/index/cisco-cyber"
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "reason": "HTTP 403: https://openai.com/index/partnering-with-hacktron"
   },
   {
     "sourceId": "simon",
@@ -76,12 +86,12 @@
   },
   {
     "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
-    "reason": "Secondary attribution requires review"
+    "url": "https://simonwillison.net/2026/Nov/3/llm",
+    "reason": "Insufficient original article text"
   },
   {
     "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+    "url": "https://simonwillison.net/2026/Nov/6/nilay-patel",
     "reason": "Secondary attribution requires review"
   },
   {
@@ -132,11 +142,6 @@
   {
     "sourceId": "vercel",
     "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-superset-built-the-ide-for-ai-agents-on-vercel",
     "reason": "Canonical URL differs; attribution/duplicate review required"
   },
   {

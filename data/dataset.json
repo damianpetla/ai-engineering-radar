@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-11-04T14:28:40.425Z",
+  "updatedAt": "2026-11-07T12:56:43.144Z",
   "sources": [
     {
       "id": "openai",
@@ -7411,97 +7411,462 @@
         "feedValue": "Wed, 04 Nov 2026 02:56:29 GMT",
         "corroboratingDate": "November 3, 2026"
       }
+    },
+    {
+      "id": "83d7690781e8e88d5812",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore",
+      "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-04T16:23:33.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "U Mobile, Malaysia’s newest 5G network provider, has always run its telco operations lean, doing more with less through continuous automation. When new AI capabilities became available, U Mobile explored how to enhance operational efficiency beyond basic productivity gains. The real opportunity was…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-04T08:23:33-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "2dba1e9bb4efbfa31915fed0ead4c4f2ea66295956dddc1d282235a18637fb52",
+      "excerpt": "U Mobile, Malaysia’s newest 5G network provider, has always run its telco operations lean, doing more with less through continuous automation. When new AI capabilities became available, U Mobile explored how to enhance operational efficiency beyond basic productivity gains. The real opportunity was",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-04T16:23:33.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-04T08:23:33-08:00",
+        "feedValue": "Wed, 04 Nov 2026 16:23:33 +0000"
+      }
+    },
+    {
+      "id": "3ef6e5218bbc9326f7a5",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences",
+      "title": "How Indegene is modernizing and scaling enterprise data quality in life sciences",
+      "publishedAt": "2026-11-04T16:25:57.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "Enterprise AI is creating new opportunities for life sciences organizations to improve decision-making across commercial, medical, market access, and other business functions. But the quality of every AI model, dashboard, and business insight depends on one thing: trusted data. As enterprise data gr…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-04T08:25:57-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "78365357885cd7f163ee8282e7d9aa491555bd98658df4583339b1156ce9635b",
+      "excerpt": "Enterprise AI is creating new opportunities for life sciences organizations to improve decision-making across commercial, medical, market access, and other business functions. But the quality of every AI model, dashboard, and business insight depends on one thing: trusted data. As enterprise data gr",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-04T16:25:57.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-04T08:25:57-08:00",
+        "feedValue": "Wed, 04 Nov 2026 16:25:57 +0000"
+      }
+    },
+    {
+      "id": "20366c4b5aede8776073",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code",
+      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
+      "publishedAt": "2026-11-04T16:30:40.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "context-engineering",
+        "harness-engineering",
+        "multi-agent-orchestration",
+        "mcp-tool-integration",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "When production AI agents handle tasks such as data analysis and report generation, context management can become a major bottleneck. A 200K-token window sounds generous until a real-world task burns through most of it in minutes. Data analysis and report generation leave the agent failing mid-execu…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-04T08:30:40-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Context engineering, Harness engineering, Multi-agent orchestration, MCP tool integration, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "3b672a54d77a2d22c27cee31f0a26eebbe68fd7fd1eeb06c5cc61048738a6c1d",
+      "excerpt": "When production AI agents handle tasks such as data analysis and report generation, context management can become a major bottleneck. A 200K-token window sounds generous until a real-world task burns through most of it in minutes. Data analysis and report generation leave the agent failing mid-execu",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-04T16:30:40.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-04T08:30:40-08:00",
+        "feedValue": "Wed, 04 Nov 2026 16:30:40 +0000"
+      }
+    },
+    {
+      "id": "a87ec7a4b5e96d706fdb",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters",
+      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
+      "publishedAt": "2026-11-04T16:33:03.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "How should security leaders preserve human oversight as AI agents take on more work? Permissions establish which actions agents can take, but a permitted action can still warrant a person’s judgment. Requiring approval for every step might seem like the safest approach, yet multi-step tasks can prod…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-04T08:33:03-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "f306ab82ce71941775bcab41ac7f3c4926f9382f80bf14e59fbf4ee50ce04df7",
+      "excerpt": "How should security leaders preserve human oversight as AI agents take on more work? Permissions establish which actions agents can take, but a permitted action can still warrant a person’s judgment. Requiring approval for every step might seem like the safest approach, yet multi-step tasks can prod",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-04T16:33:03.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-04T08:33:03-08:00",
+        "feedValue": "Wed, 04 Nov 2026 16:33:03 +0000"
+      }
+    },
+    {
+      "id": "d32d8e40f63cd24bb752",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations",
+      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
+      "publishedAt": "2026-11-04T18:46:36.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "agent-evaluation"
+      ],
+      "type": "technical-explanation",
+      "summary": "Some of the questions you ask when evaluating an agent are narrow and repeatable. Did this response stay on policy? Is this tool call safe to approve? Does this answer match the retrieved context? Decision models answer exactly that kind of question. They take a structured state and a fixed set of a…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-04T10:46:36-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent evaluation. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "6f23eed7ce35c35fdae60b3c163b59a2253163c9c27c1314f3345ac7aa664d33",
+      "excerpt": "Some of the questions you ask when evaluating an agent are narrow and repeatable. Did this response stay on policy? Is this tool call safe to approve? Does this answer match the retrieved context? Decision models answer exactly that kind of question. They take a structured state and a fixed set of a",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-04T18:46:36.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-04T10:46:36-08:00",
+        "feedValue": "Wed, 04 Nov 2026 18:46:36 +0000"
+      }
+    },
+    {
+      "id": "9c4184d44164e0d704da",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/agents-are-going-async",
+      "title": "Agents Are Going Async",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "Imagine a chief of staff who disappears every time you hand them a big project and only comes back once it's done. You'd probably fire them immediately. A good chief of staff keeps projects moving in the background while staying reachable and keeping you updated along the way. As we ask agents to wo…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-05T20:00:00.000Z, second precision). Feed publication day differs; original date corroborated in the publication header (November 5, 2026). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Multi-agent orchestration, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "7078afe8c13af3d287f7a45551489bd5705e2762c89c2a9885090dae2ead0576",
+      "excerpt": "Imagine a chief of staff who disappears every time you hand them a big project and only comes back once it's done. You'd probably fire them immediately. A good chief of staff keeps projects moving in the background while staying reachable and keeping you updated along the way. As we ask agents to wo",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-05T20:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-05T20:00:00.000Z",
+        "feedValue": "Fri, 06 Nov 2026 13:12:53 GMT",
+        "corroboratingDate": "November 5, 2026"
+      }
+    },
+    {
+      "id": "614ec411e822a540898f",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore",
+      "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-05T21:04:24.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. With Web Answer, agent builders get a synthesized, source-cited answer to a natural-language question with a single tool call. They no longer build a search, retrieve, synthesize, and citation pipeline thems…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-05T13:04:24-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "44a9862822e2dc474a57ca4b3c4ec297afbc3de58c385d5d7ff7f4b4caebb24a",
+      "excerpt": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. With Web Answer, agent builders get a synthesized, source-cited answer to a natural-language question with a single tool call. They no longer build a search, retrieve, synthesize, and citation pipeline thems",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-05T21:04:24.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-05T13:04:24-08:00",
+        "feedValue": "Thu, 05 Nov 2026 21:04:24 +0000"
+      }
+    },
+    {
+      "id": "f0247d2be6d23fda2798",
+      "sourceId": "anthropic",
+      "canonicalUrl": "https://www.anthropic.com/research/components-of-agent-memory",
+      "title": "The components of agent memory",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "context-engineering",
+        "harness-engineering",
+        "agent-memory"
+      ],
+      "type": "technical-explanation",
+      "summary": "Søren Kierkegaard wrote that life can only be understood backward, but it must be lived forward. We’ve encountered a similar bind when designing memory for AI agents.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.anthropic.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T00:00:00.000Z, second precision). Discovery: https://www.anthropic.com/engineering. Literal topic phrases matched in article body: Context engineering, Harness engineering, Agent memory. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "e66b59be6ecac790203fd58485f0b796f4afa49d1f9b172a4f76edaccea0f036",
+      "excerpt": "Søren Kierkegaard wrote that life can only be understood backward, but it must be lived forward. We’ve encountered a similar bind when designing memory for AI agents.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T00:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "c09ed239791d8febad3d",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls",
+      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+      "publishedAt": "2026-11-06T16:45:58.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-sandboxing",
+        "ai-code-review",
+        "mcp-tool-integration",
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "You might already run Claude Code locally on your laptop, backed by Amazon Bedrock. This post shows how to go a step further: run it as a remote agent on Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. The sample uses AgentCore runti…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T08:45:58-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding, Agent sandboxing, AI-assisted code review, MCP tool integration, Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "5ef8140870fac3fcc7dae6ae3b6be72803b67a48d9a679e3c7c03c8904c08ee5",
+      "excerpt": "You might already run Claude Code locally on your laptop, backed by Amazon Bedrock. This post shows how to go a step further: run it as a remote agent on Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. The sample uses AgentCore runti",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T16:45:58.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T08:45:58-08:00",
+        "feedValue": "Fri, 06 Nov 2026 16:45:58 +0000"
+      }
+    },
+    {
+      "id": "8dc1ca775a3702bbbdcd",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore",
+      "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-06T16:49:42.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "Taxbit is a digital-asset tax and accounting compliance platform. Founded in 2018, Taxbit helps enterprises such as exchanges, payment services, and brokers calculate gains and losses, collect tax documentation, and file information returns at scale. Now, a cited, permission-aware AI assistant helps…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T08:49:42-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "09ef39257557bd80bd33b96be1be5592c918c187670db3ea7e4749012eb8860f",
+      "excerpt": "Taxbit is a digital-asset tax and accounting compliance platform. Founded in 2018, Taxbit helps enterprises such as exchanges, payment services, and brokers calculate gains and losses, collect tax documentation, and file information returns at scale. Now, a cited, permission-aware AI assistant helps",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T16:49:42.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T08:49:42-08:00",
+        "feedValue": "Fri, 06 Nov 2026 16:49:42 +0000"
+      }
+    },
+    {
+      "id": "39d0fa8ab15570a16f24",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore",
+      "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-06T16:55:05.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Greenlight Financial resolves more than 90 percent of up to 4,000 security and risk cases each month without human intervention. Greenlight’s Luna uses Amazon Bedrock AgentCore, infrastructure for building, connecting, and optimizing agents at scale. Specifically, Greenlight uses AgentCore runtime,…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T08:55:05-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Multi-agent orchestration, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "a3e6c7783e09192aa970d42728cca3a4e94ab9b29858697e1ceeb9096279a8ef",
+      "excerpt": "Greenlight Financial resolves more than 90 percent of up to 4,000 security and risk cases each month without human intervention. Greenlight’s Luna uses Amazon Bedrock AgentCore, infrastructure for building, connecting, and optimizing agents at scale. Specifically, Greenlight uses AgentCore runtime,",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T16:55:05.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T08:55:05-08:00",
+        "feedValue": "Fri, 06 Nov 2026 16:55:05 +0000"
+      }
+    },
+    {
+      "id": "e22092f79218deeb3820",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2",
+      "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+      "publishedAt": "2026-11-06T17:09:23.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "In Part 1, you built a task agent on Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. The agent runs on Amazon Bedrock AgentCore runtime, a capability of Amazon Bedrock AgentCore, and acts for signed-in users through Okta Cross App Ac…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T09:09:23-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "4dd7837fc910f7045905f777f9f378795cd0e416d6d65d8d1d0e587d6eb676a3",
+      "excerpt": "In Part 1, you built a task agent on Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. The agent runs on Amazon Bedrock AgentCore runtime, a capability of Amazon Bedrock AgentCore, and acts for signed-in users through Okta Cross App Ac",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T17:09:23.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T09:09:23-08:00",
+        "feedValue": "Fri, 06 Nov 2026 17:09:23 +0000"
+      }
+    },
+    {
+      "id": "1109c7dc5eeb22026df6",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate",
+      "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+      "publishedAt": "2026-11-06T17:13:13.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "mcp-tool-integration",
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "Organizations building applications powered by artificial intelligence (AI) face a recurring challenge: giving large language model (LLM) agents access to enterprise data lakes without duplicating integration logic across every agent and application. Most teams begin by wiring agents directly to dat…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T09:13:13-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Multi-agent orchestration, MCP tool integration, Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "ea0cb6750db1110ef5a8c4ea7839e877895b416cde81cba4d35366229e89f9c1",
+      "excerpt": "Organizations building applications powered by artificial intelligence (AI) face a recurring challenge: giving large language model (LLM) agents access to enterprise data lakes without duplicating integration logic across every agent and application. Most teams begin by wiring agents directly to dat",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T17:13:13.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T09:13:13-08:00",
+        "feedValue": "Fri, 06 Nov 2026 17:13:13 +0000"
+      }
+    },
+    {
+      "id": "2e5ff519dea4168bfd3f",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick",
+      "title": "Taxonomy of agentic primitives in Amazon Quick",
+      "publishedAt": "2026-11-06T17:34:45.000Z",
+      "observedAt": "2026-11-07T12:56:43.144Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Over the past year, as we built Amazon Quick, our agents went from answering questions to taking actions: scheduling meetings, running research, generating reports. As the system evolved, one problem kept resurfacing: there was no shared definition of the primitives that agentic work is built from.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-06T09:34:45-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Multi-agent orchestration, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "6039da7884ac13a14ee7237361404c0160ea5ca059fb454ae62afb21e32b6fac",
+      "excerpt": "Over the past year, as we built Amazon Quick, our agents went from answering questions to taking actions: scheduling meetings, running research, generating reports. As the system evolved, one problem kept resurfacing: there was no shared definition of the primitives that agentic work is built from.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-06T17:34:45.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-06T09:34:45-08:00",
+        "feedValue": "Fri, 06 Nov 2026 17:34:45 +0000"
+      }
     }
   ],
   "coverage": [
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1352 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1366 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 34 discovered URLs; 23 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 34 discovered URLs; 25 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 54 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 55 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 22 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 22 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 17 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 12 new originals examined, 8 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 17 new originals examined, 12 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 46 new originals examined, 4 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 42 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 765 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 767 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 632 discovered URLs; 12 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 632 discovered URLs; 11 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 16 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 14 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-11-04T14:28:40.425Z",
+      "end": "2026-11-07T12:56:43.144Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 27 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }
