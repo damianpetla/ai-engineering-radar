@@ -51,11 +51,6 @@
   },
   {
     "sourceId": "langchain",
-    "url": "https://www.langchain.com/blog/agents-round",
-    "reason": "Publisher feed and original page disagree on publication day"
-  },
-  {
-    "sourceId": "langchain",
     "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
     "reason": "Publisher feed and original page disagree on publication day"
   },
@@ -65,23 +60,28 @@
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
-    "sourceId": "langchain",
-    "url": "https://www.langchain.com/blog/retrieval",
-    "reason": "Publisher feed and original page disagree on publication day"
+    "sourceId": "openai",
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "reason": "HTTP 403: https://openai.com/index/closing-ai-guidance-gap-education"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-    "reason": "HTTP 403: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
-  },
-  {
-    "sourceId": "openai",
-    "url": "https://openai.com/index/partnering-with-hacktron",
-    "reason": "HTTP 403: https://openai.com/index/partnering-with-hacktron"
+    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "reason": "HTTP 403: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
   },
   {
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
     "reason": "Secondary attribution requires review"
   },
   {
@@ -96,21 +96,6 @@
   },
   {
     "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/26/jason-koebler",
-    "reason": "Secondary attribution requires review"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
-    "reason": "Secondary attribution requires review"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
-    "reason": "Secondary attribution requires review"
-  },
-  {
-    "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
     "reason": "Secondary attribution requires review"
   },
@@ -118,35 +103,5 @@
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
     "reason": "No grounded publication date (modification dates excluded)"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-conductor-moved-parallel-coding-agents-from-the-laptop-to-the-cloud-with-vercel-sandbox",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-okara-runs-cmo-agents-for-120000-companies-on-vercel",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
-  },
-  {
-    "sourceId": "vercel",
-    "url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
-    "reason": "Canonical URL differs; attribution/duplicate review required"
   }
 ]

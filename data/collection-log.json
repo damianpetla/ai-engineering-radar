@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-11-07T12:56:43.144Z",
+  "observedAt": "2026-11-10T14:50:27.538Z",
   "mode": "incremental",
   "extractionVersion": "article-body-v3",
   "logs": [
@@ -9,11 +9,11 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 1366,
+      "discovered": 1372,
       "examined": 2,
       "added": 0,
       "unmatched": 0,
-      "outsideWindow": 1004,
+      "outsideWindow": 1013,
       "rejected": 2,
       "accessRestricted": true,
       "truncated": true
@@ -42,10 +42,10 @@
       ],
       "discovered": 34,
       "examined": 25,
-      "added": 0,
-      "unmatched": 17,
+      "added": 2,
+      "unmatched": 16,
       "outsideWindow": 0,
-      "rejected": 8,
+      "rejected": 7,
       "accessRestricted": false,
       "truncated": false
     },
@@ -56,8 +56,8 @@
         "publisher-index"
       ],
       "discovered": 24,
-      "examined": 22,
-      "added": 1,
+      "examined": 21,
+      "added": 0,
       "unmatched": 0,
       "outsideWindow": 21,
       "rejected": 0,
@@ -101,8 +101,8 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 17,
-      "added": 12,
+      "examined": 10,
+      "added": 5,
       "unmatched": 4,
       "outsideWindow": 0,
       "rejected": 1,
@@ -116,11 +116,11 @@
         "publisher-feed"
       ],
       "discovered": 100,
-      "examined": 42,
-      "added": 1,
+      "examined": 40,
+      "added": 2,
       "unmatched": 5,
-      "outsideWindow": 32,
-      "rejected": 4,
+      "outsideWindow": 31,
+      "rejected": 2,
       "accessRestricted": false,
       "truncated": false
     },
@@ -134,7 +134,7 @@
       "examined": 13,
       "added": 0,
       "unmatched": 13,
-      "outsideWindow": 697,
+      "outsideWindow": 698,
       "rejected": 0,
       "accessRestricted": false,
       "truncated": false
@@ -145,12 +145,12 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 632,
-      "examined": 11,
+      "discovered": 15,
+      "examined": 1,
       "added": 0,
-      "unmatched": 5,
-      "outsideWindow": 548,
-      "rejected": 6,
+      "unmatched": 1,
+      "outsideWindow": 0,
+      "rejected": 0,
       "accessRestricted": false,
       "truncated": false
     },

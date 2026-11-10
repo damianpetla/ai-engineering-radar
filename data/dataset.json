@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-11-07T12:56:43.144Z",
+  "updatedAt": "2026-11-10T14:50:27.538Z",
   "sources": [
     {
       "id": "openai",
@@ -4003,6 +4003,32 @@
       }
     },
     {
+      "id": "19b2c00e70a40ab12dd6",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
+      "title": "LangSmith BYOC is now generally available on AWS",
+      "publishedAt": "2026-08-12T17:00:00.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "Today, LangSmith Bring Your Own Cloud (BYOC) is generally available on Amazon Web Services (AWS).…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-08-12T17:00:00.000Z, second precision). Feed publication day differs; original date corroborated in the publication header (August 12, 2026). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "d318597ba88f71ba6eb45b3a0fb8dd0d0a4fb9686585d48ed098eec3795c5dac",
+      "excerpt": "Today, LangSmith Bring Your Own Cloud (BYOC) is generally available on Amazon Web Services (AWS).",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-08-12T17:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-08-12T17:00:00.000Z",
+        "feedValue": "Mon, 09 Nov 2026 18:57:45 GMT",
+        "corroboratingDate": "August 12, 2026"
+      }
+    },
+    {
       "id": "3296e20cb70af929fc3a",
       "sourceId": "langchain",
       "canonicalUrl": "https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building",
@@ -7776,97 +7802,304 @@
         "raw": "2026-11-06T09:34:45-08:00",
         "feedValue": "Fri, 06 Nov 2026 17:34:45 +0000"
       }
+    },
+    {
+      "id": "7a56e2062f93f8c0e439",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/9/details-summary",
+      "title": "Hide your slop PR descriptions behind",
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today’s coding ag…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-11-09T04:25:05+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "626aaa6659e633d844dde7dedd8904b7a9f73f48cb0c6040d616683ed253845e",
+      "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today’s coding ag",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T04:25:05.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-11-09T04:25:05+00:00",
+        "feedValue": "2026-11-09T04:25:05+00:00"
+      }
+    },
+    {
+      "id": "7d1e00daeb767a073fac",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore",
+      "title": "How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-09T18:55:43.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agent-sandboxing",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Industrial operations present AI challenges that don’t show up in typical enterprise software. In most facilities, plant data and control logic are spread across separate systems from different vendors: programmable logic controllers (PLCs) and distributed control systems (DCS) run the equipment log…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-09T10:55:43-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent sandboxing, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "94ecff635f7bde1c3e83d889fb90bfe749b50e73605fa19658a36120725caeeb",
+      "excerpt": "Industrial operations present AI challenges that don’t show up in typical enterprise software. In most facilities, plant data and control logic are spread across separate systems from different vendors: programmable logic controllers (PLCs) and distributed control systems (DCS) run the equipment log",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T18:55:43.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-09T10:55:43-08:00",
+        "feedValue": "Mon, 09 Nov 2026 18:55:43 +0000"
+      }
+    },
+    {
+      "id": "0d5030baccda0d7a93d5",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/what-is-eval-driven-development",
+      "title": "What Is Eval-Driven Development? How to Improve AI Agents",
+      "publishedAt": "2026-11-09T19:00:00.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-evaluation",
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "Development on most agents starts the same way. You write a prompt, try a few questions by hand, adjust, and try again. This works well in the beginning, when agent errors are obvious and improvements are easy to see. But over time it becomes increasingly difficult to know whether your most recent c…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-09T19:00:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agentic coding, Agent evaluation, Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "026eb23281c5505d1ee0b8a73e80dc54bea83ee4a6dbbcb007b224c84d684b49",
+      "excerpt": "Development on most agents starts the same way. You write a prompt, try a few questions by hand, adjust, and try again. This works well in the beginning, when agent errors are obvious and improvements are easy to see. But over time it becomes increasingly difficult to know whether your most recent c",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T19:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-09T19:00:00.000Z",
+        "feedValue": "Mon, 09 Nov 2026 18:57:45 GMT"
+      }
+    },
+    {
+      "id": "a5a8b63aa261f43b9a75",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore",
+      "title": "Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore",
+      "publishedAt": "2026-11-09T19:05:54.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "mcp-tool-integration",
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "“How do we run our AI agents in production at scale?” is the question every customer eventually asks. It comes bundled with several questions. How do we handle thousands of concurrent user requests securely and confidently? How do we make sure the agents stay reliable under real traffic instead of f…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-09T11:05:54-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Multi-agent orchestration, MCP tool integration, Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "3db6d5aedc1ef95a1c2b6cf7d8555ca03bd776dde68080d7404e3db69cafc366",
+      "excerpt": "“How do we run our AI agents in production at scale?” is the question every customer eventually asks. It comes bundled with several questions. How do we handle thousands of concurrent user requests securely and confidently? How do we make sure the agents stay reliable under real traffic instead of f",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T19:05:54.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-09T11:05:54-08:00",
+        "feedValue": "Mon, 09 Nov 2026 19:05:54 +0000"
+      }
+    },
+    {
+      "id": "1cff1239c8922e0328f0",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+      "publishedAt": "2026-11-09T20:01:20.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in Amazon SageMaker JumpStart. You can deploy it with a few steps in SageMaker Studio or with a few lines of the SageMaker Python SDK. Super VL is the vision-language model (VLM) in the NVIDIA Nemotron 3.5 family. It accepts imag…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-09T12:01:20-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "3b5dd46c5c66d67299cfa91650d61690f7411ab51d10d57874ce1a03707c0f95",
+      "excerpt": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in Amazon SageMaker JumpStart. You can deploy it with a few steps in SageMaker Studio or with a few lines of the SageMaker Python SDK. Super VL is the vision-language model (VLM) in the NVIDIA Nemotron 3.5 family. It accepts imag",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T20:01:20.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-09T12:01:20-08:00",
+        "feedValue": "Mon, 09 Nov 2026 20:01:20 +0000"
+      }
+    },
+    {
+      "id": "5892c0cb7396af2cb5cc",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "publishedAt": "2026-11-09T20:04:37.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agentic-coding",
+        "multi-agent-orchestration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Today, we are announcing the availability of Claude Fable 5.2 and Claude Mythos 5.2 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5.2 is Anthropic’s most capable generally available model for technical work that raises the bar in coding and the sciences. Claude Mythos 5.2 is available t…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-09T12:04:37-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding, Multi-agent orchestration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "f3adfbd833d36d5dbc3d7091f5ca9ea77d51255177aec6bb352762bde66f1462",
+      "excerpt": "Today, we are announcing the availability of Claude Fable 5.2 and Claude Mythos 5.2 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5.2 is Anthropic’s most capable generally available model for technical work that raises the bar in coding and the sciences. Claude Mythos 5.2 is available t",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T20:04:37.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-09T12:04:37-08:00",
+        "feedValue": "Mon, 09 Nov 2026 20:04:37 +0000"
+      }
+    },
+    {
+      "id": "1cd01b15863e291ad4ce",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "publishedAt": "2026-11-09T23:57:21.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I rea…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-11-09T23:57:21+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "9f3bc89a578406f350cced72c3e14d685679cb5a424eb6c3736a4aa857ad1bd7",
+      "excerpt": "Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I rea",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-09T23:57:21.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-11-09T23:57:21+00:00",
+        "feedValue": "2026-11-09T23:57:21+00:00"
+      }
+    },
+    {
+      "id": "a22fd9bbbe2056925d25",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick",
+      "title": "How skills and agents work in AWS Quick",
+      "publishedAt": "2026-11-10T00:21:34.000Z",
+      "observedAt": "2026-11-10T14:50:27.538Z",
+      "topicIds": [
+        "agentic-coding",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "If you use AI agents, you’ve probably explained the same task more than once. You might describe how to build your weekly status update, write release notes, manage a project, or create tickets. These are all repeatable tasks that you can encode using AWS Quick through agents and skills. AWS Quick i…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-09T16:21:34-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "45fd8da76aff041fcf91366a64265a0bcc4b3a237fca8f5b65ad5611f6e1e6c6",
+      "excerpt": "If you use AI agents, you’ve probably explained the same task more than once. You might describe how to build your weekly status update, write release notes, manage a project, or create tickets. These are all repeatable tasks that you can encode using AWS Quick through agents and skills. AWS Quick i",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-10T00:21:34.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-09T16:21:34-08:00",
+        "feedValue": "Tue, 10 Nov 2026 00:21:34 +0000"
+      }
     }
   ],
   "coverage": [
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1366 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1372 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 34 discovered URLs; 25 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 34 discovered URLs; 25 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 55 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 22 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 21 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 17 new originals examined, 12 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 10 new originals examined, 5 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 42 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 40 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 767 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 632 discovered URLs; 11 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 15 discovered URLs; 1 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 16 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 14 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-11-07T12:56:43.144Z",
+      "end": "2026-11-10T14:50:27.538Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 27 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }
