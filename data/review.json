@@ -1,10 +1,5 @@
 [
   {
-    "sourceId": "aws",
-    "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1",
-    "reason": "Possible shared event/syndication with https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2; attribution review required"
-  },
-  {
     "sourceId": "github",
     "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
     "reason": "No isolated article body"
@@ -56,23 +51,23 @@
   },
   {
     "sourceId": "langchain",
+    "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "langchain",
     "url": "https://www.langchain.com/blog/paid-media-agent",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-    "reason": "HTTP 403: https://openai.com/index/closing-ai-guidance-gap-education"
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "reason": "HTTP 403: https://openai.com/business/customer-stories/amplitude"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-    "reason": "HTTP 403: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
-    "reason": "Secondary attribution requires review"
+    "url": "https://openai.com/business/customer-stories/gondola",
+    "reason": "HTTP 403: https://openai.com/business/customer-stories/gondola"
   },
   {
     "sourceId": "simon",
@@ -92,11 +87,6 @@
   {
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Nov/6/nilay-patel",
-    "reason": "Secondary attribution requires review"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
     "reason": "Secondary attribution requires review"
   },
   {
