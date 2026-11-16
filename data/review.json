@@ -61,13 +61,13 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/business/customer-stories/amplitude",
-    "reason": "HTTP 403: https://openai.com/business/customer-stories/amplitude"
+    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "reason": "HTTP 403: https://openai.com/index/advancing-computer-use-for-healthcare-teams"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/business/customer-stories/gondola",
-    "reason": "HTTP 403: https://openai.com/business/customer-stories/gondola"
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "reason": "HTTP 403: https://openai.com/index/lvmh-media-division-partnership"
   },
   {
     "sourceId": "simon",
@@ -81,8 +81,13 @@
   },
   {
     "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Nov/3/llm",
-    "reason": "Insufficient original article text"
+    "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+    "reason": "No grounded publication date (modification dates excluded)"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+    "reason": "No grounded publication date (modification dates excluded)"
   },
   {
     "sourceId": "simon",

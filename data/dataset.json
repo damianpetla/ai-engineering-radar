@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-11-13T14:31:11.663Z",
+  "updatedAt": "2026-11-16T15:40:44.372Z",
   "sources": [
     {
       "id": "openai",
@@ -6660,6 +6660,30 @@
       }
     },
     {
+      "id": "008512bdedf0ef9123b6",
+      "sourceId": "vercel",
+      "canonicalUrl": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
+      "title": "ElevenLabs on AI Gateway",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway. To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from vercel.com; navigation, related stories, and footer content excluded. Publication date: visible-date (2026-10-27T00:00-07:00, second precision). Discovery: https://vercel.com/atom. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "4cbff92a14d102f5bc0c4667183aae38cf1f05feefee30edc21aca8f58398f7e",
+      "excerpt": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway. To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-10-27T07:00:00.000Z",
+        "basis": "visible-date",
+        "precision": "second",
+        "raw": "2026-10-27T00:00-07:00"
+      }
+    },
+    {
       "id": "2e7d78b7cb862cf6267f",
       "sourceId": "cloudflare",
       "canonicalUrl": "https://blog.cloudflare.com/php-ctf",
@@ -8536,99 +8560,278 @@
         "raw": "2026-11-12T12:51:55-08:00",
         "feedValue": "Thu, 12 Nov 2026 20:51:55 +0000"
       }
+    },
+    {
+      "id": "3007f82c38138e35a867",
+      "sourceId": "anthropic",
+      "canonicalUrl": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "title": "Building strong safety evaluations",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on. When we say a model is “safer than its predecessor,” we m…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.anthropic.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-13T00:00:00.000Z, second precision). Discovery: https://www.anthropic.com/engineering. Literal topic phrases matched in article body: Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c87cc67b7807b6172a1f36235c07472ad5802df1c829c90aae4192e555ef65fc",
+      "excerpt": "Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on. When we say a model is “safer than its predecessor,” we m",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-13T00:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-13T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "6f83cc8ccaf2e2468766",
+      "sourceId": "cursor",
+      "canonicalUrl": "https://cursor.com/blog/security-incident-update",
+      "title": "An update on our recent security incident",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "On October 29, we shared that we were investigating a security incident and a malicious, unauthorized copy of Anthropic's Claude Code extension that appeared in the Cursor VS Code extension marketplace. After an extensive investigation over the past two weeks, we want to share more context on the at…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from cursor.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-13T12:00:00.000Z, second precision). Discovery: https://cursor.com/blog. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "e9cf818a39b5ea2d7c881a9b84fd352417f85849dd94ef0ec77eb8c86f851fe1",
+      "excerpt": "On October 29, we shared that we were investigating a security incident and a malicious, unauthorized copy of Anthropic's Claude Code extension that appeared in the Cursor VS Code extension marketplace. After an extensive investigation over the past two weeks, we want to share more context on the at",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-13T12:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "cdf9beb5c6bc899b6315",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/series-c",
+      "title": "LangChain Raises $300M to Enable Every Company to Own Its Intelligence",
+      "publishedAt": "2026-11-13T15:55:00.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "Today, we’re announcing that LangChain raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence. The round was led by existing investor CapitalG, with significant participation from new investors GIC and DFJ Growth and existing investors IVP and Sapphire…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-13T15:55:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c47cbec29b09dbaaba08189569d1331a10982a901cbd55c9f9f8e0ee2abaea88",
+      "excerpt": "Today, we’re announcing that LangChain raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence. The round was led by existing investor CapitalG, with significant participation from new investors GIC and DFJ Growth and existing investors IVP and Sapphire",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-13T15:55:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-13T15:55:00.000Z",
+        "feedValue": "Fri, 13 Nov 2026 16:06:29 GMT"
+      }
+    },
+    {
+      "id": "83270260bb0f21b115a2",
+      "sourceId": "cloudflare",
+      "canonicalUrl": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "publishedAt": "2026-11-13T19:26:07.564Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "multi-agent-orchestration",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded. Just a few weeks ago, ARTEX — an open source agentic penetration testing system that automates offensive security workflows — was the only framework available. In just the las…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from blog.cloudflare.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-13T19:26:07.564Z, second precision). Discovery: https://blog.cloudflare.com/rss/. Literal topic phrases matched in article body: Multi-agent orchestration, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "edbf98e40618081de43c912783edbc625c592ea451bac79b8ab1e7d9e295b2e7",
+      "excerpt": "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded. Just a few weeks ago, ARTEX — an open source agentic penetration testing system that automates offensive security workflows — was the only framework available. In just the las",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-13T19:26:07.564Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-13T19:26:07.564Z",
+        "feedValue": "Fri, 13 Nov 2026 19:26:07 GMT"
+      }
+    },
+    {
+      "id": "2f429c1a2fc201bc6e9a",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime",
+      "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+      "publishedAt": "2026-11-13T22:02:39.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "agentic-coding",
+        "multi-agent-orchestration"
+      ],
+      "type": "technical-explanation",
+      "summary": "Agents today review code, process claims, and run unattended for hours. Many also sit behind interactive experiences where a person waits for the first response. Amazon Bedrock AgentCore runtime gives these agents a fully managed, serverless environment: each session runs in its own isolated microVM…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-13T14:02:39-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding, Multi-agent orchestration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c7d8a74a719557dad968af41a3277246aa768dd0223163d65866371f187837ae",
+      "excerpt": "Agents today review code, process claims, and run unattended for hours. Many also sit behind interactive experiences where a person waits for the first response. Amazon Bedrock AgentCore runtime gives these agents a fully managed, serverless environment: each session runs in its own isolated microVM",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-13T22:02:39.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-13T14:02:39-08:00",
+        "feedValue": "Fri, 13 Nov 2026 22:02:39 +0000"
+      }
+    },
+    {
+      "id": "cd8fc130788a632d051e",
+      "sourceId": "aws",
+      "canonicalUrl": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard",
+      "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+      "publishedAt": "2026-11-13T22:30:12.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "agentic-coding",
+        "agent-sandboxing",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "Coding agents such as Claude Code and OpenAI Codex CLI work in tasks. A developer asks for a change, and the agent reads files, edits code, and runs tests until the work is done. One task can take a few model calls or dozens. What the developer pays for is the task, not one call.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from aws.amazon.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-13T14:30:12-08:00, second precision). Discovery: https://aws.amazon.com/blogs/machine-learning/feed/. Literal topic phrases matched in article body: Agentic coding, Agent sandboxing, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "76f8267d109ff496be6ac899814374dc5135c79c1680794e5eeaaad262e76c0a",
+      "excerpt": "Coding agents such as Claude Code and OpenAI Codex CLI work in tasks. A developer asks for a change, and the agent reads files, edits code, and runs tests until the work is done. One task can take a few model calls or dozens. What the developer pays for is the task, not one call.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-13T22:30:12.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-13T14:30:12-08:00",
+        "feedValue": "Fri, 13 Nov 2026 22:30:12 +0000"
+      }
+    },
+    {
+      "id": "65922cfb61a324a6e882",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/goal-engineering",
+      "title": "Goal Engineering: How to Design Goals",
+      "publishedAt": "2026-11-14T16:00:00.000Z",
+      "observedAt": "2026-11-16T15:40:44.372Z",
+      "topicIds": [
+        "context-engineering",
+        "agent-tools"
+      ],
+      "type": "technical-explanation",
+      "summary": "The scope of tasks that agents can take on has increased drastically over the past few years. They have gone from simple text generation to tool calling and decision making to executing full tasks. The future of agents is them taking on open ended goals and driving towards completion of those goals.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-14T16:00:00.000Z, second precision). Feed publication day differs; original date corroborated in the publication header (November 14, 2026). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Context engineering, Agent tool design. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "5742589e17888273bbfb18f08e0e7300f16e882a1d0e50aace422726b66246e5",
+      "excerpt": "The scope of tasks that agents can take on has increased drastically over the past few years. They have gone from simple text generation to tool calling and decision making to executing full tasks. The future of agents is them taking on open ended goals and driving towards completion of those goals.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-14T16:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-14T16:00:00.000Z",
+        "feedValue": "Mon, 16 Nov 2026 01:28:44 GMT",
+        "corroboratingDate": "November 14, 2026"
+      }
     }
   ],
   "coverage": [
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1383 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1391 discovered URLs; 2 new originals examined, 0 admitted. A collection bound was reached. An access-restricted original was encountered; remaining originals were not requested this run. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 34 discovered URLs; 24 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 36 discovered URLs; 23 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 55 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 21 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 21 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 20 new originals examined, 14 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 11 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 38 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 36 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 771 discovered URLs; 13 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 14 discovered URLs; 1 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 14 discovered URLs; 1 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 16 discovered URLs; 8 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 15 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 16 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-11-13T14:31:11.663Z",
+      "end": "2026-11-16T15:40:44.372Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 29 discovered URLs; 2 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 29 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }
   ]
 }

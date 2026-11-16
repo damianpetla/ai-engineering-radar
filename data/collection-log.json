@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-11-13T14:31:11.663Z",
+  "observedAt": "2026-11-16T15:40:44.372Z",
   "mode": "incremental",
   "extractionVersion": "article-body-v3",
   "logs": [
@@ -9,11 +9,11 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 1383,
+      "discovered": 1391,
       "examined": 2,
       "added": 0,
       "unmatched": 0,
-      "outsideWindow": 1018,
+      "outsideWindow": 1024,
       "rejected": 2,
       "accessRestricted": true,
       "truncated": true
@@ -40,12 +40,12 @@
         "publisher-feed",
         "publisher-monthly-authored-archive"
       ],
-      "discovered": 34,
-      "examined": 24,
-      "added": 1,
-      "unmatched": 18,
+      "discovered": 36,
+      "examined": 23,
+      "added": 0,
+      "unmatched": 17,
       "outsideWindow": 0,
-      "rejected": 5,
+      "rejected": 6,
       "accessRestricted": false,
       "truncated": false
     },
@@ -57,9 +57,9 @@
       ],
       "discovered": 24,
       "examined": 21,
-      "added": 0,
+      "added": 1,
       "unmatched": 0,
-      "outsideWindow": 21,
+      "outsideWindow": 20,
       "rejected": 0,
       "accessRestricted": false,
       "truncated": false
@@ -101,9 +101,9 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 20,
-      "added": 14,
-      "unmatched": 6,
+      "examined": 11,
+      "added": 2,
+      "unmatched": 9,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -116,10 +116,10 @@
         "publisher-feed"
       ],
       "discovered": 100,
-      "examined": 38,
+      "examined": 36,
       "added": 2,
       "unmatched": 5,
-      "outsideWindow": 28,
+      "outsideWindow": 26,
       "rejected": 3,
       "accessRestricted": false,
       "truncated": false
@@ -134,7 +134,7 @@
       "examined": 13,
       "added": 0,
       "unmatched": 13,
-      "outsideWindow": 698,
+      "outsideWindow": 699,
       "rejected": 0,
       "accessRestricted": false,
       "truncated": false
@@ -147,8 +147,8 @@
       ],
       "discovered": 14,
       "examined": 1,
-      "added": 0,
-      "unmatched": 1,
+      "added": 1,
+      "unmatched": 0,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -176,8 +176,8 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 15,
-      "added": 0,
+      "examined": 16,
+      "added": 1,
       "unmatched": 15,
       "outsideWindow": 0,
       "rejected": 0,
@@ -191,8 +191,8 @@
         "publisher-feed"
       ],
       "discovered": 29,
-      "examined": 2,
-      "added": 2,
+      "examined": 0,
+      "added": 0,
       "unmatched": 0,
       "outsideWindow": 20,
       "rejected": 0,
