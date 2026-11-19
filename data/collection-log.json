@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-11-16T15:40:44.372Z",
+  "observedAt": "2026-11-19T15:41:37.591Z",
   "mode": "incremental",
   "extractionVersion": "article-body-v3",
   "logs": [
@@ -9,11 +9,11 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 1391,
+      "discovered": 1411,
       "examined": 2,
       "added": 0,
       "unmatched": 0,
-      "outsideWindow": 1024,
+      "outsideWindow": 1027,
       "rejected": 2,
       "accessRestricted": true,
       "truncated": true
@@ -40,10 +40,10 @@
         "publisher-feed",
         "publisher-monthly-authored-archive"
       ],
-      "discovered": 36,
-      "examined": 23,
-      "added": 0,
-      "unmatched": 17,
+      "discovered": 37,
+      "examined": 25,
+      "added": 3,
+      "unmatched": 16,
       "outsideWindow": 0,
       "rejected": 6,
       "accessRestricted": false,
@@ -56,8 +56,8 @@
         "publisher-index"
       ],
       "discovered": 24,
-      "examined": 21,
-      "added": 1,
+      "examined": 20,
+      "added": 0,
       "unmatched": 0,
       "outsideWindow": 20,
       "rejected": 0,
@@ -88,9 +88,9 @@
       "discovered": 20,
       "examined": 18,
       "added": 0,
-      "unmatched": 9,
+      "unmatched": 8,
       "outsideWindow": 0,
-      "rejected": 9,
+      "rejected": 10,
       "accessRestricted": false,
       "truncated": false
     },
@@ -101,9 +101,9 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 11,
-      "added": 2,
-      "unmatched": 9,
+      "examined": 20,
+      "added": 9,
+      "unmatched": 11,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -116,10 +116,10 @@
         "publisher-feed"
       ],
       "discovered": 100,
-      "examined": 36,
-      "added": 2,
+      "examined": 37,
+      "added": 4,
       "unmatched": 5,
-      "outsideWindow": 26,
+      "outsideWindow": 25,
       "rejected": 3,
       "accessRestricted": false,
       "truncated": false
@@ -130,7 +130,7 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 771,
+      "discovered": 774,
       "examined": 13,
       "added": 0,
       "unmatched": 13,
@@ -145,7 +145,7 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 14,
+      "discovered": 15,
       "examined": 1,
       "added": 1,
       "unmatched": 0,
@@ -161,8 +161,8 @@
         "publisher-index"
       ],
       "discovered": 16,
-      "examined": 8,
-      "added": 1,
+      "examined": 7,
+      "added": 0,
       "unmatched": 6,
       "outsideWindow": 1,
       "rejected": 0,
@@ -176,8 +176,8 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 16,
-      "added": 1,
+      "examined": 15,
+      "added": 0,
       "unmatched": 15,
       "outsideWindow": 0,
       "rejected": 0,

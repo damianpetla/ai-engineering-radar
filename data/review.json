@@ -41,6 +41,11 @@
   },
   {
     "sourceId": "github",
+    "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices",
+    "reason": "No isolated article body"
+  },
+  {
+    "sourceId": "github",
     "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
     "reason": "No isolated article body"
   },
@@ -61,13 +66,13 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-    "reason": "HTTP 403: https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "reason": "HTTP 403: https://openai.com/index/research-acceleration-jagged-frontier"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/lvmh-media-division-partnership",
-    "reason": "HTTP 403: https://openai.com/index/lvmh-media-division-partnership"
+    "url": "https://openai.com/index/the-silent-consensus",
+    "reason": "HTTP 403: https://openai.com/index/the-silent-consensus"
   },
   {
     "sourceId": "simon",
@@ -81,6 +86,11 @@
   },
   {
     "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
     "reason": "No grounded publication date (modification dates excluded)"
   },
@@ -88,11 +98,6 @@
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
     "reason": "No grounded publication date (modification dates excluded)"
-  },
-  {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Nov/6/nilay-patel",
-    "reason": "Secondary attribution requires review"
   },
   {
     "sourceId": "simon",
