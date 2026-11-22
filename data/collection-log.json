@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-11-19T15:41:37.591Z",
+  "observedAt": "2026-11-22T14:31:34.726Z",
   "mode": "incremental",
   "extractionVersion": "article-body-v3",
   "logs": [
@@ -9,13 +9,13 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 1411,
-      "examined": 2,
-      "added": 0,
-      "unmatched": 0,
-      "outsideWindow": 1027,
-      "rejected": 2,
-      "accessRestricted": true,
+      "discovered": 1419,
+      "examined": 150,
+      "added": 1,
+      "unmatched": 7,
+      "outsideWindow": 1029,
+      "rejected": 142,
+      "accessRestricted": false,
       "truncated": true
     },
     {
@@ -40,10 +40,10 @@
         "publisher-feed",
         "publisher-monthly-authored-archive"
       ],
-      "discovered": 37,
-      "examined": 25,
-      "added": 3,
-      "unmatched": 16,
+      "discovered": 38,
+      "examined": 23,
+      "added": 0,
+      "unmatched": 17,
       "outsideWindow": 0,
       "rejected": 6,
       "accessRestricted": false,
@@ -102,8 +102,8 @@
       ],
       "discovered": 20,
       "examined": 20,
-      "added": 9,
-      "unmatched": 11,
+      "added": 11,
+      "unmatched": 9,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,
@@ -116,10 +116,10 @@
         "publisher-feed"
       ],
       "discovered": 100,
-      "examined": 37,
-      "added": 4,
+      "examined": 34,
+      "added": 2,
       "unmatched": 5,
-      "outsideWindow": 25,
+      "outsideWindow": 24,
       "rejected": 3,
       "accessRestricted": false,
       "truncated": false
@@ -130,9 +130,9 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 774,
-      "examined": 13,
-      "added": 0,
+      "discovered": 776,
+      "examined": 14,
+      "added": 1,
       "unmatched": 13,
       "outsideWindow": 699,
       "rejected": 0,
@@ -145,9 +145,9 @@
       "methods": [
         "publisher-feed"
       ],
-      "discovered": 15,
-      "examined": 1,
-      "added": 1,
+      "discovered": 14,
+      "examined": 0,
+      "added": 0,
       "unmatched": 0,
       "outsideWindow": 0,
       "rejected": 0,
@@ -176,9 +176,9 @@
         "publisher-feed"
       ],
       "discovered": 20,
-      "examined": 15,
+      "examined": 18,
       "added": 0,
-      "unmatched": 15,
+      "unmatched": 18,
       "outsideWindow": 0,
       "rejected": 0,
       "accessRestricted": false,

@@ -66,23 +66,713 @@
   },
   {
     "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/gondola",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/hebbia",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/revolut",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/shield",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/ai-effect-on-freelance-work",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/airbnb-gpt-6-astra",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/albertsons-reimagining-retail",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/amp-beyond-coding",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/anima",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/asana-browser-agent",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/astra-law-6-2",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/atlassian-partnership",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/att-legal",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/broad-access-through-consistent-standards",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/building-chatgpt-ad-stack",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/chatham-financial",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/check-point-daybreak",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/children-first-declaration",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/cisco-cyber",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/coderabbit-codex-daybreak",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/cogent-security",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/cultfit-builds-with-codex",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/dan-driscoll-joins-openai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/devday-2026-recap",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/empowering-cyber-defenders",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/eu-text-provenance",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/fair-use-benefits-everyone",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/forward-deployed-engineering-means",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/franklin-templeton",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/greptile-code-review-codex-astra",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/grupo-boticario",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/heimstaden",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/inside-the-codex-sandbox",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-dots",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "reason": "Possible shared event/syndication with https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol; attribution review required"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-images-2-6",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-medchembench",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-mentalhealthbench",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-openai-for-chile",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/itau-generative-ai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/jump-trading",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/kuken",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/legora",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/lifeval",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/localiza-generative-ai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/lowes",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/managing-frontier-ai-risk",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/merge-builds-with-openai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-cut-incident-investigation",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-models-google-cloud",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/openai-to-acquire-pierre",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/oracle",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/pollo-ai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/proaction",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/qodo-codex-plugin",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/radisson",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
     "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-    "reason": "HTTP 403: https://openai.com/index/research-acceleration-jagged-frontier"
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/retell-ai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/ringg",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/ropes-gray-ai-diligence",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/sentinelone",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/singapore-airlines-travel-work",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/sophos",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/strengthening-online-child-safety",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/sullivan-cromwell",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/teens-learn-and-plan",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/terminal-x",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/the-eternal-complement",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/the-future-of-the-firm",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/the-kings-trust-and-openai",
+    "reason": "Publisher feed and original page disagree on publication day"
   },
   {
     "sourceId": "openai",
     "url": "https://openai.com/index/the-silent-consensus",
-    "reason": "HTTP 403: https://openai.com/index/the-silent-consensus"
+    "reason": "Publisher feed and original page disagree on publication day"
   },
   {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
-    "reason": "Secondary attribution requires review"
+    "sourceId": "openai",
+    "url": "https://openai.com/index/third-moment-research",
+    "reason": "Publisher feed and original page disagree on publication day"
   },
   {
-    "sourceId": "simon",
-    "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
-    "reason": "Secondary attribution requires review"
+    "sourceId": "openai",
+    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/two-years-of-openai-academy",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/updated-model-spec",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/index/wayfair",
+    "reason": "Publisher feed and original page disagree on publication day"
   },
   {
     "sourceId": "simon",
@@ -93,6 +783,16 @@
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
     "reason": "No grounded publication date (modification dates excluded)"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/21/muru",
+    "reason": "Insufficient original article text"
   },
   {
     "sourceId": "simon",
