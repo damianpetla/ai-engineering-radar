@@ -71,6 +71,11 @@
   },
   {
     "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
     "url": "https://openai.com/business/customer-stories/gondola",
     "reason": "Publisher feed and original page disagree on publication day"
   },
@@ -86,7 +91,17 @@
   },
   {
     "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/ifood",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
     "url": "https://openai.com/business/customer-stories/revolut",
+    "reason": "Publisher feed and original page disagree on publication day"
+  },
+  {
+    "sourceId": "openai",
+    "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
@@ -121,17 +136,7 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-    "reason": "Publisher feed and original page disagree on publication day"
-  },
-  {
-    "sourceId": "openai",
     "url": "https://openai.com/index/ai-effect-on-freelance-work",
-    "reason": "Publisher feed and original page disagree on publication day"
-  },
-  {
-    "sourceId": "openai",
-    "url": "https://openai.com/index/airbnb-gpt-6-astra",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
@@ -311,11 +316,6 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-    "reason": "Publisher feed and original page disagree on publication day"
-  },
-  {
-    "sourceId": "openai",
     "url": "https://openai.com/index/greptile-code-review-codex-astra",
     "reason": "Publisher feed and original page disagree on publication day"
   },
@@ -411,12 +411,12 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/introducing-mentalhealthbench",
+    "url": "https://openai.com/index/introducing-openai-for-chile",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/introducing-openai-for-chile",
+    "url": "https://openai.com/index/introducing-shirudo",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
@@ -571,12 +571,12 @@
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "url": "https://openai.com/index/partnering-with-hacktron",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
     "sourceId": "openai",
-    "url": "https://openai.com/index/partnering-with-hacktron",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {
@@ -592,11 +592,6 @@
   {
     "sourceId": "openai",
     "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-    "reason": "Publisher feed and original page disagree on publication day"
-  },
-  {
-    "sourceId": "openai",
-    "url": "https://openai.com/index/priorities-principles-third-party-assessments",
     "reason": "Publisher feed and original page disagree on publication day"
   },
   {

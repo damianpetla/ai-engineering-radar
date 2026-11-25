@@ -1,7 +1,7 @@
 {
   "version": 1,
   "coverageVersion": "curated-archives-v3",
-  "updatedAt": "2026-11-22T14:31:34.726Z",
+  "updatedAt": "2026-11-25T17:10:01.405Z",
   "sources": [
     {
       "id": "openai",
@@ -9571,99 +9571,329 @@
         "raw": "2026-11-21T17:59:13-08:00",
         "feedValue": "Sun, 22 Nov 2026 01:59:13 +0000"
       }
+    },
+    {
+      "id": "00d52199bef25f9eda98",
+      "sourceId": "huggingface",
+      "canonicalUrl": "https://huggingface.co/blog/agentic-evals",
+      "title": "How to build and maintain an agentic evaluation",
+      "publishedAt": "2026-11-23T00:00:00.776Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "harness-engineering",
+        "agent-evaluation",
+        "multi-agent-orchestration",
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "AI evaluations help shape which systems people build, adopt, and trust. An evaluation gives a system tasks, checks its answers or actions, and produces a score. Building and maintaining a useful evaluation therefore takes real work: defining tasks that reflect domain expertise, scoring them reliably…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from huggingface.co; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-23T00:00:00.776Z, second precision). Discovery: https://huggingface.co/blog/feed.xml. Literal topic phrases matched in article body: Harness engineering, Agent evaluation, Multi-agent orchestration, Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "40a6e65a8f13216340f7422e0cc5b6e6c1211a3e91a504679abbc049b1d20d03",
+      "excerpt": "AI evaluations help shape which systems people build, adopt, and trust. An evaluation gives a system tasks, checks its answers or actions, and produces a score. Building and maintaining a useful evaluation therefore takes real work: defining tasks that reflect domain expertise, scoring them reliably",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-23T00:00:00.776Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-23T00:00:00.776Z",
+        "feedValue": "Mon, 23 Nov 2026 00:00:00 GMT"
+      }
+    },
+    {
+      "id": "981d6178a1cb2235349d",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/23/ladybird",
+      "title": "Ladybird’s first alpha release",
+      "publishedAt": "2026-11-23T21:46:35.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpe…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-11-23T21:46:35+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "bd819a62e81990af428568f872dd2eccaf31a986964f49b4138a6a2807d16f09",
+      "excerpt": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpe",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-23T21:46:35.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-11-23T21:46:35+00:00",
+        "feedValue": "2026-11-23T21:46:35+00:00"
+      }
+    },
+    {
+      "id": "105d2dd6f5d647be40a4",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "publishedAt": "2026-11-23T23:40:49.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer. GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-11-23T23:40:49+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "9848dcc60e750c96472db59fccef62684009c541d129f92d9ad610043e703e2c",
+      "excerpt": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer. GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-23T23:40:49.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-11-23T23:40:49+00:00",
+        "feedValue": "2026-11-23T23:40:49+00:00"
+      }
+    },
+    {
+      "id": "3f43bb3c85b114d190dd",
+      "sourceId": "mcp",
+      "canonicalUrl": "https://blog.modelcontextprotocol.io/posts/mcp-turns-two",
+      "title": "Two Years of MCP Builders",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "ai-code-review",
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building with it.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from blog.modelcontextprotocol.io; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-24T09:00:00Z, second precision). Discovery: https://blog.modelcontextprotocol.io/index.xml. Literal topic phrases matched in article body: AI-assisted code review, MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "b3bda650ff6ef931d1cb1c016f676fdf9929f514f81c18bc6d4bde6c83483ce1",
+      "excerpt": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building with it.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-24T09:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-24T09:00:00Z",
+        "feedValue": "Tue, 24 Nov 2026 09:00:00 +0000"
+      }
+    },
+    {
+      "id": "5e8eba5b15ac60442c06",
+      "sourceId": "simon",
+      "canonicalUrl": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+      "title": "Three LLM inflection points in twelve months",
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from simonwillison.net; navigation, related stories, and footer content excluded. Publication date: publisher-feed (2026-11-24T23:02:07+00:00, second precision). Discovery: https://simonwillison.net/atom/everything/. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "0e034da324675c19c8e82e1c289ef5e7c4a4e5beb091065aecda8f6ac83f913e",
+      "excerpt": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-24T23:02:07.000Z",
+        "basis": "publisher-feed",
+        "precision": "second",
+        "raw": "2026-11-24T23:02:07+00:00",
+        "feedValue": "2026-11-24T23:02:07+00:00"
+      }
+    },
+    {
+      "id": "69fbec9981f84b435a9d",
+      "sourceId": "anthropic",
+      "canonicalUrl": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "title": "Migrating our Messages API to Rust",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "agent-sandboxing"
+      ],
+      "type": "technical-explanation",
+      "summary": "Many problems have a generator–verifier gap: it’s often far easier to verify that a solution is correct than to come up with one. Sudoku is a classic example. It’s simple to check the solution (just count the numbers in each row, column, and box), but finding that solution can take a long time. Many…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.anthropic.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-25T00:00:00.000Z, second precision). Discovery: https://www.anthropic.com/engineering. Literal topic phrases matched in article body: Agent sandboxing. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "c3980b6387b80157d1d5dc31e14d244e5f24661526c91e598f2d0907f5ccf9db",
+      "excerpt": "Many problems have a generator–verifier gap: it’s often far easier to verify that a solution is correct than to come up with one. Sudoku is a classic example. It’s simple to check the solution (just count the numbers in each row, column, and box), but finding that solution can take a long time. Many",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-25T00:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-25T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "e0d78f5b33ebe558ed7d",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith",
+      "title": "How We Achieved ISO 42001 with LangSmith",
+      "publishedAt": "2026-11-25T00:04:00.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "agent-evaluation",
+        "ai-code-review",
+        "agent-security"
+      ],
+      "type": "technical-explanation",
+      "summary": "Companies now give agents access to customer data and even the systems their businesses run on. At the same time, recent security breaches have drawn attention to the importance of agent governance, but governing agents is hard because they're non-deterministic. Every run can take a different path,…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-25T00:04:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agent evaluation, AI-assisted code review, Agent security. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "a94d4ab26704c19a045aa386d3ebacf4adb0b4c38fc1c5faa5a080b1690198ae",
+      "excerpt": "Companies now give agents access to customer data and even the systems their businesses run on. At the same time, recent security breaches have drawn attention to the importance of agent governance, but governing agents is hard because they're non-deterministic. Every run can take a different path,",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-25T00:04:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-25T00:04:00.000Z",
+        "feedValue": "Wed, 25 Nov 2026 01:04:06 GMT"
+      }
+    },
+    {
+      "id": "471145a2ed0d41945c35",
+      "sourceId": "langchain",
+      "canonicalUrl": "https://www.langchain.com/blog/the-agent-lake",
+      "title": "The Agent Lake",
+      "publishedAt": "2026-11-25T01:30:00.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "agentic-coding"
+      ],
+      "type": "technical-explanation",
+      "summary": "The trace of an agent is the system of record of what the agent did. It contains rich information about user intent, agent trajectory, and final outcome achieved. The simplest way to use these traces is as a debugging tool to visualize the sequence of steps an LLM application took and determine what…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from www.langchain.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-25T01:30:00.000Z, second precision). Discovery: https://www.langchain.com/blog/rss.xml. Literal topic phrases matched in article body: Agentic coding. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "ec31b2e8d0c1f607b855e96e18d412aecfba875177f84a0681a8d76fd42a8159",
+      "excerpt": "The trace of an agent is the system of record of what the agent did. It contains rich information about user intent, agent trajectory, and final outcome achieved. The simplest way to use these traces is as a debugging tool to visualize the sequence of steps an LLM application took and determine what",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-25T01:30:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-25T01:30:00.000Z",
+        "feedValue": "Wed, 25 Nov 2026 16:26:23 GMT"
+      }
+    },
+    {
+      "id": "48919c55052d9c9281a8",
+      "sourceId": "cloudflare",
+      "canonicalUrl": "https://blog.cloudflare.com/search-for-agents",
+      "title": "Introducing Search for Agents",
+      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "observedAt": "2026-11-25T17:10:01.405Z",
+      "topicIds": [
+        "mcp-tool-integration"
+      ],
+      "type": "technical-explanation",
+      "summary": "AI Search, our service that indexes your content and lets you add search to any application or agent without having to build an entire retrieval infrastructure, has supported adding your website as a data source for a while now, automatically crawling, converting and indexing its pages.…",
+      "verificationStatus": "verified",
+      "evidenceNotes": "Original article retrieved from blog.cloudflare.com; navigation, related stories, and footer content excluded. Publication date: article-metadata (2026-11-25T14:00:00.000Z, second precision). Discovery: https://blog.cloudflare.com/rss/. Literal topic phrases matched in article body: MCP tool integration. Excerpt is verbatim original text. No inference of production use.",
+      "contentHash": "21dd81d2052ac942da9bb945f92ba9769ed1901d628e2a307e12f52a84faf914",
+      "excerpt": "AI Search, our service that indexes your content and lets you add search to any application or agent without having to build an entire retrieval infrastructure, has supported adding your website as a data source for a while now, automatically crawling, converting and indexing its pages.",
+      "extractionVersion": "article-body-v3",
+      "publicationDateEvidence": {
+        "value": "2026-11-25T14:00:00.000Z",
+        "basis": "article-metadata",
+        "precision": "second",
+        "raw": "2026-11-25T14:00:00.000Z",
+        "feedValue": "Wed, 25 Nov 2026 14:00:00 GMT"
+      }
     }
   ],
   "coverage": [
     {
       "sourceId": "openai",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 1419 discovered URLs; 150 new originals examined, 1 admitted. A collection bound was reached. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 1428 discovered URLs; 150 new originals examined, 0 admitted. A collection bound was reached. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "armin",
       "start": "2026-05-04T00:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 6 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 10 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "simon",
       "start": "2026-05-06T00:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 38 discovered URLs; 23 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed, publisher-monthly-authored-archive. 38 discovered URLs; 25 new originals examined, 3 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mitchell",
       "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 55 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "anthropic",
       "start": "2026-05-08T00:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 20 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-index. 24 discovered URLs; 20 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "github",
       "start": "2026-05-22T16:10:21.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "aws",
       "start": "2026-10-21T23:38:38.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 20 new originals examined, 11 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 9 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "langchain",
       "start": "2026-05-05T13:03:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-feed. 100 discovered URLs; 34 new originals examined, 2 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "huggingface",
       "start": "2026-05-25T00:00:00.699Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 776 discovered URLs; 14 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 778 discovered URLs; 14 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "vercel",
       "start": "2026-05-04T04:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 14 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 17 discovered URLs; 1 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cursor",
       "start": "2026-05-22T12:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
       "basis": "Incremental collection via publisher-index. 16 discovered URLs; 7 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "cloudflare",
       "start": "2026-05-19T13:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 18 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 20 discovered URLs; 19 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     },
     {
       "sourceId": "mcp",
       "start": "2026-05-21T09:00:00.000Z",
-      "end": "2026-11-22T14:31:34.726Z",
+      "end": "2026-11-25T17:10:01.405Z",
       "status": "partial",
-      "basis": "Incremental collection via publisher-feed. 29 discovered URLs; 0 new originals examined, 0 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
+      "basis": "Incremental collection via publisher-feed. 30 discovered URLs; 1 new originals examined, 1 admitted. Archives and rejected/inaccessible pages remain incomplete; counts are verified lower bounds."
     }
   ]
 }
