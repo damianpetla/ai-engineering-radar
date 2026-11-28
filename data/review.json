@@ -6,17 +6,17 @@
   },
   {
     "sourceId": "github",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-    "reason": "Insufficient original article text"
-  },
-  {
-    "sourceId": "github",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
     "reason": "Insufficient original article text"
   },
   {
     "sourceId": "github",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+    "reason": "No isolated article body"
+  },
+  {
+    "sourceId": "github",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
     "reason": "No isolated article body"
   },
   {
@@ -787,6 +787,21 @@
   {
     "sourceId": "simon",
     "url": "https://simonwillison.net/2026/Nov/21/muru",
+    "reason": "Insufficient original article text"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+    "reason": "Secondary attribution requires review"
+  },
+  {
+    "sourceId": "simon",
+    "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp",
     "reason": "Insufficient original article text"
   },
   {
